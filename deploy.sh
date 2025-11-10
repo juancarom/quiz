@@ -134,16 +134,17 @@ sleep 5  # Esperar un poco más para que MongoDB esté completamente listo
 
 # Intentar cargar el seed hasta 3 veces
 for i in {1..3}; do
-    if docker exec quiz_backend npm run seed; then
+    if docker exec training_backend npm run seed; then
         echo -e "${GREEN}✅ 814 preguntas cargadas exitosamente${NC}"
         break
     else
         if [ $i -eq 3 ]; then
             echo -e "${RED}❌ Error al cargar las preguntas después de 3 intentos${NC}"
+            echo -e "${YELLOW}💡 Puedes intentar manualmente: docker exec training_backend npm run seed${NC}"
             exit 1
         fi
-        echo -e "${YELLOW}⚠️  Intento $i falló, reintentando...${NC}"
-        sleep 5
+        echo -e "${YELLOW}⚠️  Intento $i falló, reintentando en 10 segundos...${NC}"
+        sleep 10
     fi
 done
 
