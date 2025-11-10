@@ -1,0 +1,47 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: training_mongodb
+    restart: always
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - training_network
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER:-admin}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD:-changethispassword}
+
+  backend:
+    build: ./backend
+    container_name: training_backend
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGODB_URI=mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-changethispassword}@mongo:27017/training_db?authSource=admin
+      - NODE_ENV=production
+    depends_on:
+      - mongo
+    networks:
+      - training_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    container_name: training_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - training_network
+
+networks:
+  training_network:
+    driver: bridge
+
+volumes:
+  mongo_data:

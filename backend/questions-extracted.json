@@ -1,0 +1,2222 @@
+{
+  "nestjs": [
+    {
+      "question": "¿Qué son los decoradores en NestJS?",
+      "options": [
+        {
+          "text": "Funciones que modifican variables",
+          "isCorrect": false
+        },
+        {
+          "text": "Anotaciones que definen metadatos y comportamiento de clases, métodos o parámetros",
+          "isCorrect": true
+        },
+        {
+          "text": "Métodos privados de una clase",
+          "isCorrect": false
+        },
+        {
+          "text": "Configuraciones de base de datos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es Dependency Injection en NestJS?",
+      "options": [
+        {
+          "text": "Una técnica para inyectar HTML en el servidor",
+          "isCorrect": false
+        },
+        {
+          "text": "Un patrón que inyecta dependencias en lugar de instanciarlas directamente",
+          "isCorrect": true
+        },
+        {
+          "text": "Una forma de conectar bases de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un método de autenticación",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué hace un Guard en NestJS?",
+      "options": [
+        {
+          "text": "Protege variables de memoria",
+          "isCorrect": false
+        },
+        {
+          "text": "Controla acceso a rutas antes de ejecutar un controlador",
+          "isCorrect": true
+        },
+        {
+          "text": "Valida tipos de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Comprime archivos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué decorador se usa para definir un controlador en NestJS?",
+      "options": [
+        {
+          "text": "@Service",
+          "isCorrect": false
+        },
+        {
+          "text": "@Controller",
+          "isCorrect": true
+        },
+        {
+          "text": "@Route",
+          "isCorrect": false
+        },
+        {
+          "text": "@Handler",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es un Pipe en NestJS?",
+      "options": [
+        {
+          "text": "Una tubería de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Una clase que transforma o valida datos antes de que lleguen al controlador",
+          "isCorrect": true
+        },
+        {
+          "text": "Un método de conexión a bases de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de decorador",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son características de los Guards en NestJS? (selección múltiple)",
+      "options": [
+        {
+          "text": "Se ejecutan después de los pipes",
+          "isCorrect": false
+        },
+        {
+          "text": "Tienen acceso al ExecutionContext",
+          "isCorrect": true
+        },
+        {
+          "text": "Pueden devolver true o false",
+          "isCorrect": true
+        },
+        {
+          "text": "Se usan para validación de datos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es un módulo en NestJS?",
+      "options": [
+        {
+          "text": "Una librería externa",
+          "isCorrect": false
+        },
+        {
+          "text": "Una clase decorada con @Module que organiza la aplicación en partes cohesivas",
+          "isCorrect": true
+        },
+        {
+          "text": "Un archivo de configuración",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de base de datos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cómo se validan datos en NestJS?",
+      "options": [
+        {
+          "text": "Manualmente en cada controlador",
+          "isCorrect": false
+        },
+        {
+          "text": "Usando class-validator con DTOs y ValidationPipe",
+          "isCorrect": true
+        },
+        {
+          "text": "No se puede validar",
+          "isCorrect": false
+        },
+        {
+          "text": "Solo con TypeScript",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué hace el decorador @Param() en NestJS?",
+      "options": [
+        {
+          "text": "Define parámetros de función",
+          "isCorrect": false
+        },
+        {
+          "text": "Extrae parámetros de ruta de la URL",
+          "isCorrect": true
+        },
+        {
+          "text": "Valida parámetros",
+          "isCorrect": false
+        },
+        {
+          "text": "Crea parámetros opcionales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de Providers en NestJS? (selección múltiple)",
+      "options": [
+        {
+          "text": "useClass",
+          "isCorrect": true
+        },
+        {
+          "text": "useValue",
+          "isCorrect": true
+        },
+        {
+          "text": "useFactory",
+          "isCorrect": true
+        },
+        {
+          "text": "useDatabase",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    }
+  ],
+  "ruby": [
+    {
+      "question": "¿Cómo se define un método en Ruby?",
+      "options": [
+        {
+          "text": "function nombre()",
+          "isCorrect": false
+        },
+        {
+          "text": "def nombre",
+          "isCorrect": true
+        },
+        {
+          "text": "method nombre",
+          "isCorrect": false
+        },
+        {
+          "text": "func nombre",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es un bloque en Ruby?",
+      "options": [
+        {
+          "text": "Una sección de código entre { } o do...end",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de variable",
+          "isCorrect": false
+        },
+        {
+          "text": "Una clase especial",
+          "isCorrect": false
+        },
+        {
+          "text": "Un método privado",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cómo se heredan clases en Ruby?",
+      "options": [
+        {
+          "text": "class Hijo extends Padre",
+          "isCorrect": false
+        },
+        {
+          "text": "class Hijo < Padre",
+          "isCorrect": true
+        },
+        {
+          "text": "class Hijo : Padre",
+          "isCorrect": false
+        },
+        {
+          "text": "class Hijo inherit Padre",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es un Hash en Ruby?",
+      "options": [
+        {
+          "text": "Una función de encriptación",
+          "isCorrect": false
+        },
+        {
+          "text": "Una estructura de datos de pares clave-valor",
+          "isCorrect": true
+        },
+        {
+          "text": "Un método de clase",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de array",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es yield en Ruby?",
+      "options": [
+        {
+          "text": "Un tipo de return",
+          "isCorrect": false
+        },
+        {
+          "text": "Transfiere el control a un bloque pasado al método",
+          "isCorrect": true
+        },
+        {
+          "text": "Una variable",
+          "isCorrect": false
+        },
+        {
+          "text": "Un operador",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de variables en Ruby? (selección múltiple)",
+      "options": [
+        {
+          "text": "Variables de instancia (@var)",
+          "isCorrect": true
+        },
+        {
+          "text": "Variables de clase (@@var)",
+          "isCorrect": true
+        },
+        {
+          "text": "Variables globales ($var)",
+          "isCorrect": true
+        },
+        {
+          "text": "Variables constantes (CONST)",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es attr_accessor en Ruby?",
+      "options": [
+        {
+          "text": "Un atributo de acceso",
+          "isCorrect": false
+        },
+        {
+          "text": "Crea getters y setters automáticamente",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de variable",
+          "isCorrect": false
+        },
+        {
+          "text": "Un método privado",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué hace el método map en Ruby?",
+      "options": [
+        {
+          "text": "Crea un mapa",
+          "isCorrect": false
+        },
+        {
+          "text": "Transforma cada elemento de una colección",
+          "isCorrect": true
+        },
+        {
+          "text": "Mapea rutas",
+          "isCorrect": false
+        },
+        {
+          "text": "Ordena elementos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es un Proc en Ruby?",
+      "options": [
+        {
+          "text": "Un proceso del sistema",
+          "isCorrect": false
+        },
+        {
+          "text": "Un objeto que encapsula un bloque de código para reutilizarlo",
+          "isCorrect": true
+        },
+        {
+          "text": "Un método público",
+          "isCorrect": false
+        },
+        {
+          "text": "Una variable global",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué método convierte un string a entero en Ruby?",
+      "options": [
+        {
+          "text": ".parseInt()",
+          "isCorrect": false
+        },
+        {
+          "text": ".to_i",
+          "isCorrect": true
+        },
+        {
+          "text": ".int()",
+          "isCorrect": false
+        },
+        {
+          "text": ".convert_to_integer",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "rails": [
+    {
+      "question": "¿Qué patrón arquitectónico usa Rails?",
+      "options": [
+        {
+          "text": "MVP",
+          "isCorrect": false
+        },
+        {
+          "text": "MVC (Model-View-Controller)",
+          "isCorrect": true
+        },
+        {
+          "text": "MVVM",
+          "isCorrect": false
+        },
+        {
+          "text": "Singleton",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es ActiveRecord en Rails?",
+      "options": [
+        {
+          "text": "Un registro activo de usuarios",
+          "isCorrect": false
+        },
+        {
+          "text": "Un ORM donde cada modelo representa una tabla con métodos CRUD",
+          "isCorrect": true
+        },
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de controlador",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cómo se ejecutan las migraciones en Rails?",
+      "options": [
+        {
+          "text": "rails migrate",
+          "isCorrect": false
+        },
+        {
+          "text": "rails db:migrate",
+          "isCorrect": true
+        },
+        {
+          "text": "rails run migrations",
+          "isCorrect": false
+        },
+        {
+          "text": "rails exec migrate",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cómo se evita el problema N+1 en Rails?",
+      "options": [
+        {
+          "text": "Usando cache",
+          "isCorrect": false
+        },
+        {
+          "text": "Usando includes o eager loading para precargar asociaciones",
+          "isCorrect": true
+        },
+        {
+          "text": "Añadiendo más memoria",
+          "isCorrect": false
+        },
+        {
+          "text": "Usando índices",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son ambientes por defecto en Rails? (selección múltiple)",
+      "options": [
+        {
+          "text": "development",
+          "isCorrect": true
+        },
+        {
+          "text": "test",
+          "isCorrect": true
+        },
+        {
+          "text": "production",
+          "isCorrect": true
+        },
+        {
+          "text": "staging",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es Strong Parameters en Rails?",
+      "options": [
+        {
+          "text": "Parámetros fuertes",
+          "isCorrect": false
+        },
+        {
+          "text": "Un mecanismo de seguridad para permitir solo ciertos parámetros",
+          "isCorrect": true
+        },
+        {
+          "text": "Validación de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de variable",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de filtros en Rails? (selección múltiple)",
+      "options": [
+        {
+          "text": "before_action",
+          "isCorrect": true
+        },
+        {
+          "text": "after_action",
+          "isCorrect": true
+        },
+        {
+          "text": "around_action",
+          "isCorrect": true
+        },
+        {
+          "text": "during_action",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es flash en Rails?",
+      "options": [
+        {
+          "text": "Un mensaje rápido",
+          "isCorrect": false
+        },
+        {
+          "text": "Un hash para mostrar mensajes temporales entre peticiones",
+          "isCorrect": true
+        },
+        {
+          "text": "Una animación",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de cookie",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son asociaciones en Rails? (selección múltiple)",
+      "options": [
+        {
+          "text": "has_many",
+          "isCorrect": true
+        },
+        {
+          "text": "belongs_to",
+          "isCorrect": true
+        },
+        {
+          "text": "has_one",
+          "isCorrect": true
+        },
+        {
+          "text": "has_and_belongs_to_many",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué gema se usa comúnmente para autenticación en Rails?",
+      "options": [
+        {
+          "text": "AuthRails",
+          "isCorrect": false
+        },
+        {
+          "text": "Devise",
+          "isCorrect": true
+        },
+        {
+          "text": "SecureAuth",
+          "isCorrect": false
+        },
+        {
+          "text": "RailsAuth",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "sql": [
+    {
+      "question": "¿Qué comando se usa para seleccionar datos de una tabla?",
+      "options": [
+        {
+          "text": "GET",
+          "isCorrect": false
+        },
+        {
+          "text": "SELECT",
+          "isCorrect": true
+        },
+        {
+          "text": "FETCH",
+          "isCorrect": false
+        },
+        {
+          "text": "RETRIEVE",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es una PRIMARY KEY?",
+      "options": [
+        {
+          "text": "Una clave de acceso",
+          "isCorrect": false
+        },
+        {
+          "text": "Un identificador único para cada fila de una tabla",
+          "isCorrect": true
+        },
+        {
+          "text": "Una contraseña",
+          "isCorrect": false
+        },
+        {
+          "text": "Un índice opcional",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es un JOIN en SQL?",
+      "options": [
+        {
+          "text": "Una unión de servidores",
+          "isCorrect": false
+        },
+        {
+          "text": "Una operación que combina filas de dos o más tablas basándose en una relación",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de índice",
+          "isCorrect": false
+        },
+        {
+          "text": "Una función matemática",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué garantiza el modelo ACID?",
+      "options": [
+        {
+          "text": "Acceso, Control, Integridad, Datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Atomicidad, Consistencia, Aislamiento, Durabilidad",
+          "isCorrect": true
+        },
+        {
+          "text": "Autenticación, Cifrado, Integridad, Disponibilidad",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatización, Conexión, Indexación, Distribución",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de JOIN en SQL? (selección múltiple)",
+      "options": [
+        {
+          "text": "INNER JOIN",
+          "isCorrect": true
+        },
+        {
+          "text": "LEFT JOIN",
+          "isCorrect": true
+        },
+        {
+          "text": "RIGHT JOIN",
+          "isCorrect": true
+        },
+        {
+          "text": "FULL OUTER JOIN",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Diferencia entre UNION y UNION ALL?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "UNION elimina duplicados, UNION ALL los mantiene",
+          "isCorrect": true
+        },
+        {
+          "text": "UNION ALL es más lento",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de constraints? (selección múltiple)",
+      "options": [
+        {
+          "text": "PRIMARY KEY",
+          "isCorrect": true
+        },
+        {
+          "text": "FOREIGN KEY",
+          "isCorrect": true
+        },
+        {
+          "text": "UNIQUE",
+          "isCorrect": true
+        },
+        {
+          "text": "CHECK",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Cuáles son funciones agregadas en SQL? (selección múltiple)",
+      "options": [
+        {
+          "text": "COUNT()",
+          "isCorrect": true
+        },
+        {
+          "text": "SUM()",
+          "isCorrect": true
+        },
+        {
+          "text": "AVG()",
+          "isCorrect": true
+        },
+        {
+          "text": "MAX() y MIN()",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Diferencia entre WHERE y HAVING?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "WHERE filtra antes de agrupar, HAVING después",
+          "isCorrect": true
+        },
+        {
+          "text": "HAVING es más rápido",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cómo se verifica NULL en SQL?",
+      "options": [
+        {
+          "text": "= NULL",
+          "isCorrect": false
+        },
+        {
+          "text": "IS NULL o IS NOT NULL",
+          "isCorrect": true
+        },
+        {
+          "text": "== NULL",
+          "isCorrect": false
+        },
+        {
+          "text": "NULL()",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "mysql": [
+    {
+      "question": "¿Qué es MySQL?",
+      "options": [
+        {
+          "text": "Un lenguaje de programación",
+          "isCorrect": false
+        },
+        {
+          "text": "Un sistema de gestión de bases de datos relacionales (RDBMS)",
+          "isCorrect": true
+        },
+        {
+          "text": "Un framework web",
+          "isCorrect": false
+        },
+        {
+          "text": "Un servidor de aplicaciones",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué motor de almacenamiento es el predeterminado en MySQL?",
+      "options": [
+        {
+          "text": "MyISAM",
+          "isCorrect": false
+        },
+        {
+          "text": "InnoDB",
+          "isCorrect": true
+        },
+        {
+          "text": "Memory",
+          "isCorrect": false
+        },
+        {
+          "text": "Archive",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué puerto usa MySQL por defecto?",
+      "options": [
+        {
+          "text": "3000",
+          "isCorrect": false
+        },
+        {
+          "text": "3306",
+          "isCorrect": true
+        },
+        {
+          "text": "8080",
+          "isCorrect": false
+        },
+        {
+          "text": "5432",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia principal entre InnoDB y MyISAM?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "InnoDB soporta transacciones y FK, MyISAM no",
+          "isCorrect": true
+        },
+        {
+          "text": "MyISAM es más moderno",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de logs en MySQL? (selección múltiple)",
+      "options": [
+        {
+          "text": "Error log",
+          "isCorrect": true
+        },
+        {
+          "text": "General query log",
+          "isCorrect": true
+        },
+        {
+          "text": "Binary log",
+          "isCorrect": true
+        },
+        {
+          "text": "Slow query log",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Cuáles son opciones de ON DELETE? (selección múltiple)",
+      "options": [
+        {
+          "text": "CASCADE",
+          "isCorrect": true
+        },
+        {
+          "text": "SET NULL",
+          "isCorrect": true
+        },
+        {
+          "text": "RESTRICT",
+          "isCorrect": true
+        },
+        {
+          "text": "NO ACTION",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Diferencia entre CHAR y VARCHAR?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "CHAR es longitud fija, VARCHAR variable",
+          "isCorrect": true
+        },
+        {
+          "text": "VARCHAR es más lento",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos TEXT en MySQL? (selección múltiple)",
+      "options": [
+        {
+          "text": "TINYTEXT",
+          "isCorrect": true
+        },
+        {
+          "text": "TEXT",
+          "isCorrect": true
+        },
+        {
+          "text": "MEDIUMTEXT",
+          "isCorrect": true
+        },
+        {
+          "text": "LONGTEXT",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué herramientas gráficas existen para MySQL? (selección múltiple)",
+      "options": [
+        {
+          "text": "phpMyAdmin",
+          "isCorrect": true
+        },
+        {
+          "text": "MySQL Workbench",
+          "isCorrect": true
+        },
+        {
+          "text": "Adminer",
+          "isCorrect": true
+        },
+        {
+          "text": "DBeaver",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es mysqldump?",
+      "options": [
+        {
+          "text": "Un dump",
+          "isCorrect": false
+        },
+        {
+          "text": "Herramienta para exportar bases de datos",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de tabla",
+          "isCorrect": false
+        },
+        {
+          "text": "Una función",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "mongodb": [
+    {
+      "question": "¿Qué es MongoDB?",
+      "options": [
+        {
+          "text": "Una base de datos relacional",
+          "isCorrect": false
+        },
+        {
+          "text": "Una base de datos NoSQL orientada a documentos",
+          "isCorrect": true
+        },
+        {
+          "text": "Un lenguaje de programación",
+          "isCorrect": false
+        },
+        {
+          "text": "Un framework web",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿En qué formato almacena MongoDB los documentos?",
+      "options": [
+        {
+          "text": "XML",
+          "isCorrect": false
+        },
+        {
+          "text": "BSON (Binary JSON)",
+          "isCorrect": true
+        },
+        {
+          "text": "CSV",
+          "isCorrect": false
+        },
+        {
+          "text": "TXT",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué comando busca documentos en MongoDB?",
+      "options": [
+        {
+          "text": "db.coleccion.search()",
+          "isCorrect": false
+        },
+        {
+          "text": "db.coleccion.find()",
+          "isCorrect": true
+        },
+        {
+          "text": "db.coleccion.query()",
+          "isCorrect": false
+        },
+        {
+          "text": "db.coleccion.select()",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es el _id en MongoDB?",
+      "options": [
+        {
+          "text": "Un identificador de usuario",
+          "isCorrect": false
+        },
+        {
+          "text": "Un campo único generado automáticamente para cada documento",
+          "isCorrect": true
+        },
+        {
+          "text": "Una contraseña",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de índice",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son operadores de consulta en MongoDB? (selección múltiple)",
+      "options": [
+        {
+          "text": "$eq (equal)",
+          "isCorrect": true
+        },
+        {
+          "text": "$gt (greater than)",
+          "isCorrect": true
+        },
+        {
+          "text": "$lt (less than)",
+          "isCorrect": true
+        },
+        {
+          "text": "$ne (not equal)",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Cuáles son operadores de array en MongoDB? (selección múltiple)",
+      "options": [
+        {
+          "text": "$push",
+          "isCorrect": true
+        },
+        {
+          "text": "$pull",
+          "isCorrect": true
+        },
+        {
+          "text": "$addToSet",
+          "isCorrect": true
+        },
+        {
+          "text": "$pop",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es $lookup en aggregation?",
+      "options": [
+        {
+          "text": "Una búsqueda",
+          "isCorrect": false
+        },
+        {
+          "text": "Realiza un LEFT JOIN entre colecciones",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de índice",
+          "isCorrect": false
+        },
+        {
+          "text": "Una función simple",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son etapas del aggregation pipeline? (selección múltiple)",
+      "options": [
+        {
+          "text": "$match",
+          "isCorrect": true
+        },
+        {
+          "text": "$group",
+          "isCorrect": true
+        },
+        {
+          "text": "$project",
+          "isCorrect": true
+        },
+        {
+          "text": "$lookup",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es sharding en MongoDB?",
+      "options": [
+        {
+          "text": "Fragmentación de discos",
+          "isCorrect": false
+        },
+        {
+          "text": "Distribución de datos entre múltiples servidores para escalabilidad horizontal",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de backup",
+          "isCorrect": false
+        },
+        {
+          "text": "Una función de compresión",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es Mongoose?",
+      "options": [
+        {
+          "text": "Un animal",
+          "isCorrect": false
+        },
+        {
+          "text": "Un ODM (Object Document Mapper) para MongoDB en Node.js",
+          "isCorrect": true
+        },
+        {
+          "text": "Un cliente gráfico de MongoDB",
+          "isCorrect": false
+        },
+        {
+          "text": "Una base de datos alternativa",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    }
+  ],
+  "poo": [
+    {
+      "question": "¿Qué es una clase?",
+      "options": [
+        {
+          "text": "Un tipo de variable",
+          "isCorrect": false
+        },
+        {
+          "text": "Una plantilla que define atributos y métodos para crear objetos",
+          "isCorrect": true
+        },
+        {
+          "text": "Una función",
+          "isCorrect": false
+        },
+        {
+          "text": "Un archivo de código",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es encapsulación?",
+      "options": [
+        {
+          "text": "Guardar archivos en carpetas",
+          "isCorrect": false
+        },
+        {
+          "text": "Ocultar los detalles internos de una clase y exponer solo lo necesario",
+          "isCorrect": true
+        },
+        {
+          "text": "Crear múltiples clases",
+          "isCorrect": false
+        },
+        {
+          "text": "Usar variables globales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es polimorfismo?",
+      "options": [
+        {
+          "text": "Tener muchas variables",
+          "isCorrect": false
+        },
+        {
+          "text": "Un mismo método con diferentes comportamientos según el tipo de objeto",
+          "isCorrect": true
+        },
+        {
+          "text": "Usar múltiples lenguajes",
+          "isCorrect": false
+        },
+        {
+          "text": "Una técnica de optimización",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué significa el principio SRP en SOLID?",
+      "options": [
+        {
+          "text": "Super Rapid Programming",
+          "isCorrect": false
+        },
+        {
+          "text": "Single Responsibility Principle: cada clase debe tener una sola responsabilidad",
+          "isCorrect": true
+        },
+        {
+          "text": "Standard Reference Point",
+          "isCorrect": false
+        },
+        {
+          "text": "Simple Reusable Pattern",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son los 5 principios SOLID? (selección múltiple)",
+      "options": [
+        {
+          "text": "Single Responsibility",
+          "isCorrect": true
+        },
+        {
+          "text": "Open/Closed",
+          "isCorrect": true
+        },
+        {
+          "text": "Liskov Substitution",
+          "isCorrect": true
+        },
+        {
+          "text": "Interface Segregation y Dependency Inversion",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Cuáles son categorías de patrones de diseño? (selección múltiple)",
+      "options": [
+        {
+          "text": "Creacionales",
+          "isCorrect": true
+        },
+        {
+          "text": "Estructurales",
+          "isCorrect": true
+        },
+        {
+          "text": "Comportamiento",
+          "isCorrect": true
+        },
+        {
+          "text": "Funcionales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es el patrón Singleton?",
+      "options": [
+        {
+          "text": "Un soltero",
+          "isCorrect": false
+        },
+        {
+          "text": "Asegura que una clase tenga solo una instancia",
+          "isCorrect": true
+        },
+        {
+          "text": "Múltiples instancias",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo de herencia",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Por qué favorecer composición sobre herencia? (selección múltiple)",
+      "options": [
+        {
+          "text": "Mayor flexibilidad",
+          "isCorrect": true
+        },
+        {
+          "text": "Menor acoplamiento",
+          "isCorrect": true
+        },
+        {
+          "text": "Evita jerarquías complejas",
+          "isCorrect": true
+        },
+        {
+          "text": "Más fácil de testear",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué significa DRY?",
+      "options": [
+        {
+          "text": "Data Replication Yearly",
+          "isCorrect": false
+        },
+        {
+          "text": "Don't Repeat Yourself: evitar duplicar lógica o código",
+          "isCorrect": true
+        },
+        {
+          "text": "Dynamic Resource Yield",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct Return Yes",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son características de clean code? (selección múltiple)",
+      "options": [
+        {
+          "text": "Nombres descriptivos",
+          "isCorrect": true
+        },
+        {
+          "text": "Funciones pequeñas",
+          "isCorrect": true
+        },
+        {
+          "text": "Sin duplicación",
+          "isCorrect": true
+        },
+        {
+          "text": "Bien testeado",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    }
+  ],
+  "docker": [
+    {
+      "question": "¿Qué es Docker?",
+      "options": [
+        {
+          "text": "Un lenguaje de programación",
+          "isCorrect": false
+        },
+        {
+          "text": "Una plataforma para crear, ejecutar y gestionar contenedores",
+          "isCorrect": true
+        },
+        {
+          "text": "Un sistema operativo",
+          "isCorrect": false
+        },
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia entre contenedor y máquina virtual?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "Contenedores comparten el kernel del host, VMs tienen SO completo",
+          "isCorrect": true
+        },
+        {
+          "text": "VMs son más ligeras",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es un Dockerfile?",
+      "options": [
+        {
+          "text": "Un archivo de texto",
+          "isCorrect": false
+        },
+        {
+          "text": "Script con instrucciones para construir una imagen Docker",
+          "isCorrect": true
+        },
+        {
+          "text": "Una imagen Docker",
+          "isCorrect": false
+        },
+        {
+          "text": "Un contenedor",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia entre CMD y ENTRYPOINT?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "ENTRYPOINT no se puede sobrescribir fácilmente, CMD sí",
+          "isCorrect": true
+        },
+        {
+          "text": "CMD es más importante",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son capas en Docker? (selección múltiple)",
+      "options": [
+        {
+          "text": "Cada instrucción en Dockerfile crea una capa",
+          "isCorrect": true
+        },
+        {
+          "text": "Las capas son inmutables",
+          "isCorrect": true
+        },
+        {
+          "text": "Las capas se cachean",
+          "isCorrect": true
+        },
+        {
+          "text": "Las capas son opcionales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué comando lista contenedores en ejecución?",
+      "options": [
+        {
+          "text": "docker list",
+          "isCorrect": false
+        },
+        {
+          "text": "docker ps",
+          "isCorrect": true
+        },
+        {
+          "text": "docker containers",
+          "isCorrect": false
+        },
+        {
+          "text": "docker show",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es Docker Hub?",
+      "options": [
+        {
+          "text": "Un centro comercial",
+          "isCorrect": false
+        },
+        {
+          "text": "Registro público de imágenes Docker",
+          "isCorrect": true
+        },
+        {
+          "text": "Una herramienta de Docker",
+          "isCorrect": false
+        },
+        {
+          "text": "Un contenedor especial",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de volumes en Docker? (selección múltiple)",
+      "options": [
+        {
+          "text": "Named volumes",
+          "isCorrect": true
+        },
+        {
+          "text": "Bind mounts",
+          "isCorrect": true
+        },
+        {
+          "text": "tmpfs mounts",
+          "isCorrect": true
+        },
+        {
+          "text": "Network volumes",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es Docker Compose?",
+      "options": [
+        {
+          "text": "Compositor musical",
+          "isCorrect": false
+        },
+        {
+          "text": "Herramienta para definir y ejecutar aplicaciones multi-contenedor",
+          "isCorrect": true
+        },
+        {
+          "text": "Un tipo de imagen",
+          "isCorrect": false
+        },
+        {
+          "text": "Un comando de Docker",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de redes en Docker? (selección múltiple)",
+      "options": [
+        {
+          "text": "bridge (por defecto)",
+          "isCorrect": true
+        },
+        {
+          "text": "host",
+          "isCorrect": true
+        },
+        {
+          "text": "none",
+          "isCorrect": true
+        },
+        {
+          "text": "overlay",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    }
+  ],
+  "aws": [
+    {
+      "question": "¿Qué es AWS?",
+      "options": [
+        {
+          "text": "Un software",
+          "isCorrect": false
+        },
+        {
+          "text": "Plataforma de servicios en la nube de Amazon",
+          "isCorrect": true
+        },
+        {
+          "text": "Un lenguaje de programación",
+          "isCorrect": false
+        },
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es EC2?",
+      "options": [
+        {
+          "text": "Un protocolo",
+          "isCorrect": false
+        },
+        {
+          "text": "Elastic Compute Cloud - servicio de máquinas virtuales",
+          "isCorrect": true
+        },
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un almacenamiento",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es Lambda?",
+      "options": [
+        {
+          "text": "Una función matemática",
+          "isCorrect": false
+        },
+        {
+          "text": "Servicio de computación serverless que ejecuta código sin servidores",
+          "isCorrect": true
+        },
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un contenedor",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son características de Lambda? (selección múltiple)",
+      "options": [
+        {
+          "text": "Pago por uso (por milisegundo)",
+          "isCorrect": true
+        },
+        {
+          "text": "Auto-escalable",
+          "isCorrect": true
+        },
+        {
+          "text": "Sin gestión de servidores",
+          "isCorrect": true
+        },
+        {
+          "text": "Requiere configurar servidores",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es IAM?",
+      "options": [
+        {
+          "text": "Un protocolo",
+          "isCorrect": false
+        },
+        {
+          "text": "Identity and Access Management - gestión de permisos y usuarios",
+          "isCorrect": true
+        },
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Un almacenamiento",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia entre EBS y S3?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "EBS es almacenamiento de bloques (para EC2), S3 es almacenamiento de objetos",
+          "isCorrect": true
+        },
+        {
+          "text": "S3 es más rápido",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos de ELB? (selección múltiple)",
+      "options": [
+        {
+          "text": "Application Load Balancer (ALB)",
+          "isCorrect": true
+        },
+        {
+          "text": "Network Load Balancer (NLB)",
+          "isCorrect": true
+        },
+        {
+          "text": "Classic Load Balancer (CLB)",
+          "isCorrect": true
+        },
+        {
+          "text": "Gateway Load Balancer",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Diferencia entre SNS y SQS?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "SNS es pub/sub push, SQS es cola pull",
+          "isCorrect": true
+        },
+        {
+          "text": "SQS es mejor",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia entre ECS y EKS?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "ECS usa API propia de AWS, EKS usa Kubernetes estándar",
+          "isCorrect": true
+        },
+        {
+          "text": "EKS es mejor siempre",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son los 6 pilares de Well-Architected? (selección múltiple)",
+      "options": [
+        {
+          "text": "Operational Excellence",
+          "isCorrect": true
+        },
+        {
+          "text": "Security",
+          "isCorrect": true
+        },
+        {
+          "text": "Reliability",
+          "isCorrect": true
+        },
+        {
+          "text": "Performance Efficiency, Cost Optimization, Sustainability",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    }
+  ],
+  "graphql": [
+    {
+      "question": "¿Qué es GraphQL?",
+      "options": [
+        {
+          "text": "Una base de datos",
+          "isCorrect": false
+        },
+        {
+          "text": "Lenguaje de consulta para APIs y runtime para ejecutar esas consultas",
+          "isCorrect": true
+        },
+        {
+          "text": "Un framework web",
+          "isCorrect": false
+        },
+        {
+          "text": "Un ORM",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia principal entre GraphQL y REST?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "GraphQL permite pedir exactamente los datos necesarios en una sola consulta",
+          "isCorrect": true
+        },
+        {
+          "text": "REST es más moderno",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son tipos escalares en GraphQL? (selección múltiple)",
+      "options": [
+        {
+          "text": "Int",
+          "isCorrect": true
+        },
+        {
+          "text": "Float",
+          "isCorrect": true
+        },
+        {
+          "text": "String",
+          "isCorrect": true
+        },
+        {
+          "text": "Boolean e ID",
+          "isCorrect": true
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Cuáles son las 3 operaciones principales? (selección múltiple)",
+      "options": [
+        {
+          "text": "Query",
+          "isCorrect": true
+        },
+        {
+          "text": "Mutation",
+          "isCorrect": true
+        },
+        {
+          "text": "Subscription",
+          "isCorrect": true
+        },
+        {
+          "text": "Delete",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué es un resolver?",
+      "options": [
+        {
+          "text": "Un solucionador",
+          "isCorrect": false
+        },
+        {
+          "text": "Función que obtiene los datos para un campo específico",
+          "isCorrect": true
+        },
+        {
+          "text": "Una consulta",
+          "isCorrect": false
+        },
+        {
+          "text": "Un tipo",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Qué es el signo ! en GraphQL?",
+      "options": [
+        {
+          "text": "Exclamación",
+          "isCorrect": false
+        },
+        {
+          "text": "Indica que un campo o argumento es requerido (non-null)",
+          "isCorrect": true
+        },
+        {
+          "text": "Negación",
+          "isCorrect": false
+        },
+        {
+          "text": "Comentario",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Diferencia entre Interface y Union?",
+      "options": [
+        {
+          "text": "No hay diferencia",
+          "isCorrect": false
+        },
+        {
+          "text": "Interface requiere campos comunes, Union no",
+          "isCorrect": true
+        },
+        {
+          "text": "Union es mejor",
+          "isCorrect": false
+        },
+        {
+          "text": "Son iguales",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Cuáles son directivas comunes? (selección múltiple)",
+      "options": [
+        {
+          "text": "@include",
+          "isCorrect": true
+        },
+        {
+          "text": "@skip",
+          "isCorrect": true
+        },
+        {
+          "text": "@deprecated",
+          "isCorrect": true
+        },
+        {
+          "text": "@delete",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    },
+    {
+      "question": "¿Qué problema soluciona DataLoader?",
+      "options": [
+        {
+          "text": "Ninguno",
+          "isCorrect": false
+        },
+        {
+          "text": "Problema N+1 mediante batching de requests",
+          "isCorrect": true
+        },
+        {
+          "text": "Problemas de seguridad",
+          "isCorrect": false
+        },
+        {
+          "text": "Problemas de sintaxis",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": false
+    },
+    {
+      "question": "¿Ventajas de persisted queries? (selección múltiple)",
+      "options": [
+        {
+          "text": "Mayor seguridad",
+          "isCorrect": true
+        },
+        {
+          "text": "Mejor rendimiento",
+          "isCorrect": true
+        },
+        {
+          "text": "Menor tamaño de request",
+          "isCorrect": true
+        },
+        {
+          "text": "Más complejidad innecesaria",
+          "isCorrect": false
+        }
+      ],
+      "isMultipleChoice": true
+    }
+  ]
+}

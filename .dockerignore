@@ -1,0 +1,25 @@
+# Ignorar node_modules
+**/node_modules
+
+# Ignorar archivos de entorno
+**/.env
+
+# Ignorar archivos de construcción
+**/dist
+**/build
+
+# Ignorar logs
+**/*.log
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar git
+.git
+.gitignore
+
+# Ignorar archivos de texto daypo originales (ya están en el seed)
+daypo_*.txt
+test-app.html
+test-app.js
