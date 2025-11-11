@@ -24,8 +24,136 @@ function generateExplanation(question, correctAnswers, topic) {
   if (correctAnswers.length > 1) {
     return `Las respuestas correctas son: ${correctAnswers.map(a => `"${a}"`).join(' y ')}. ${getTopicContext(topic)}`;
   } else {
-    return `${correctAnswers[0]} es la respuesta correcta. ${getTopicContext(topic)}`;
+    // Generar explicación más completa basada en la respuesta correcta
+    return generateCompleteExplanation(correctAnswers[0], question, topic);
   }
+}
+
+function generateCompleteExplanation(answer, question, topic) {
+  const answerLower = answer.toLowerCase();
+  const questionLower = question.toLowerCase();
+  
+  // Intentar extraer el concepto principal de la respuesta
+  let explanation = '';
+  
+  // Para Ruby/Rails
+  if (topic === 'ruby' || topic === 'rails' || topic === 'practice') {
+    if (answerLower.includes('@')) {
+      explanation = `Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.`;
+    } else if (answerLower.includes('def ')) {
+      explanation = `En Ruby, los métodos se definen con la palabra clave 'def'. ${answer} es la sintaxis correcta. Los métodos encapsulan comportamiento reutilizable y pueden recibir parámetros y retornar valores.`;
+    } else if (answerLower.includes('class ') && answerLower.includes('<')) {
+      explanation = `La herencia en Ruby se define usando el operador <. ${answer} indica que la clase hereda de otra, obteniendo acceso a sus métodos y atributos. Esto permite reutilizar código y crear jerarquías de clases.`;
+    } else if (answerLower.includes('.')) {
+      explanation = `${answer} es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.`;
+    } else if (answerLower.includes(':')) {
+      explanation = `Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. ${answer} es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.`;
+    } else {
+      explanation = `${answer} es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.`;
+    }
+  }
+  
+  // Para NestJS
+  else if (topic === 'nestjs') {
+    if (answerLower.includes('@')) {
+      explanation = `${answer} es un decorador de NestJS. Los decoradores son anotaciones que modifican el comportamiento de clases, métodos o parámetros, añadiendo funcionalidad como routing, validación o inyección de dependencias.`;
+    } else if (answerLower.includes('service') || answerLower.includes('provider')) {
+      explanation = `${answer} es un concepto clave en NestJS. Los servicios encapsulan la lógica de negocio y se inyectan en controladores mediante Dependency Injection, promoviendo código modular y testeable.`;
+    } else if (answerLower.includes('module') || answerLower.includes('módulo')) {
+      explanation = `${answer} relacionado con módulos de NestJS. Los módulos organizan la aplicación en componentes cohesivos, agrupando controladores, servicios y otros providers relacionados.`;
+    } else {
+      explanation = `${answer} es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.`;
+    }
+  }
+  
+  // Para SQL/MySQL
+  else if (topic === 'sql' || topic === 'mysql') {
+    if (answerLower.includes('select')) {
+      explanation = `SELECT es el comando fundamental de SQL para consultar datos. ${answer} permite especificar qué columnas recuperar y de qué tablas. Es la base de todas las operaciones de lectura en bases de datos relacionales.`;
+    } else if (answerLower.includes('join')) {
+      explanation = `${answer} es un tipo de JOIN en SQL. Los JOINs combinan datos de múltiples tablas basándose en relaciones entre columnas, permitiendo consultas complejas que relacionan información distribuida.`;
+    } else if (answerLower.includes('index')) {
+      explanation = `${answer} se relaciona con índices en bases de datos. Los índices son estructuras que aceleran las búsquedas creando referencias rápidas a los datos, mejorando significativamente el rendimiento de las consultas.`;
+    } else if (answerLower.includes('primary') || answerLower.includes('foreign')) {
+      explanation = `${answer} define una relación de clave en SQL. Las claves son fundamentales para la integridad referencial, asegurando que las relaciones entre tablas se mantengan consistentes.`;
+    } else {
+      explanation = `${answer} es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.`;
+    }
+  }
+  
+  // Para Docker
+  else if (topic === 'docker') {
+    if (answerLower.includes('docker')) {
+      explanation = `${answer} es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.`;
+    } else if (answerLower.includes('image') || answerLower.includes('imagen')) {
+      explanation = `Las imágenes Docker son plantillas inmutables. ${answer} describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.`;
+    } else if (answerLower.includes('container') || answerLower.includes('contenedor')) {
+      explanation = `Los contenedores son instancias ejecutables de imágenes. ${answer} explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.`;
+    } else {
+      explanation = `${answer} es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.`;
+    }
+  }
+  
+  // Para MongoDB
+  else if (topic === 'mongodb') {
+    if (answerLower.includes('document') || answerLower.includes('documento')) {
+      explanation = `${answer} describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.`;
+    } else if (answerLower.includes('collection') || answerLower.includes('colección')) {
+      explanation = `${answer} se refiere a colecciones en MongoDB. Las colecciones agrupan documentos relacionados pero sin requerir que todos tengan la misma estructura, ofreciendo flexibilidad en el modelado de datos.`;
+    } else if (answerLower.includes('aggregate') || answerLower.includes('agregación')) {
+      explanation = `${answer} describe operaciones de agregación. El pipeline de agregación en MongoDB procesa documentos a través de etapas para transformar, filtrar y analizar datos de forma eficiente.`;
+    } else {
+      explanation = `${answer} es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.`;
+    }
+  }
+  
+  // Para POO
+  else if (topic === 'poo') {
+    if (answerLower.includes('herencia')) {
+      explanation = `${answer} describe la herencia en POO. La herencia permite crear jerarquías de clases donde las clases hijas heredan comportamiento de las padres, promoviendo la reutilización de código.`;
+    } else if (answerLower.includes('polimorfismo')) {
+      explanation = `${answer} explica el polimorfismo. Este principio permite que diferentes clases respondan al mismo mensaje de forma única, facilitando código flexible y extensible.`;
+    } else if (answerLower.includes('encapsul')) {
+      explanation = `${answer} define la encapsulación. Este principio oculta los detalles internos de implementación, exponiendo solo interfaces públicas y protegiendo la integridad de los datos.`;
+    } else if (answerLower.includes('abstrac')) {
+      explanation = `${answer} describe la abstracción. Este principio simplifica la complejidad modelando solo las características esenciales, separando qué hace algo de cómo lo hace.`;
+    } else {
+      explanation = `${answer} es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.`;
+    }
+  }
+  
+  // Para AWS
+  else if (topic === 'aws') {
+    if (answerLower.includes('ec2')) {
+      explanation = `${answer} describe EC2. Este servicio proporciona servidores virtuales escalables en la nube, permitiendo ejecutar aplicaciones con la capacidad de cómputo exacta que se necesita.`;
+    } else if (answerLower.includes('s3')) {
+      explanation = `${answer} explica S3. Este servicio de almacenamiento de objetos es altamente escalable y duradero, ideal para almacenar cualquier tipo de datos desde backups hasta archivos multimedia.`;
+    } else if (answerLower.includes('lambda')) {
+      explanation = `${answer} describe AWS Lambda. Este servicio serverless ejecuta código en respuesta a eventos sin necesidad de gestionar servidores, cobrando solo por el tiempo de ejecución.`;
+    } else {
+      explanation = `${answer} es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.`;
+    }
+  }
+  
+  // Para GraphQL
+  else if (topic === 'graphql') {
+    if (answerLower.includes('query')) {
+      explanation = `${answer} describe queries en GraphQL. Las queries permiten solicitar exactamente los datos necesarios en una sola petición, evitando problemas de over-fetching o under-fetching comunes en REST.`;
+    } else if (answerLower.includes('mutation')) {
+      explanation = `${answer} explica mutations. Las mutations modifican datos en el servidor, permitiendo crear, actualizar o eliminar información mientras se puede solicitar datos específicos en la respuesta.`;
+    } else if (answerLower.includes('schema')) {
+      explanation = `${answer} describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.`;
+    } else {
+      explanation = `${answer} es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.`;
+    }
+  }
+  
+  // Fallback genérico mejorado
+  else {
+    explanation = `${answer} es la respuesta correcta. Esta opción representa el concepto o implementación adecuada para esta pregunta en el contexto de ${topic}.`;
+  }
+  
+  return explanation;
 }
 
 function generateEducationalExplanation(question, questionLower, correctAnswers, topic) {
