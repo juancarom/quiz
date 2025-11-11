@@ -29,7 +29,8 @@ mongoose.connect(process.env.MONGODB_URI, {
         topic,
         question: q.question,
         options: q.options,
-        isMultipleChoice: q.isMultipleChoice
+        isMultipleChoice: q.isMultipleChoice,
+        explanation: q.explanation || ''
       });
     }
   }
