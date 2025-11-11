@@ -44,6 +44,24 @@ function generateCompleteExplanation(answer, question, topic) {
       explanation = `En Ruby, los métodos se definen con la palabra clave 'def'. ${answer} es la sintaxis correcta. Los métodos encapsulan comportamiento reutilizable y pueden recibir parámetros y retornar valores.`;
     } else if (answerLower.includes('class ') && answerLower.includes('<')) {
       explanation = `La herencia en Ruby se define usando el operador <. ${answer} indica que la clase hereda de otra, obteniendo acceso a sus métodos y atributos. Esto permite reutilizar código y crear jerarquías de clases.`;
+    } else if (answerLower.includes('join')) {
+      explanation = `El método join en Ruby convierte los elementos de un array en un string, uniéndolos con un separador especificado. Es muy útil para formatear listas y crear strings a partir de colecciones.`;
+    } else if (answerLower.includes('split')) {
+      explanation = `El método split en Ruby divide un string en un array de substrings basándose en un delimitador. Es el complemento de join y es fundamental para parsear texto.`;
+    } else if (answerLower.includes('map')) {
+      explanation = `El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados, siendo esencial para procesamiento de datos funcional.`;
+    } else if (answerLower.includes('select')) {
+      explanation = `El método select en Ruby filtra elementos de una colección según una condición. Devuelve un nuevo array con los elementos que cumplen el criterio del bloque.`;
+    } else if (answerLower.includes('each')) {
+      explanation = `El método each en Ruby itera sobre cada elemento de una colección ejecutando un bloque. Es el iterador fundamental y siempre devuelve la colección original.`;
+    } else if (answerLower.includes('reduce') || answerLower.includes('inject')) {
+      explanation = `El método reduce (o inject) en Ruby acumula valores iterando sobre una colección. Es perfecto para sumar elementos, encontrar máximos o construir estructuras complejas.`;
+    } else if (answerLower.includes('push') || answerLower.includes('<<')) {
+      explanation = `${answer} agrega elementos al final de un array en Ruby. Modifica el array original y es muy eficiente para construir colecciones dinámicamente.`;
+    } else if (answerLower.includes('pop') || answerLower.includes('shift') || answerLower.includes('unshift')) {
+      explanation = `${answer} manipula arrays en Ruby. pop elimina el último elemento, shift el primero, y unshift agrega al inicio. Son fundamentales para estructuras de datos como pilas y colas.`;
+    } else if (answerLower.includes('to_i') || answerLower.includes('to_s') || answerLower.includes('to_f') || answerLower.includes('to_a')) {
+      explanation = `Los métodos de conversión como ${answer} transforman objetos entre tipos en Ruby. to_i convierte a entero, to_s a string, to_f a flotante, y to_a a array.`;
     } else if (answerLower.includes('.')) {
       explanation = `${answer} es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.`;
     } else if (answerLower.includes(':')) {

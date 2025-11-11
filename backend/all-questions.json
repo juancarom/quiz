@@ -1587,7 +1587,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "each es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador."
+      "explanation": "El método each en Ruby itera sobre cada elemento de una colección ejecutando un bloque. Es el iterador fundamental y siempre devuelve la colección original."
     },
     {
       "question": "¿Qué es el método initialize en Ruby?",
@@ -1794,7 +1794,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": ".to_i es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene."
+      "explanation": "Los métodos de conversión como .to_i transforman objetos entre tipos en Ruby. to_i convierte a entero, to_s a string, to_f a flotante, y to_a a array."
     },
     {
       "question": "¿Qué es un Hash en Ruby?",
@@ -1840,7 +1840,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "each o each_pair es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador."
+      "explanation": "El método each en Ruby itera sobre cada elemento de una colección ejecutando un bloque. Es el iterador fundamental y siempre devuelve la colección original."
     },
     {
       "question": "¿Qué es yield en Ruby?",
@@ -1955,7 +1955,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": ".join es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene."
+      "explanation": "El método join en Ruby convierte los elementos de un array en un string, uniéndolos con un separador especificado. Es muy útil para formatear listas y crear strings a partir de colecciones."
     },
     {
       "question": "¿Qué es el método send en Ruby?",
@@ -2415,7 +2415,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "map retorna un nuevo array, each retorna el original es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador."
+      "explanation": "El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados, siendo esencial para procesamiento de datos funcional."
     },
     {
       "question": "¿Qué es tap en Ruby?",
@@ -4441,7 +4441,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Principio que reduce configuración siguiendo convenciones estándar es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador."
+      "explanation": "El método reduce (o inject) en Ruby acumula valores iterando sobre una colección. Es perfecto para sumar elementos, encontrar máximos o construir estructuras complejas."
     },
     {
       "question": "¿Qué es DRY en Rails?",
@@ -4625,7 +4625,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Mapea atributos a valores enteros con nombres significativos es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador."
+      "explanation": "El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados, siendo esencial para procesamiento de datos funcional."
     },
     {
       "question": "¿Qué es counter_cache en Rails?",
