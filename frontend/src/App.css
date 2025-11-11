@@ -357,6 +357,7 @@
   padding: 15px;
   border-radius: 10px;
   font-weight: 500;
+  line-height: 1.6;
 }
 
 .feedback.correct {
@@ -367,6 +368,24 @@
 .feedback.incorrect {
   background: #ffebee;
   color: #c62828;
+}
+
+.explanation {
+  margin-top: 12px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #5d1717;
+}
+
+.explanation ul {
+  list-style-type: disc;
+  color: #5d1717;
+}
+
+.explanation li {
+  line-height: 1.5;
 }
 
 .buttons {

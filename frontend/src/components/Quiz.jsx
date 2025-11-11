@@ -215,9 +215,27 @@ const Quiz = ({ topic, config, onComplete }) => {
 
         {showFeedback && (
           <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
-            {isCorrect ? 
-              '✓ ¡Correcto! Bien hecho.' : 
-              '✗ Intenta de nuevo. Selecciona todas las respuestas correctas.'}
+            {isCorrect ? (
+              <div>
+                <strong>✓ ¡Correcto! Bien hecho.</strong>
+              </div>
+            ) : (
+              <div>
+                <div style={{ marginBottom: '10px' }}>
+                  <strong>✗ Intenta de nuevo. Selecciona todas las respuestas correctas.</strong>
+                </div>
+                <div className="explanation">
+                  <strong>Respuesta correcta:</strong>
+                  <ul style={{ marginTop: '8px', marginBottom: '0', paddingLeft: '20px' }}>
+                    {currentQuestion.options
+                      .filter(opt => opt.isCorrect)
+                      .map((opt, idx) => (
+                        <li key={idx} style={{ marginBottom: '4px' }}>{opt.text}</li>
+                      ))}
+                  </ul>
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>
