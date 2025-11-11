@@ -218,14 +218,26 @@ const Quiz = ({ topic, config, onComplete }) => {
             {isCorrect ? (
               <div>
                 <strong>✓ ¡Correcto! Bien hecho.</strong>
+                {currentQuestion.explanation && (
+                  <div className="explanation" style={{ background: 'rgba(255, 255, 255, 0.3)', color: '#1b5e20' }}>
+                    <strong>💡 Explicación:</strong>
+                    <p style={{ marginTop: '8px', marginBottom: '0' }}>{currentQuestion.explanation}</p>
+                  </div>
+                )}
               </div>
             ) : (
               <div>
                 <div style={{ marginBottom: '10px' }}>
                   <strong>✗ Intenta de nuevo. Selecciona todas las respuestas correctas.</strong>
                 </div>
-                <div className="explanation">
-                  <strong>Respuesta correcta:</strong>
+                {currentQuestion.explanation && (
+                  <div className="explanation">
+                    <strong>💡 Explicación:</strong>
+                    <p style={{ marginTop: '8px', marginBottom: '8px' }}>{currentQuestion.explanation}</p>
+                  </div>
+                )}
+                <div className="explanation" style={{ marginTop: '10px' }}>
+                  <strong>✓ Respuesta correcta:</strong>
                   <ul style={{ marginTop: '8px', marginBottom: '0', paddingLeft: '20px' }}>
                     {currentQuestion.options
                       .filter(opt => opt.isCorrect)

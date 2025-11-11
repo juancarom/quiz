@@ -17,6 +17,10 @@ const questionSchema = new mongoose.Schema({
   isMultipleChoice: {
     type: Boolean,
     default: false
+  },
+  explanation: {
+    type: String,
+    default: ''
   }
 }, {
   timestamps: true
