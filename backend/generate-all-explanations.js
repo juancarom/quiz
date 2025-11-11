@@ -31,17 +31,29 @@ function generateExplanation(question, correctAnswers, topic) {
 function generateEducationalExplanation(question, questionLower, correctAnswers, topic) {
   // Explicaciones específicas por patrones en Ruby
   if (topic === 'ruby' || topic === 'practice') {
+    if (questionLower.includes('attr_writer') || questionLower.includes('attr_reader') || questionLower.includes('attr_accessor')) {
+      return 'En Ruby, attr_reader crea métodos de lectura (getter), attr_writer crea métodos de escritura (setter), y attr_accessor crea ambos. Estos métodos permiten acceder y modificar variables de instancia sin escribir métodos explícitos, simplificando el código de las clases.';
+    }
     if (questionLower.includes('has_many') || questionLower.includes('asociación')) {
       return 'Una asociación has_many en Rails se define en un modelo para indicar que una instancia de ese modelo puede estar asociada con cero o más instancias de otro modelo. Esta relación típicamente requiere que el modelo asociado tenga una columna de clave foránea que apunte al modelo principal.';
     }
     if (questionLower.includes('select') && questionLower.includes('método')) {
       return 'El método select en Ruby filtra elementos de una colección según una condición. Itera sobre cada elemento y devuelve un nuevo array con solo aquellos elementos para los cuales el bloque retorna true. No modifica la colección original.';
     }
+    if (questionLower.includes('map') && questionLower.includes('método')) {
+      return 'El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados de la transformación, sin modificar el array original. Es fundamental para procesamiento de datos.';
+    }
+    if (questionLower.includes('each') && questionLower.includes('método')) {
+      return 'El método each en Ruby itera sobre cada elemento de una colección ejecutando un bloque de código. Es el iterador más común y siempre devuelve la colección original, siendo útil para efectos secundarios como imprimir o modificar otros objetos.';
+    }
     if (questionLower.includes('reduce') || questionLower.includes('sumar')) {
       return 'El método reduce (o inject) en Ruby acumula un valor iterando sobre una colección. Se utiliza frecuentemente para operaciones como sumar todos los elementos, encontrar el máximo, o construir estructuras de datos complejas a partir de colecciones.';
     }
     if (questionLower.includes('to_i') || questionLower.includes('integer') && questionLower.includes('conviert')) {
       return 'Tanto .to_i como Integer() convierten strings a enteros. to_i es más permisivo (devuelve 0 si falla), mientras que Integer() lanza una excepción si el string no es válido. Ambas son correctas según el caso de uso.';
+    }
+    if (questionLower.includes('lambda') || questionLower.includes('proc')) {
+      return 'Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor.';
     }
     if (questionLower.includes('gem')) {
       return 'Un Gem en Ruby es un paquete de código reutilizable que encapsula funcionalidad específica. Los gems permiten compartir bibliotecas y herramientas entre proyectos, facilitando el desarrollo al no tener que reinventar soluciones comunes.';
@@ -54,6 +66,18 @@ function generateEducationalExplanation(question, questionLower, correctAnswers,
     }
     if (questionLower.includes('block') || questionLower.includes('bloque')) {
       return 'Los bloques en Ruby son fragmentos de código que se pueden pasar a métodos. Se definen con {} para una línea o do...end para múltiples líneas. Los bloques reciben parámetros entre pipes (|param|) y son fundamentales para iteradores y callbacks.';
+    }
+    if (questionLower.includes('module') || questionLower.includes('módulo')) {
+      return 'Los módulos en Ruby permiten compartir métodos entre clases mediante mixins. Se incluyen con include (métodos de instancia) o extend (métodos de clase). También sirven como namespaces para organizar código relacionado.';
+    }
+    if (questionLower.includes('undef') || questionLower.includes('elimina')) {
+      return 'undef en Ruby elimina completamente la definición de un método, haciendo que deje de existir. A diferencia de establecer a nil o redefinir, undef garantiza que el método no puede ser llamado, ni siquiera desde clases padre.';
+    }
+    if (questionLower.includes('regex') || questionLower.includes('expresión regular')) {
+      return 'El operador =~ en Ruby compara strings con expresiones regulares (regex). Devuelve la posición del primer match o nil si no hay coincidencia. Es fundamental para validaciones de formato, búsqueda de patrones y manipulación de texto.';
+    }
+    if (questionLower.includes('class_eval') || questionLower.includes('instance_eval')) {
+      return 'class_eval y instance_eval permiten ejecutar código en el contexto de una clase u objeto. Son herramientas de metaprogramación que permiten definir métodos dinámicamente, acceder a variables de instancia y modificar comportamiento en tiempo de ejecución.';
     }
   }
   

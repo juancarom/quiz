@@ -1495,7 +1495,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Un objeto que encapsula un bloque de código para reutilizarlo es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor."
     },
     {
       "question": "¿Qué es un Lambda en Ruby?",
@@ -1518,7 +1518,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Un tipo especial de Proc con validación estricta de argumentos es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor."
     },
     {
       "question": "¿Cómo se heredan clases en Ruby?",
@@ -1564,7 +1564,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Un tipo de variable es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Los módulos en Ruby permiten compartir métodos entre clases mediante mixins. Se incluyen con include (métodos de instancia) o extend (métodos de clase). También sirven como namespaces para organizar código relacionado."
     },
     {
       "question": "¿Qué método se usa para iterar sobre un array en Ruby?",
@@ -2001,7 +2001,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Crea getters y setters automáticamente es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "En Ruby, attr_reader crea métodos de lectura (getter), attr_writer crea métodos de escritura (setter), y attr_accessor crea ambos. Estos métodos permiten acceder y modificar variables de instancia sin escribir métodos explícitos, simplificando el código de las clases."
     },
     {
       "question": "¿Cuáles son métodos de attr en Ruby? (selección múltiple)",
@@ -2208,7 +2208,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Elimina la definición de un método es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "undef en Ruby elimina completamente la definición de un método, haciendo que deje de existir. A diferencia de establecer a nil o redefinir, undef garantiza que el método no puede ser llamado, ni siquiera desde clases padre."
     },
     {
       "question": "¿Qué son los symbols ventajas en Ruby? (selección múltiple)",
@@ -2392,7 +2392,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "Transforma cada elemento de una colección es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados de la transformación, sin modificar el array original. Es fundamental para procesamiento de datos."
     },
     {
       "question": "¿Qué diferencia hay entre map y each?",
@@ -2507,7 +2507,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "/patrón/ o Regexp.new es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "El operador =~ en Ruby compara strings con expresiones regulares (regex). Devuelve la posición del primer match o nil si no hay coincidencia. Es fundamental para validaciones de formato, búsqueda de patrones y manipulación de texto."
     },
     {
       "question": "¿Qué operador compara con regex en Ruby?",
@@ -2553,7 +2553,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": ".match es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "El operador =~ en Ruby compara strings con expresiones regulares (regex). Devuelve la posición del primer match o nil si no hay coincidencia. Es fundamental para validaciones de formato, búsqueda de patrones y manipulación de texto."
     },
     {
       "question": "¿Qué es $1, $2 en Ruby después de un match?",
@@ -2668,7 +2668,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Las respuestas correctas son: \"extend\" y \"prepend\". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Los módulos en Ruby permiten compartir métodos entre clases mediante mixins. Se incluyen con include (métodos de instancia) o extend (métodos de clase). También sirven como namespaces para organizar código relacionado."
     },
     {
       "question": "¿Qué hace extend en Ruby?",
@@ -19683,7 +19683,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "lambda x, y: x + y es la respuesta correcta. Esta pregunta evalúa conocimientos prácticos de programación."
+      "explanation": "Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor."
     },
     {
       "question": "¿Cómo se lee un archivo en Python?",
@@ -19890,7 +19890,7 @@
         }
       ],
       "isMultipleChoice": false,
-      "explanation": "aws lambda update-function-configuration --function-name my-func --environment Variables={KEY=value} es la respuesta correcta. Esta pregunta evalúa conocimientos prácticos de programación."
+      "explanation": "Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor."
     },
     {
       "question": "¿Cuál es la forma correcta de definir un tipo en GraphQL?",
