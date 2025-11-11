@@ -412,7 +412,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Tienen acceso al ExecutionContext es la respuesta correcta. Los Guards en NestJS controlan el acceso a rutas basándose en condiciones como autenticación o permisos."
+      "explanation": "Las respuestas correctas son: \"Tienen acceso al ExecutionContext\" y \"Pueden devolver true o false\". Los Guards en NestJS controlan el acceso a rutas basándose en condiciones como autenticación o permisos."
     },
     {
       "question": "¿Qué patrón arquitectónico implementa NestJS?",
@@ -550,7 +550,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "useValue es la respuesta correcta. NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
+      "explanation": "Las respuestas correctas son: \"useValue\" y \"useFactory\". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
     },
     {
       "question": "¿Qué decorador se usa para manejar queries en NestJS?",
@@ -665,7 +665,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "OnApplicationBootstrap es la respuesta correcta. NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
+      "explanation": "Las respuestas correctas son: \"OnApplicationBootstrap\" y \"OnModuleDestroy\". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
     },
     {
       "question": "¿Qué es el Reflector en NestJS?",
@@ -895,7 +895,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Arquitectura escalable es la respuesta correcta. NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
+      "explanation": "Las respuestas correctas son: \"Arquitectura escalable\" y \"Testing integrado\". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
     },
     {
       "question": "¿Qué es el decorador @UseInterceptors()?",
@@ -1102,7 +1102,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Redis es la respuesta correcta. NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
+      "explanation": "Las respuestas correctas son: \"Redis\" y \"MQTT\". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
     },
     {
       "question": "¿Qué es el decorador @Header()?",
@@ -1355,7 +1355,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "error es la respuesta correcta. NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
+      "explanation": "Las respuestas correctas son: \"error\" y \"warn\". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular."
     }
   ],
   "ruby": [
@@ -1886,7 +1886,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Variables de clase (@@var) es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Las respuestas correctas son: \"Variables de clase (@@var)\" y \"Variables globales ($var)\". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
     },
     {
       "question": "¿Qué es un singleton class en Ruby?",
@@ -2024,7 +2024,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "attr_writer es la respuesta correcta. Los métodos en Ruby son fundamentales para organizar y reutilizar código de forma eficiente."
+      "explanation": "Las respuestas correctas son: \"attr_writer\" y \"attr_accessor\". Los métodos en Ruby son fundamentales para organizar y reutilizar código de forma eficiente."
     },
     {
       "question": "¿Qué es super en Ruby?",
@@ -2231,7 +2231,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Más eficientes en memoria que strings es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Las respuestas correctas son: \"Más eficientes en memoria que strings\" y \"Se usan como keys en hashes\". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
     },
     {
       "question": "¿Qué método convierte string a symbol?",
@@ -2668,7 +2668,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "extend es la respuesta correcta. Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
+      "explanation": "Las respuestas correctas son: \"extend\" y \"prepend\". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante."
     },
     {
       "question": "¿Qué hace extend en Ruby?",
@@ -3059,7 +3059,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "it es la respuesta correcta. Los métodos en Ruby son fundamentales para organizar y reutilizar código de forma eficiente."
+      "explanation": "Las respuestas correctas son: \"it\" y \"expect\". Los métodos en Ruby son fundamentales para organizar y reutilizar código de forma eficiente."
     }
   ],
   "rails": [
@@ -3567,7 +3567,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "test es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"test\" y \"production\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es Strong Parameters en Rails?",
@@ -3659,7 +3659,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "after_action es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"after_action\" y \"around_action\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es render en Rails?",
@@ -3774,7 +3774,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "flash[:alert] es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"flash[:alert]\" y \"flash[:error]\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es un layout en Rails?",
@@ -3935,7 +3935,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "belongs_to es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"belongs_to\" y \"has_one\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es una asociación polymorphic en Rails?",
@@ -4050,7 +4050,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Resque es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"Resque\" y \"Delayed Job\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es ActionCable en Rails?",
@@ -4372,7 +4372,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Google Cloud Storage es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"Google Cloud Storage\" y \"Azure Storage\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es has_one_attached en Active Storage?",
@@ -4510,7 +4510,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "POST es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"POST\" y \"PUT/PATCH\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es resources en routes.rb?",
@@ -4556,7 +4556,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "new, create es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"new, create\" y \"edit, update\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es member route en Rails?",
@@ -4717,7 +4717,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "delete_all es la respuesta correcta. Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
+      "explanation": "Las respuestas correctas son: \"delete_all\" y \"nullify\". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración."
     },
     {
       "question": "¿Qué es inverse_of en asociaciones?",
@@ -5386,7 +5386,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "LEFT JOIN es la respuesta correcta. Los JOINs combinan datos de múltiples tablas basándose en relaciones entre columnas."
+      "explanation": "Las respuestas correctas son: \"LEFT JOIN\" y \"RIGHT JOIN\". Los JOINs combinan datos de múltiples tablas basándose en relaciones entre columnas."
     },
     {
       "question": "¿Qué es un INNER JOIN?",
@@ -5501,7 +5501,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "FOREIGN KEY es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"FOREIGN KEY\" y \"UNIQUE\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué es NOT NULL constraint?",
@@ -5685,7 +5685,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "SUM() es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"SUM()\" y \"AVG()\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué es HAVING en SQL?",
@@ -5915,7 +5915,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "DROP COLUMN es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"DROP COLUMN\" y \"MODIFY COLUMN\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué hace DROP TABLE?",
@@ -6099,7 +6099,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "AFTER UPDATE es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"AFTER UPDATE\" y \"BEFORE DELETE\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué es un cursor en SQL?",
@@ -6168,7 +6168,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Segunda Forma Normal (2NF) es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"Segunda Forma Normal (2NF)\" y \"Tercera Forma Normal (3NF)\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué es desnormalización?",
@@ -6306,7 +6306,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "READ COMMITTED es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"READ COMMITTED\" y \"REPEATABLE READ\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué es READ COMMITTED?",
@@ -6490,7 +6490,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "OR es la respuesta correcta. SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
+      "explanation": "Las respuestas correctas son: \"OR\" y \"NOT\". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales."
     },
     {
       "question": "¿Qué es IN en SQL?",
@@ -7297,7 +7297,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "General query log es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"General query log\" y \"Binary log\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es el slow query log?",
@@ -7389,7 +7389,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "MyISAM es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"MyISAM\" y \"Memory (HEAP)\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Diferencia principal entre InnoDB y MyISAM?",
@@ -7504,7 +7504,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "SET NULL es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"SET NULL\" y \"RESTRICT\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es AUTO_INCREMENT?",
@@ -7688,7 +7688,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "TEXT es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"TEXT\" y \"MEDIUMTEXT\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es BLOB en MySQL?",
@@ -7757,7 +7757,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "JSON_SET es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"JSON_SET\" y \"JSON_ARRAY\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es una partición en MySQL?",
@@ -7803,7 +7803,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "LIST es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"LIST\" y \"HASH\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es replicación en MySQL?",
@@ -7849,7 +7849,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Semi-síncrona es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"Semi-síncrona\" y \"Group Replication\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es un master-slave setup?",
@@ -8148,7 +8148,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "--single-transaction es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"--single-transaction\" y \"--no-data\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es mysqlimport?",
@@ -8355,7 +8355,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "MySQL Workbench es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"MySQL Workbench\" y \"Adminer\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es MySQL Workbench?",
@@ -8493,7 +8493,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Algunas características adicionales es la respuesta correcta. MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
+      "explanation": "Las respuestas correctas son: \"Algunas características adicionales\" y \"Desarrollo más abierto\". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares."
     },
     {
       "question": "¿Qué es el adaptive hash index en InnoDB?",
@@ -9208,7 +9208,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "$gt (greater than) es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"$gt (greater than)\" y \"$lt (less than)\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es $and en MongoDB?",
@@ -9277,7 +9277,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "$pull es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"$pull\" y \"$addToSet\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué hace $push en MongoDB?",
@@ -9507,7 +9507,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "$group es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"$group\" y \"$project\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es $limit en aggregation?",
@@ -9622,7 +9622,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "w: 1 (confirmado por primario) es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"w: 1 (confirmado por primario)\" y \"w: \"majority\"\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es read concern en MongoDB?",
@@ -9668,7 +9668,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "majority es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"majority\" y \"linearizable\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es read preference en MongoDB?",
@@ -9714,7 +9714,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "primaryPreferred es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"primaryPreferred\" y \"secondary\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es un índice compuesto en MongoDB?",
@@ -9829,7 +9829,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "2dsphere es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"2dsphere\" y \"geoHaystack\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es TTL index en MongoDB?",
@@ -9898,7 +9898,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Cache es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"Cache\" y \"Datos de alta inserción\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es ObjectId en MongoDB?",
@@ -9944,7 +9944,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "ID de máquina es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"ID de máquina\" y \"ID de proceso\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es BSON vs JSON?",
@@ -9990,7 +9990,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Binary Data es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"Binary Data\" y \"ObjectId\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es la opción upsert?",
@@ -10059,7 +10059,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "updateOne es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"updateOne\" y \"deleteOne\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es change streams en MongoDB?",
@@ -10105,7 +10105,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Auditoría es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"Auditoría\" y \"Sincronización\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es session en MongoDB?",
@@ -10358,7 +10358,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Buena distribución es la respuesta correcta. MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
+      "explanation": "Las respuestas correctas son: \"Buena distribución\" y \"Evitar hotspots\". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON."
     },
     {
       "question": "¿Qué es chunk en sharding?",
@@ -11165,7 +11165,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Mantenibilidad es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Mantenibilidad\" y \"Escalabilidad\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es el principio de responsabilidad única (SRP)?",
@@ -11303,7 +11303,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Open/Closed es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Open/Closed\" y \"Liskov Substitution\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es un patrón de diseño?",
@@ -11349,7 +11349,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Estructurales es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Estructurales\" y \"Comportamiento\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es el patrón Singleton?",
@@ -11671,7 +11671,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Menor acoplamiento es la respuesta correcta. La herencia permite crear clases basadas en otras, reutilizando y extendiendo funcionalidad existente."
+      "explanation": "Las respuestas correctas son: \"Menor acoplamiento\" y \"Evita jerarquías complejas\". La herencia permite crear clases basadas en otras, reutilizando y extendiendo funcionalidad existente."
     },
     {
       "question": "¿Qué es una clase final o sealed?",
@@ -11763,7 +11763,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Setter injection es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Setter injection\" y \"Interface injection\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es inversión de control (IoC)?",
@@ -11855,7 +11855,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Information Expert es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Information Expert\" y \"Low Coupling\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es el principio Information Expert?",
@@ -12062,7 +12062,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Parámetros del método es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Parámetros del método\" y \"Objetos que crea\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es YAGNI?",
@@ -12200,7 +12200,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Clases muy grandes es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Clases muy grandes\" y \"Código duplicado\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es refactoring?",
@@ -12246,7 +12246,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Antes de añadir nuevas features es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Antes de añadir nuevas features\" y \"Durante code review\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es Test-Driven Development (TDD)?",
@@ -12292,7 +12292,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Green - hacer que pase es la opción correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Green - hacer que pase\" y \"Refactor - mejorar código\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es Behavior-Driven Development (BDD)?",
@@ -12568,7 +12568,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "GitHub Actions es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"GitHub Actions\" y \"GitLab CI\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     },
     {
       "question": "¿Qué es pair programming?",
@@ -12660,7 +12660,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Funciones pequeñas es la respuesta correcta. La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
+      "explanation": "Las respuestas correctas son: \"Funciones pequeñas\" y \"Sin duplicación\". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento."
     }
   ],
   "docker": [
@@ -13030,7 +13030,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Las capas son inmutables es la respuesta correcta. Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
+      "explanation": "Las respuestas correctas son: \"Las capas son inmutables\" y \"Las capas se cachean\". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
     },
     {
       "question": "¿Qué comando lista las imágenes Docker?",
@@ -13283,7 +13283,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Bind mounts es la respuesta correcta. Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
+      "explanation": "Las respuestas correctas son: \"Bind mounts\" y \"tmpfs mounts\". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
     },
     {
       "question": "¿Qué es un bind mount?",
@@ -13513,7 +13513,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "host es la respuesta correcta. Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
+      "explanation": "Las respuestas correctas son: \"host\" y \"none\". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
     },
     {
       "question": "¿Qué es bridge network?",
@@ -13973,7 +13973,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Amazon ECR es la respuesta correcta. Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
+      "explanation": "Las respuestas correctas son: \"Amazon ECR\" y \"Google Container Registry\". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
     },
     {
       "question": "¿Qué es Docker Desktop?",
@@ -14318,7 +14318,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Despliegues más rápidos es la respuesta correcta. Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
+      "explanation": "Las respuestas correctas son: \"Despliegues más rápidos\" y \"Menos vulnerabilidades\". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
     },
     {
       "question": "¿Qué es Alpine Linux en Docker?",
@@ -14686,7 +14686,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Mejor caché es la respuesta correcta. Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
+      "explanation": "Las respuestas correctas son: \"Mejor caché\" y \"Build secrets\". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables."
     }
   ],
   "aws": [
@@ -14826,7 +14826,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Auto-escalable es la respuesta correcta. Lambda permite ejecutar código sin gestionar servidores, cobrando solo por el tiempo de ejecución."
+      "explanation": "Las respuestas correctas son: \"Auto-escalable\" y \"Sin gestión de servidores\". Lambda permite ejecutar código sin gestionar servidores, cobrando solo por el tiempo de ejecución."
     },
     {
       "question": "¿Qué es VPC?",
@@ -14987,7 +14987,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Memoria es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Memoria\" y \"Logs de aplicación\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es CloudFormation?",
@@ -15171,7 +15171,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Network Load Balancer (NLB) es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Network Load Balancer (NLB)\" y \"Classic Load Balancer (CLB)\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es Auto Scaling?",
@@ -15401,7 +15401,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "HTTP es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"HTTP\" y \"WebSocket\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es Cognito?",
@@ -15585,7 +15585,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Node.js, Python es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Node.js, Python\" y \"Ruby, PHP\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es Secrets Manager?",
@@ -15838,7 +15838,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Kinesis Data Firehose es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Kinesis Data Firehose\" y \"Kinesis Data Analytics\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es Glue?",
@@ -16137,7 +16137,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Tolerancia a fallos es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Tolerancia a fallos\" y \"Mejor rendimiento\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué son los edge locations?",
@@ -16206,7 +16206,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Red global es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Red global\" y \"Software de virtualización\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué gestiona el cliente? (selección múltiple)",
@@ -16229,7 +16229,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Configuración de aplicaciones es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Configuración de aplicaciones\" y \"Gestión de accesos IAM\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es el Free Tier?",
@@ -16321,7 +16321,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Reserved Instances es la respuesta correcta. EC2 proporciona capacidad de cómputo escalable en la nube de AWS."
+      "explanation": "Las respuestas correctas son: \"Reserved Instances\" y \"Spot Instances\". EC2 proporciona capacidad de cómputo escalable en la nube de AWS."
     },
     {
       "question": "¿Qué son Reserved Instances?",
@@ -16482,7 +16482,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Security es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Security\" y \"Performance\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es AWS Organizations?",
@@ -16597,7 +16597,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Security es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"Security\" y \"Reliability\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es AWS CLI?",
@@ -16666,7 +16666,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "JavaScript/Node.js es la respuesta correcta. AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
+      "explanation": "Las respuestas correctas son: \"JavaScript/Node.js\" y \"Java\". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado."
     },
     {
       "question": "¿Qué es CloudShell?",
@@ -16898,7 +16898,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Float es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Float\" y \"String\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es el tipo ID?",
@@ -17013,7 +17013,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Mutation es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Mutation\" y \"Subscription\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es un resolver?",
@@ -17404,7 +17404,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "@skip es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"@skip\" y \"@deprecated\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué hace @include?",
@@ -17864,7 +17864,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Cursor-based es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Cursor-based\" y \"Page-based\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es offset-based pagination?",
@@ -18002,7 +18002,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Mejor rendimiento es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Mejor rendimiento\" y \"Menor tamaño de request\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es @defer en GraphQL?",
@@ -18255,7 +18255,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "errors (array de errores) es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"errors (array de errores)\" y \"extensions (metadata)\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué status code retorna GraphQL normalmente?",
@@ -18347,7 +18347,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Conexión a base de datos es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Conexión a base de datos\" y \"Request headers\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es middleware en GraphQL?",
@@ -18416,7 +18416,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "En middleware es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"En middleware\" y \"En el schema con directivas custom\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es validation en GraphQL?",
@@ -18554,7 +18554,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Batching es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Batching\" y \"Eager loading\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es optimistic UI?",
@@ -18669,7 +18669,7 @@
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Apollo Codegen es la respuesta correcta. GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
+      "explanation": "Las respuestas correctas son: \"Apollo Codegen\" y \"Relay Compiler\". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita."
     },
     {
       "question": "¿Qué es schema-first vs code-first?",

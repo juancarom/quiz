@@ -11,27 +11,32 @@ const questionsData = JSON.parse(fs.readFileSync(questionsPath, 'utf-8'));
 
 // Función para generar explicación basada en la pregunta y respuesta correcta
 function generateExplanation(question, correctAnswers, topic) {
-  const correctAnswer = correctAnswers[0]; // Primera respuesta correcta
   const questionLower = question.toLowerCase();
   
-  // Generar explicación contextual basada en palabras clave
+  // Para preguntas con múltiples respuestas correctas, listar todas
   let explanation = '';
   
-  // Patrones comunes y sus explicaciones
-  if (questionLower.includes('qué es') || questionLower.includes('que es')) {
-    explanation = `${correctAnswer} es la definición correcta. `;
-  } else if (questionLower.includes('cómo se') || questionLower.includes('como se')) {
-    explanation = `La forma correcta es: ${correctAnswer}. `;
-  } else if (questionLower.includes('cuál es') || questionLower.includes('cual es')) {
-    explanation = `${correctAnswer} es la opción correcta. `;
-  } else if (questionLower.includes('qué hace') || questionLower.includes('que hace')) {
-    explanation = `La función o comportamiento es: ${correctAnswer}. `;
+  if (correctAnswers.length > 1) {
+    explanation = `Las respuestas correctas son: ${correctAnswers.map(a => `"${a}"`).join(' y ')}. `;
   } else {
-    explanation = `${correctAnswer} es la respuesta correcta. `;
+    const correctAnswer = correctAnswers[0];
+    
+    // Generar explicación contextual basada en palabras clave
+    if (questionLower.includes('qué es') || questionLower.includes('que es')) {
+      explanation = `${correctAnswer} es la definición correcta. `;
+    } else if (questionLower.includes('cómo se') || questionLower.includes('como se')) {
+      explanation = `La forma correcta es: ${correctAnswer}. `;
+    } else if (questionLower.includes('cuál es') || questionLower.includes('cual es')) {
+      explanation = `${correctAnswer} es la opción correcta. `;
+    } else if (questionLower.includes('qué hace') || questionLower.includes('que hace')) {
+      explanation = `La función o comportamiento es: ${correctAnswer}. `;
+    } else {
+      explanation = `${correctAnswer} es la respuesta correcta. `;
+    }
   }
   
   // Agregar contexto educativo según el tema
-  explanation += getEducationalContext(questionLower, correctAnswer, topic);
+  explanation += getEducationalContext(questionLower, correctAnswers[0], topic);
   
   return explanation;
 }
