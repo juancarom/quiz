@@ -1,5 +1,6 @@
 const TopicSelection = ({ onSelectTopic }) => {
   const topics = [
+    { id: 'practice', name: 'Práctica de Código', icon: '💻' },
     { id: 'nestjs', name: 'NestJS', icon: '🦅' },
     { id: 'ruby', name: 'Ruby', icon: '💎' },
     { id: 'rails', name: 'Ruby on Rails', icon: '🚂' },
@@ -9,8 +10,7 @@ const TopicSelection = ({ onSelectTopic }) => {
     { id: 'poo', name: 'POO', icon: '🎯' },
     { id: 'docker', name: 'Docker', icon: '🐳' },
     { id: 'aws', name: 'AWS', icon: '☁️' },
-    { id: 'graphql', name: 'GraphQL', icon: '◈' },
-    { id: 'mixed', name: 'Todos Mezclados', icon: '🎲' }
+    { id: 'graphql', name: 'GraphQL', icon: '◈' }
   ]
 
   return (

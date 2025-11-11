@@ -63,7 +63,8 @@ const files = [
     { path: path.join(__dirname, '../daypo_poo.txt'), topic: 'poo' },
     { path: path.join(__dirname, '../daypo_docker.txt'), topic: 'docker' },
     { path: path.join(__dirname, '../daypo_aws.txt'), topic: 'aws' },
-    { path: path.join(__dirname, '../daypo_graphql.txt'), topic: 'graphql' }
+    { path: path.join(__dirname, '../daypo_graphql.txt'), topic: 'graphql' },
+    { path: path.join(__dirname, '../daypo_code_practice.txt'), topic: 'practice' }
 ];
 
 const allData = {};

@@ -1,0 +1,602 @@
+[
+  {
+    "question": "¿Cuál es la forma correcta de sumar todos los elementos de un arreglo en Ruby?",
+    "options": [
+      { "text": "array.reduce(:+)", "isCorrect": true },
+      { "text": "array.sum_all()", "isCorrect": false },
+      { "text": "array.total()", "isCorrect": false },
+      { "text": "array.add()", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se itera sobre un arreglo en Ruby e imprime cada elemento?",
+    "options": [
+      { "text": "array.each { |item| puts item }", "isCorrect": true },
+      { "text": "array.forEach(item => puts item)", "isCorrect": false },
+      { "text": "for item in array: print(item)", "isCorrect": false },
+      { "text": "array.map(puts)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear un hash en Ruby?",
+    "options": [
+      { "text": "hash = { name: \"Juan\", age: 30 }", "isCorrect": true },
+      { "text": "hash = [ name: \"Juan\", age: 30 ]", "isCorrect": false },
+      { "text": "hash = ( name: \"Juan\", age: 30 )", "isCorrect": false },
+      { "text": "hash = < name: \"Juan\", age: 30 >", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se define un método que recibe parámetros opcionales en Ruby?",
+    "options": [
+      { "text": "def greet(name = \"World\"); puts \"Hello, #{name}\"; end", "isCorrect": true },
+      { "text": "def greet(name? = \"World\"); puts \"Hello, #{name}\"; end", "isCorrect": false },
+      { "text": "def greet(optional name = \"World\"); puts \"Hello, #{name}\"; end", "isCorrect": false },
+      { "text": "def greet([name] = \"World\"); puts \"Hello, #{name}\"; end", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de filtrar elementos de un arreglo en Ruby?",
+    "options": [
+      { "text": "array.select { |item| item > 5 }", "isCorrect": true },
+      { "text": "array.filter(item > 5)", "isCorrect": false },
+      { "text": "array.where { item > 5 }", "isCorrect": false },
+      { "text": "array.find_all(> 5)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se maneja un error en Ruby?",
+    "options": [
+      { "text": "begin; risky_code; rescue => e; handle_error; end", "isCorrect": true },
+      { "text": "try { risky_code } catch(e) { handle_error }", "isCorrect": false },
+      { "text": "try: risky_code except e: handle_error", "isCorrect": false },
+      { "text": "attempt { risky_code } error(e) { handle_error }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una clase en Ruby con un constructor?",
+    "options": [
+      { "text": "class Person; def initialize(name); @name = name; end; end", "isCorrect": true },
+      { "text": "class Person { constructor(name) { @name = name } }", "isCorrect": false },
+      { "text": "class Person: def __init__(name): self.name = name", "isCorrect": false },
+      { "text": "class Person; new(name) { @name = name }; end", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se concatenan strings en Ruby?",
+    "options": [
+      { "text": "\"Hello\" + \" \" + \"World\"", "isCorrect": false },
+      { "text": "\"Hello\".concat(\" \").concat(\"World\")", "isCorrect": false },
+      { "text": "\"Hello #{\" \"}World\"", "isCorrect": false },
+      { "text": "Todas las anteriores son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de verificar si un elemento existe en un arreglo en Ruby?",
+    "options": [
+      { "text": "array.include?(element)", "isCorrect": true },
+      { "text": "array.contains(element)", "isCorrect": false },
+      { "text": "array.has(element)", "isCorrect": false },
+      { "text": "element in array", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se convierte un string a un entero en Ruby?",
+    "options": [
+      { "text": "\"123\".to_i", "isCorrect": false },
+      { "text": "Integer(\"123\")", "isCorrect": false },
+      { "text": "\"123\".int()", "isCorrect": false },
+      { "text": "Ambas a y b son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de hacer una petición GET en JavaScript con fetch?",
+    "options": [
+      { "text": "fetch('url').then(res => res.json()).then(data => console.log(data))", "isCorrect": true },
+      { "text": "fetch.get('url', (data) => console.log(data))", "isCorrect": false },
+      { "text": "http.get('url').then(data => console.log(data))", "isCorrect": false },
+      { "text": "request('url').json().then(data => console.log(data))", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se desestructura un objeto en JavaScript?",
+    "options": [
+      { "text": "const { name, age } = person", "isCorrect": true },
+      { "text": "const [name, age] = person", "isCorrect": false },
+      { "text": "const name, age = person", "isCorrect": false },
+      { "text": "const (name, age) = person", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una función arrow en JavaScript?",
+    "options": [
+      { "text": "const sum = (a, b) => a + b", "isCorrect": true },
+      { "text": "const sum = function(a, b) => a + b", "isCorrect": false },
+      { "text": "const sum = (a, b) -> a + b", "isCorrect": false },
+      { "text": "const sum = lambda(a, b) => a + b", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se usa async/await en JavaScript?",
+    "options": [
+      { "text": "async function getData() { const data = await fetch(url); return data; }", "isCorrect": true },
+      { "text": "function async getData() { const data = wait fetch(url); return data; }", "isCorrect": false },
+      { "text": "async getData() { const data = await fetch(url); return data; }", "isCorrect": false },
+      { "text": "function getData() async { const data = await fetch(url); return data; }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una promesa en JavaScript?",
+    "options": [
+      { "text": "new Promise((resolve, reject) => { /* code */ })", "isCorrect": true },
+      { "text": "Promise.create((resolve, reject) => { /* code */ })", "isCorrect": false },
+      { "text": "new Promise({ resolve, reject }) => { /* code */ }", "isCorrect": false },
+      { "text": "Promise((resolve, reject) => { /* code */ })", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se hace un JOIN en SQL para obtener datos de dos tablas?",
+    "options": [
+      { "text": "SELECT * FROM users JOIN orders ON users.id = orders.user_id", "isCorrect": false },
+      { "text": "SELECT * FROM users, orders WHERE users.id = orders.user_id", "isCorrect": false },
+      { "text": "SELECT * FROM users INNER JOIN orders ON users.id = orders.user_id", "isCorrect": false },
+      { "text": "Todas las anteriores son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear un índice en SQL?",
+    "options": [
+      { "text": "CREATE INDEX idx_name ON users(name)", "isCorrect": true },
+      { "text": "ADD INDEX idx_name ON users(name)", "isCorrect": false },
+      { "text": "CREATE INDEX users(name) AS idx_name", "isCorrect": false },
+      { "text": "INDEX CREATE idx_name FOR users(name)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se hace un UPDATE condicional en SQL?",
+    "options": [
+      { "text": "UPDATE users SET active = true WHERE last_login > '2024-01-01'", "isCorrect": true },
+      { "text": "UPDATE users WITH active = true WHERE last_login > '2024-01-01'", "isCorrect": false },
+      { "text": "SET users.active = true WHERE last_login > '2024-01-01'", "isCorrect": false },
+      { "text": "UPDATE users active = true IF last_login > '2024-01-01'", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de hacer un GROUP BY en SQL con COUNT?",
+    "options": [
+      { "text": "SELECT country, COUNT(*) FROM users GROUP BY country", "isCorrect": true },
+      { "text": "SELECT country, COUNT(*) FROM users GROUPBY country", "isCorrect": false },
+      { "text": "SELECT country, COUNT(users) GROUP BY country FROM users", "isCorrect": false },
+      { "text": "SELECT country FROM users GROUP BY country COUNT(*)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se crea una subconsulta en SQL?",
+    "options": [
+      { "text": "SELECT * FROM users WHERE id IN (SELECT user_id FROM orders)", "isCorrect": true },
+      { "text": "SELECT * FROM users WHERE id IN [SELECT user_id FROM orders]", "isCorrect": false },
+      { "text": "SELECT * FROM users WHERE id = (SELECT user_id FROM orders)", "isCorrect": false },
+      { "text": "SELECT * FROM users JOIN (SELECT user_id FROM orders)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear un componente funcional en React con hooks?",
+    "options": [
+      { "text": "const MyComponent = () => { const [state, setState] = useState(0); return <div>{state}</div> }", "isCorrect": true },
+      { "text": "function MyComponent() { state = 0; return <div>{state}</div> }", "isCorrect": false },
+      { "text": "const MyComponent = { const [state] = useState(0); return <div>{state}</div> }", "isCorrect": false },
+      { "text": "class MyComponent { useState(0); render() { return <div>{state}</div> } }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se usa useEffect en React para ejecutar código al montar el componente?",
+    "options": [
+      { "text": "useEffect(() => { console.log('mounted') }, [])", "isCorrect": true },
+      { "text": "useEffect(() => { console.log('mounted') })", "isCorrect": false },
+      { "text": "onMount(() => { console.log('mounted') })", "isCorrect": false },
+      { "text": "componentDidMount(() => { console.log('mounted') })", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de pasar props a un componente hijo en React?",
+    "options": [
+      { "text": "<Child name=\"John\" age={30} />", "isCorrect": true },
+      { "text": "<Child props={{name: \"John\", age: 30}} />", "isCorrect": false },
+      { "text": "<Child [name=\"John\", age=30] />", "isCorrect": false },
+      { "text": "<Child {name: \"John\", age: 30} />", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se maneja un evento onClick en React?",
+    "options": [
+      { "text": "<button onClick={() => handleClick()}>Click</button>", "isCorrect": true },
+      { "text": "<button on-click=\"handleClick()\">Click</button>", "isCorrect": false },
+      { "text": "<button @click=\"handleClick()\">Click</button>", "isCorrect": false },
+      { "text": "<button (click)=\"handleClick()\">Click</button>", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de usar Context en React?",
+    "options": [
+      { "text": "const value = useContext(MyContext)", "isCorrect": true },
+      { "text": "const value = Context.use(MyContext)", "isCorrect": false },
+      { "text": "const value = getContext(MyContext)", "isCorrect": false },
+      { "text": "const value = MyContext.get()", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se define un decorador en NestJS?",
+    "options": [
+      { "text": "@Injectable() export class MyService {}", "isCorrect": true },
+      { "text": "[Injectable] export class MyService {}", "isCorrect": false },
+      { "text": "#Injectable export class MyService {}", "isCorrect": false },
+      { "text": "Injectable(export class MyService {})", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear un endpoint POST en NestJS?",
+    "options": [
+      { "text": "@Post() create(@Body() dto: CreateDto) { return this.service.create(dto) }", "isCorrect": true },
+      { "text": "@POST() create(dto: CreateDto) { return this.service.create(dto) }", "isCorrect": false },
+      { "text": "@Post create(@Body dto) { return this.service.create(dto) }", "isCorrect": false },
+      { "text": "Post() create(Body dto: CreateDto) { return this.service.create(dto) }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se inyecta un servicio en un controlador de NestJS?",
+    "options": [
+      { "text": "constructor(private readonly service: MyService) {}", "isCorrect": true },
+      { "text": "@Inject(MyService) service: MyService", "isCorrect": false },
+      { "text": "inject(service: MyService) {}", "isCorrect": false },
+      { "text": "this.service = inject(MyService)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de usar un Guard en NestJS?",
+    "options": [
+      { "text": "@UseGuards(AuthGuard) @Get() findAll() {}", "isCorrect": true },
+      { "text": "@Guard(AuthGuard) @Get() findAll() {}", "isCorrect": false },
+      { "text": "@Protected(AuthGuard) @Get() findAll() {}", "isCorrect": false },
+      { "text": "Guard.use(AuthGuard) @Get() findAll() {}", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se valida un DTO en NestJS con class-validator?",
+    "options": [
+      { "text": "@IsString() @IsNotEmpty() name: string", "isCorrect": true },
+      { "text": "@Validate('string', 'required') name: string", "isCorrect": false },
+      { "text": "@Required @Type('string') name: string", "isCorrect": false },
+      { "text": "validate: { name: 'string|required' }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una migración en Rails?",
+    "options": [
+      { "text": "rails generate migration AddEmailToUsers email:string", "isCorrect": true },
+      { "text": "rails create migration AddEmailToUsers email:string", "isCorrect": false },
+      { "text": "rails db:migration AddEmailToUsers email:string", "isCorrect": false },
+      { "text": "rails make:migration AddEmailToUsers email:string", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se define una asociación has_many en Rails?",
+    "options": [
+      { "text": "class User < ApplicationRecord; has_many :posts; end", "isCorrect": true },
+      { "text": "class User < ApplicationRecord; hasMany :posts; end", "isCorrect": false },
+      { "text": "class User extends ApplicationRecord { has_many :posts }", "isCorrect": false },
+      { "text": "class User(ApplicationRecord): has_many = :posts", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de hacer una query con ActiveRecord en Rails?",
+    "options": [
+      { "text": "User.where(active: true).order(created_at: :desc)", "isCorrect": true },
+      { "text": "User.query(active: true).sort(created_at: :desc)", "isCorrect": false },
+      { "text": "User.find(active: true).orderBy(created_at: :desc)", "isCorrect": false },
+      { "text": "User.filter(active = true).order_by(created_at desc)", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se crea un callback before_save en Rails?",
+    "options": [
+      { "text": "before_save :normalize_email", "isCorrect": true },
+      { "text": "before(:save) { normalize_email }", "isCorrect": false },
+      { "text": "on_before_save :normalize_email", "isCorrect": false },
+      { "text": "callback :before_save, :normalize_email", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de validar presencia de un campo en Rails?",
+    "options": [
+      { "text": "validates :name, presence: true", "isCorrect": false },
+      { "text": "validate :name, required: true", "isCorrect": false },
+      { "text": "validates_presence_of :name", "isCorrect": false },
+      { "text": "Ambas a y c son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se crea un volumen en Docker?",
+    "options": [
+      { "text": "docker volume create my_volume", "isCorrect": true },
+      { "text": "docker create volume my_volume", "isCorrect": false },
+      { "text": "docker volume new my_volume", "isCorrect": false },
+      { "text": "docker make volume my_volume", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de ejecutar un comando dentro de un contenedor corriendo?",
+    "options": [
+      { "text": "docker exec -it container_name bash", "isCorrect": true },
+      { "text": "docker run -it container_name bash", "isCorrect": false },
+      { "text": "docker attach container_name bash", "isCorrect": false },
+      { "text": "docker connect container_name bash", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se construye una imagen Docker desde un Dockerfile?",
+    "options": [
+      { "text": "docker build -t my_image:tag .", "isCorrect": true },
+      { "text": "docker create -t my_image:tag .", "isCorrect": false },
+      { "text": "docker image build my_image:tag .", "isCorrect": false },
+      { "text": "docker make image my_image:tag .", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de exponer un puerto en un Dockerfile?",
+    "options": [
+      { "text": "EXPOSE 3000", "isCorrect": true },
+      { "text": "PORT 3000", "isCorrect": false },
+      { "text": "OPEN 3000", "isCorrect": false },
+      { "text": "LISTEN 3000", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se listan todos los contenedores incluyendo los detenidos?",
+    "options": [
+      { "text": "docker ps -a", "isCorrect": false },
+      { "text": "docker list --all", "isCorrect": false },
+      { "text": "docker container ls -a", "isCorrect": false },
+      { "text": "Ambas a y c son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una función Lambda en Python?",
+    "options": [
+      { "text": "lambda x, y: x + y", "isCorrect": true },
+      { "text": "function(x, y) { return x + y }", "isCorrect": false },
+      { "text": "(x, y) => x + y", "isCorrect": false },
+      { "text": "def lambda(x, y): return x + y", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se lee un archivo en Python?",
+    "options": [
+      { "text": "with open('file.txt', 'r') as f: content = f.read()", "isCorrect": true },
+      { "text": "file = open('file.txt').read()", "isCorrect": false },
+      { "text": "content = read('file.txt')", "isCorrect": false },
+      { "text": "with file('file.txt') as f: content = f.read()", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una lista por comprensión en Python?",
+    "options": [
+      { "text": "[x * 2 for x in range(10)]", "isCorrect": false },
+      { "text": "[x * 2 | x in range(10)]", "isCorrect": false },
+      { "text": "list(x * 2 for x in range(10))", "isCorrect": false },
+      { "text": "Ambas a y c son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se maneja una excepción en Python?",
+    "options": [
+      { "text": "try: code except Exception as e: handle", "isCorrect": true },
+      { "text": "try { code } catch(e) { handle }", "isCorrect": false },
+      { "text": "begin code rescue e handle end", "isCorrect": false },
+      { "text": "attempt: code error e: handle", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear un decorador en Python?",
+    "options": [
+      { "text": "def decorator(func): def wrapper(): func(); return wrapper", "isCorrect": false },
+      { "text": "@decorator def function(): pass", "isCorrect": false },
+      { "text": "function decorator(func) { return () => func() }", "isCorrect": false },
+      { "text": "Ambas a y b son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se crea un bucket en AWS S3 usando AWS CLI?",
+    "options": [
+      { "text": "aws s3 mb s3://my-bucket", "isCorrect": false },
+      { "text": "aws s3 create-bucket --bucket my-bucket", "isCorrect": false },
+      { "text": "aws s3api create-bucket --bucket my-bucket --region us-east-1", "isCorrect": false },
+      { "text": "Todas las anteriores son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de subir un archivo a S3 usando AWS CLI?",
+    "options": [
+      { "text": "aws s3 cp file.txt s3://my-bucket/", "isCorrect": true },
+      { "text": "aws s3 upload file.txt s3://my-bucket/", "isCorrect": false },
+      { "text": "aws s3 put file.txt s3://my-bucket/", "isCorrect": false },
+      { "text": "aws s3api put-object --bucket my-bucket --key file.txt", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se lista el contenido de un bucket S3?",
+    "options": [
+      { "text": "aws s3 ls s3://my-bucket", "isCorrect": true },
+      { "text": "aws s3 list s3://my-bucket", "isCorrect": false },
+      { "text": "aws s3 dir s3://my-bucket", "isCorrect": false },
+      { "text": "aws s3api list-objects --bucket my-bucket", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de crear una instancia EC2 usando AWS CLI?",
+    "options": [
+      { "text": "aws ec2 run-instances --image-id ami-xxx --instance-type t2.micro", "isCorrect": true },
+      { "text": "aws ec2 create-instance --image ami-xxx --type t2.micro", "isCorrect": false },
+      { "text": "aws ec2 start-instance --ami ami-xxx --type t2.micro", "isCorrect": false },
+      { "text": "aws create ec2 --image-id ami-xxx --instance-type t2.micro", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se configura una variable de entorno en un contenedor Lambda?",
+    "options": [
+      { "text": "aws lambda update-function-configuration --function-name my-func --environment Variables={KEY=value}", "isCorrect": true },
+      { "text": "aws lambda set-env --function my-func --key KEY --value value", "isCorrect": false },
+      { "text": "aws lambda config --function my-func --env KEY=value", "isCorrect": false },
+      { "text": "aws lambda environment --function my-func KEY=value", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de definir un tipo en GraphQL?",
+    "options": [
+      { "text": "type User { id: ID! name: String! email: String }", "isCorrect": true },
+      { "text": "User { id: ID! name: String! email: String }", "isCorrect": false },
+      { "text": "type User: { id: ID!, name: String!, email: String }", "isCorrect": false },
+      { "text": "define User { id: ID! name: String! email: String }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se define una query en GraphQL?",
+    "options": [
+      { "text": "type Query { users: [User!]! user(id: ID!): User }", "isCorrect": true },
+      { "text": "query { users: [User!]! user(id: ID!): User }", "isCorrect": false },
+      { "text": "Query { users: [User!]! user(id: ID!): User }", "isCorrect": false },
+      { "text": "define Query { users: [User!]! user(id: ID!): User }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de hacer una mutación en GraphQL?",
+    "options": [
+      { "text": "type Mutation { createUser(input: CreateUserInput!): User! }", "isCorrect": true },
+      { "text": "mutation { createUser(input: CreateUserInput!): User! }", "isCorrect": false },
+      { "text": "Mutation { createUser(input: CreateUserInput!): User! }", "isCorrect": false },
+      { "text": "define Mutation { createUser(input: CreateUserInput!): User! }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se define un enum en GraphQL?",
+    "options": [
+      { "text": "enum Status { ACTIVE INACTIVE PENDING }", "isCorrect": true },
+      { "text": "type enum Status { ACTIVE, INACTIVE, PENDING }", "isCorrect": false },
+      { "text": "Status = enum { ACTIVE | INACTIVE | PENDING }", "isCorrect": false },
+      { "text": "enum Status: [ACTIVE, INACTIVE, PENDING]", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de usar variables en una query GraphQL?",
+    "options": [
+      { "text": "query GetUser($id: ID!) { user(id: $id) { name } }", "isCorrect": true },
+      { "text": "query GetUser(id: ID!) { user(id: id) { name } }", "isCorrect": false },
+      { "text": "query GetUser { user(id: $id) { name } }", "isCorrect": false },
+      { "text": "query GetUser($id) { user(id: $id) { name } }", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se crea una colección en MongoDB?",
+    "options": [
+      { "text": "db.createCollection(\"users\")", "isCorrect": false },
+      { "text": "db.collection.create(\"users\")", "isCorrect": false },
+      { "text": "db.users.create()", "isCorrect": false },
+      { "text": "MongoDB crea colecciones automáticamente al insertar", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de insertar un documento en MongoDB?",
+    "options": [
+      { "text": "db.users.insertOne({ name: \"John\", age: 30 })", "isCorrect": false },
+      { "text": "db.users.insert({ name: \"John\", age: 30 })", "isCorrect": false },
+      { "text": "db.users.add({ name: \"John\", age: 30 })", "isCorrect": false },
+      { "text": "Ambas a y b son correctas", "isCorrect": true }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se hace una búsqueda con filtros en MongoDB?",
+    "options": [
+      { "text": "db.users.find({ age: { $gt: 18 }, active: true })", "isCorrect": true },
+      { "text": "db.users.query({ age > 18, active: true })", "isCorrect": false },
+      { "text": "db.users.where({ age: { greater: 18 }, active: true })", "isCorrect": false },
+      { "text": "db.users.search({ age > 18 && active == true })", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cuál es la forma correcta de actualizar un documento en MongoDB?",
+    "options": [
+      { "text": "db.users.updateOne({ _id: id }, { $set: { name: \"Jane\" } })", "isCorrect": true },
+      { "text": "db.users.update({ _id: id }, { name: \"Jane\" })", "isCorrect": false },
+      { "text": "db.users.modify({ _id: id }, { name: \"Jane\" })", "isCorrect": false },
+      { "text": "db.users.change({ _id: id }, { $set: { name: \"Jane\" } })", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  },
+  {
+    "question": "¿Cómo se crea un índice en MongoDB?",
+    "options": [
+      { "text": "db.users.createIndex({ email: 1 })", "isCorrect": true },
+      { "text": "db.users.addIndex({ email: 1 })", "isCorrect": false },
+      { "text": "db.users.index.create({ email: 1 })", "isCorrect": false },
+      { "text": "db.createIndex(\"users\", { email: 1 })", "isCorrect": false }
+    ],
+    "isMultipleChoice": false
+  }
+]

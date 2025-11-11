@@ -1,0 +1,359 @@
+¿Cuál es la forma correcta de sumar todos los elementos de un arreglo en Ruby?
+a) array.reduce(:+)
+b) array.sum_all()
+c) array.total()
+d) array.add()
+
+¿Cómo se itera sobre un arreglo en Ruby e imprime cada elemento?
+a) array.each { |item| puts item }
+b) array.forEach(item => puts item)
+c) for item in array: print(item)
+d) array.map(puts)
+
+¿Cuál es la forma correcta de crear un hash en Ruby?
+a) hash = { name: "Juan", age: 30 }
+b) hash = [ name: "Juan", age: 30 ]
+c) hash = ( name: "Juan", age: 30 )
+d) hash = < name: "Juan", age: 30 >
+
+¿Cómo se define un método que recibe parámetros opcionales en Ruby?
+a) def greet(name = "World"); puts "Hello, #{name}"; end
+b) def greet(name? = "World"); puts "Hello, #{name}"; end
+c) def greet(optional name = "World"); puts "Hello, #{name}"; end
+d) def greet([name] = "World"); puts "Hello, #{name}"; end
+
+¿Cuál es la forma correcta de filtrar elementos de un arreglo en Ruby?
+a) array.select { |item| item > 5 }
+b) array.filter(item > 5)
+c) array.where { item > 5 }
+d) array.find_all(> 5)
+
+¿Cómo se maneja un error en Ruby?
+a) begin; risky_code; rescue => e; handle_error; end
+b) try { risky_code } catch(e) { handle_error }
+c) try: risky_code except e: handle_error
+d) attempt { risky_code } error(e) { handle_error }
+
+¿Cuál es la forma correcta de crear una clase en Ruby con un constructor?
+a) class Person; def initialize(name); @name = name; end; end
+b) class Person { constructor(name) { @name = name } }
+c) class Person: def __init__(name): self.name = name
+d) class Person; new(name) { @name = name }; end
+
+¿Cómo se concatenan strings en Ruby?
+a) "Hello" + " " + "World"
+b) "Hello".concat(" ").concat("World")
+c) "Hello #{" "}World"
+d) Todas las anteriores son correctas
+
+¿Cuál es la forma correcta de verificar si un elemento existe en un arreglo en Ruby?
+a) array.include?(element)
+b) array.contains(element)
+c) array.has(element)
+d) element in array
+
+¿Cómo se convierte un string a un entero en Ruby?
+a) "123".to_i
+b) Integer("123")
+c) "123".int()
+d) Ambas a y b son correctas
+
+¿Cuál es la forma correcta de hacer una petición GET en JavaScript con fetch?
+a) fetch('url').then(res => res.json()).then(data => console.log(data))
+b) fetch.get('url', (data) => console.log(data))
+c) http.get('url').then(data => console.log(data))
+d) request('url').json().then(data => console.log(data))
+
+¿Cómo se desestructura un objeto en JavaScript?
+a) const { name, age } = person
+b) const [name, age] = person
+c) const name, age = person
+d) const (name, age) = person
+
+¿Cuál es la forma correcta de crear una función arrow en JavaScript?
+a) const sum = (a, b) => a + b
+b) const sum = function(a, b) => a + b
+c) const sum = (a, b) -> a + b
+d) const sum = lambda(a, b) => a + b
+
+¿Cómo se usa async/await en JavaScript?
+a) async function getData() { const data = await fetch(url); return data; }
+b) function async getData() { const data = wait fetch(url); return data; }
+c) async getData() { const data = await fetch(url); return data; }
+d) function getData() async { const data = await fetch(url); return data; }
+
+¿Cuál es la forma correcta de crear una promesa en JavaScript?
+a) new Promise((resolve, reject) => { /* code */ })
+b) Promise.create((resolve, reject) => { /* code */ })
+c) new Promise({ resolve, reject }) => { /* code */ }
+d) Promise((resolve, reject) => { /* code */ })
+
+¿Cómo se hace un JOIN en SQL para obtener datos de dos tablas?
+a) SELECT * FROM users JOIN orders ON users.id = orders.user_id
+b) SELECT * FROM users, orders WHERE users.id = orders.user_id
+c) SELECT * FROM users INNER JOIN orders ON users.id = orders.user_id
+d) Todas las anteriores son correctas
+
+¿Cuál es la forma correcta de crear un índice en SQL?
+a) CREATE INDEX idx_name ON users(name)
+b) ADD INDEX idx_name ON users(name)
+c) CREATE INDEX users(name) AS idx_name
+d) INDEX CREATE idx_name FOR users(name)
+
+¿Cómo se hace un UPDATE condicional en SQL?
+a) UPDATE users SET active = true WHERE last_login > '2024-01-01'
+b) UPDATE users WITH active = true WHERE last_login > '2024-01-01'
+c) SET users.active = true WHERE last_login > '2024-01-01'
+d) UPDATE users active = true IF last_login > '2024-01-01'
+
+¿Cuál es la forma correcta de hacer un GROUP BY en SQL con COUNT?
+a) SELECT country, COUNT(*) FROM users GROUP BY country
+b) SELECT country, COUNT(*) FROM users GROUPBY country
+c) SELECT country, COUNT(users) GROUP BY country FROM users
+d) SELECT country FROM users GROUP BY country COUNT(*)
+
+¿Cómo se crea una subconsulta en SQL?
+a) SELECT * FROM users WHERE id IN (SELECT user_id FROM orders)
+b) SELECT * FROM users WHERE id IN [SELECT user_id FROM orders]
+c) SELECT * FROM users WHERE id = (SELECT user_id FROM orders)
+d) SELECT * FROM users JOIN (SELECT user_id FROM orders)
+
+¿Cuál es la forma correcta de crear un componente funcional en React con hooks?
+a) const MyComponent = () => { const [state, setState] = useState(0); return <div>{state}</div> }
+b) function MyComponent() { state = 0; return <div>{state}</div> }
+c) const MyComponent = { const [state] = useState(0); return <div>{state}</div> }
+d) class MyComponent { useState(0); render() { return <div>{state}</div> } }
+
+¿Cómo se usa useEffect en React para ejecutar código al montar el componente?
+a) useEffect(() => { console.log('mounted') }, [])
+b) useEffect(() => { console.log('mounted') })
+c) onMount(() => { console.log('mounted') })
+d) componentDidMount(() => { console.log('mounted') })
+
+¿Cuál es la forma correcta de pasar props a un componente hijo en React?
+a) <Child name="John" age={30} />
+b) <Child props={{name: "John", age: 30}} />
+c) <Child [name="John", age=30] />
+d) <Child {name: "John", age: 30} />
+
+¿Cómo se maneja un evento onClick en React?
+a) <button onClick={() => handleClick()}>Click</button>
+b) <button on-click="handleClick()">Click</button>
+c) <button @click="handleClick()">Click</button>
+d) <button (click)="handleClick()">Click</button>
+
+¿Cuál es la forma correcta de usar Context en React?
+a) const value = useContext(MyContext)
+b) const value = Context.use(MyContext)
+c) const value = getContext(MyContext)
+d) const value = MyContext.get()
+
+¿Cómo se define un decorador en NestJS?
+a) @Injectable() export class MyService {}
+b) [Injectable] export class MyService {}
+c) #Injectable export class MyService {}
+d) Injectable(export class MyService {})
+
+¿Cuál es la forma correcta de crear un endpoint POST en NestJS?
+a) @Post() create(@Body() dto: CreateDto) { return this.service.create(dto) }
+b) @POST() create(dto: CreateDto) { return this.service.create(dto) }
+c) @Post create(@Body dto) { return this.service.create(dto) }
+d) Post() create(Body dto: CreateDto) { return this.service.create(dto) }
+
+¿Cómo se inyecta un servicio en un controlador de NestJS?
+a) constructor(private readonly service: MyService) {}
+b) @Inject(MyService) service: MyService
+c) inject(service: MyService) {}
+d) this.service = inject(MyService)
+
+¿Cuál es la forma correcta de usar un Guard en NestJS?
+a) @UseGuards(AuthGuard) @Get() findAll() {}
+b) @Guard(AuthGuard) @Get() findAll() {}
+c) @Protected(AuthGuard) @Get() findAll() {}
+d) Guard.use(AuthGuard) @Get() findAll() {}
+
+¿Cómo se valida un DTO en NestJS con class-validator?
+a) @IsString() @IsNotEmpty() name: string
+b) @Validate('string', 'required') name: string
+c) @Required @Type('string') name: string
+d) validate: { name: 'string|required' }
+
+¿Cuál es la forma correcta de crear una migración en Rails?
+a) rails generate migration AddEmailToUsers email:string
+b) rails create migration AddEmailToUsers email:string
+c) rails db:migration AddEmailToUsers email:string
+d) rails make:migration AddEmailToUsers email:string
+
+¿Cómo se define una asociación has_many en Rails?
+a) class User < ApplicationRecord; has_many :posts; end
+b) class User < ApplicationRecord; hasMany :posts; end
+c) class User extends ApplicationRecord { has_many :posts }
+d) class User(ApplicationRecord): has_many = :posts
+
+¿Cuál es la forma correcta de hacer una query con ActiveRecord en Rails?
+a) User.where(active: true).order(created_at: :desc)
+b) User.query(active: true).sort(created_at: :desc)
+c) User.find(active: true).orderBy(created_at: :desc)
+d) User.filter(active = true).order_by(created_at desc)
+
+¿Cómo se crea un callback before_save en Rails?
+a) before_save :normalize_email
+b) before(:save) { normalize_email }
+c) on_before_save :normalize_email
+d) callback :before_save, :normalize_email
+
+¿Cuál es la forma correcta de validar presencia de un campo en Rails?
+a) validates :name, presence: true
+b) validate :name, required: true
+c) validates_presence_of :name
+d) Ambas a y c son correctas
+
+¿Cómo se crea un volumen en Docker?
+a) docker volume create my_volume
+b) docker create volume my_volume
+c) docker volume new my_volume
+d) docker make volume my_volume
+
+¿Cuál es la forma correcta de ejecutar un comando dentro de un contenedor corriendo?
+a) docker exec -it container_name bash
+b) docker run -it container_name bash
+c) docker attach container_name bash
+d) docker connect container_name bash
+
+¿Cómo se construye una imagen Docker desde un Dockerfile?
+a) docker build -t my_image:tag .
+b) docker create -t my_image:tag .
+c) docker image build my_image:tag .
+d) docker make image my_image:tag .
+
+¿Cuál es la forma correcta de exponer un puerto en un Dockerfile?
+a) EXPOSE 3000
+b) PORT 3000
+c) OPEN 3000
+d) LISTEN 3000
+
+¿Cómo se listan todos los contenedores incluyendo los detenidos?
+a) docker ps -a
+b) docker list --all
+c) docker container ls -a
+d) Ambas a y c son correctas
+
+¿Cuál es la forma correcta de crear una función Lambda en Python?
+a) lambda x, y: x + y
+b) function(x, y) { return x + y }
+c) (x, y) => x + y
+d) def lambda(x, y): return x + y
+
+¿Cómo se lee un archivo en Python?
+a) with open('file.txt', 'r') as f: content = f.read()
+b) file = open('file.txt').read()
+c) content = read('file.txt')
+d) with file('file.txt') as f: content = f.read()
+
+¿Cuál es la forma correcta de crear una lista por comprensión en Python?
+a) [x * 2 for x in range(10)]
+b) [x * 2 | x in range(10)]
+c) list(x * 2 for x in range(10))
+d) Ambas a y c son correctas
+
+¿Cómo se maneja una excepción en Python?
+a) try: code except Exception as e: handle
+b) try { code } catch(e) { handle }
+c) begin code rescue e handle end
+d) attempt: code error e: handle
+
+¿Cuál es la forma correcta de crear un decorador en Python?
+a) def decorator(func): def wrapper(): func(); return wrapper
+b) @decorator def function(): pass
+c) function decorator(func) { return () => func() }
+d) Ambas a y b son correctas
+
+¿Cómo se crea un bucket en AWS S3 usando AWS CLI?
+a) aws s3 mb s3://my-bucket
+b) aws s3 create-bucket --bucket my-bucket
+c) aws s3api create-bucket --bucket my-bucket --region us-east-1
+d) Todas las anteriores son correctas
+
+¿Cuál es la forma correcta de subir un archivo a S3 usando AWS CLI?
+a) aws s3 cp file.txt s3://my-bucket/
+b) aws s3 upload file.txt s3://my-bucket/
+c) aws s3 put file.txt s3://my-bucket/
+d) aws s3api put-object --bucket my-bucket --key file.txt
+
+¿Cómo se lista el contenido de un bucket S3?
+a) aws s3 ls s3://my-bucket
+b) aws s3 list s3://my-bucket
+c) aws s3 dir s3://my-bucket
+d) aws s3api list-objects --bucket my-bucket
+
+¿Cuál es la forma correcta de crear una instancia EC2 usando AWS CLI?
+a) aws ec2 run-instances --image-id ami-xxx --instance-type t2.micro
+b) aws ec2 create-instance --image ami-xxx --type t2.micro
+c) aws ec2 start-instance --ami ami-xxx --type t2.micro
+d) aws create ec2 --image-id ami-xxx --instance-type t2.micro
+
+¿Cómo se configura una variable de entorno en un contenedor Lambda?
+a) aws lambda update-function-configuration --function-name my-func --environment Variables={KEY=value}
+b) aws lambda set-env --function my-func --key KEY --value value
+c) aws lambda config --function my-func --env KEY=value
+d) aws lambda environment --function my-func KEY=value
+
+¿Cuál es la forma correcta de definir un tipo en GraphQL?
+a) type User { id: ID! name: String! email: String }
+b) User { id: ID! name: String! email: String }
+c) type User: { id: ID!, name: String!, email: String }
+d) define User { id: ID! name: String! email: String }
+
+¿Cómo se define una query en GraphQL?
+a) type Query { users: [User!]! user(id: ID!): User }
+b) query { users: [User!]! user(id: ID!): User }
+c) Query { users: [User!]! user(id: ID!): User }
+d) define Query { users: [User!]! user(id: ID!): User }
+
+¿Cuál es la forma correcta de hacer una mutación en GraphQL?
+a) type Mutation { createUser(input: CreateUserInput!): User! }
+b) mutation { createUser(input: CreateUserInput!): User! }
+c) Mutation { createUser(input: CreateUserInput!): User! }
+d) define Mutation { createUser(input: CreateUserInput!): User! }
+
+¿Cómo se define un enum en GraphQL?
+a) enum Status { ACTIVE INACTIVE PENDING }
+b) type enum Status { ACTIVE, INACTIVE, PENDING }
+c) Status = enum { ACTIVE | INACTIVE | PENDING }
+d) enum Status: [ACTIVE, INACTIVE, PENDING]
+
+¿Cuál es la forma correcta de usar variables en una query GraphQL?
+a) query GetUser($id: ID!) { user(id: $id) { name } }
+b) query GetUser(id: ID!) { user(id: id) { name } }
+c) query GetUser { user(id: $id) { name } }
+d) query GetUser($id) { user(id: $id) { name } }
+
+¿Cómo se crea una colección en MongoDB?
+a) db.createCollection("users")
+b) db.collection.create("users")
+c) db.users.create()
+d) MongoDB crea colecciones automáticamente al insertar
+
+¿Cuál es la forma correcta de insertar un documento en MongoDB?
+a) db.users.insertOne({ name: "John", age: 30 })
+b) db.users.insert({ name: "John", age: 30 })
+c) db.users.add({ name: "John", age: 30 })
+d) Ambas a y b son correctas
+
+¿Cómo se hace una búsqueda con filtros en MongoDB?
+a) db.users.find({ age: { $gt: 18 }, active: true })
+b) db.users.query({ age > 18, active: true })
+c) db.users.where({ age: { greater: 18 }, active: true })
+d) db.users.search({ age > 18 && active == true })
+
+¿Cuál es la forma correcta de actualizar un documento en MongoDB?
+a) db.users.updateOne({ _id: id }, { $set: { name: "Jane" } })
+b) db.users.update({ _id: id }, { name: "Jane" })
+c) db.users.modify({ _id: id }, { name: "Jane" })
+d) db.users.change({ _id: id }, { $set: { name: "Jane" } })
+
+¿Cómo se crea un índice en MongoDB?
+a) db.users.createIndex({ email: 1 })
+b) db.users.addIndex({ email: 1 })
+c) db.users.index.create({ email: 1 })
+d) db.createIndex("users", { email: 1 })

@@ -4,7 +4,7 @@ const questionSchema = new mongoose.Schema({
   topic: {
     type: String,
     required: true,
-    enum: ['nestjs', 'ruby', 'rails', 'sql', 'mysql', 'mongodb', 'poo', 'docker', 'aws', 'graphql']
+    enum: ['nestjs', 'ruby', 'rails', 'sql', 'mysql', 'mongodb', 'poo', 'docker', 'aws', 'graphql', 'practice']
   },
   question: {
     type: String,
