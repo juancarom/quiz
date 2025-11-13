@@ -1,0 +1,1264 @@
+# Explicaciones para MYSQL
+
+Total de preguntas: 83
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un sistema de gestión de bases de datos relacionales (RDBMS)
+
+**Explicación actual:**
+Un sistema de gestión de bases de datos relacionales (RDBMS) es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué motor de almacenamiento es el predeterminado en MySQL?
+
+**Respuesta(s) correcta(s):**
+- InnoDB
+
+**Explicación actual:**
+InnoDB es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Qué comando muestra todas las bases de datos en MySQL?
+
+**Respuesta(s) correcta(s):**
+- SHOW DATABASES
+
+**Explicación actual:**
+SHOW DATABASES es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Cómo se selecciona una base de datos en MySQL?
+
+**Respuesta(s) correcta(s):**
+- USE nombre
+
+**Explicación actual:**
+USE nombre es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué comando muestra todas las tablas de una base de datos?
+
+**Respuesta(s) correcta(s):**
+- SHOW TABLES
+
+**Explicación actual:**
+SHOW TABLES es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué comando muestra la estructura de una tabla?
+
+**Respuesta(s) correcta(s):**
+- DESCRIBE tabla o DESC tabla
+
+**Explicación actual:**
+DESCRIBE tabla o DESC tabla es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué tipo de datos se usa para texto corto en MySQL?
+
+**Respuesta(s) correcta(s):**
+- VARCHAR
+
+**Explicación actual:**
+VARCHAR es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué tipo de datos se usa para números enteros en MySQL?
+
+**Respuesta(s) correcta(s):**
+- INT o INTEGER
+
+**Explicación actual:**
+INT o INTEGER es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué tipo de datos se usa para fechas en MySQL?
+
+**Respuesta(s) correcta(s):**
+- DATE
+
+**Explicación actual:**
+DATE es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué atributo hace que un campo se incremente automáticamente?
+
+**Respuesta(s) correcta(s):**
+- AUTO_INCREMENT
+
+**Explicación actual:**
+AUTO_INCREMENT es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué motor de MySQL soporta transacciones ACID?
+
+**Respuesta(s) correcta(s):**
+- InnoDB
+
+**Explicación actual:**
+InnoDB es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Cómo se hace un backup de una base de datos MySQL?
+
+**Respuesta(s) correcta(s):**
+- Copiando archivos directamente
+
+**Explicación actual:**
+Copiando archivos directamente es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué puerto usa MySQL por defecto?
+
+**Respuesta(s) correcta(s):**
+- 3306
+
+**Explicación actual:**
+3306 es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué comando optimiza una tabla en MySQL?
+
+**Respuesta(s) correcta(s):**
+- CLEAN TABLE nombre
+
+**Explicación actual:**
+CLEAN TABLE nombre es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es un índice FULLTEXT en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un índice optimizado para búsquedas de texto en campos VARCHAR o TEXT
+
+**Explicación actual:**
+Los índices son estructuras de datos que mejoran la velocidad de las consultas al crear referencias rápidas a los datos. Aunque aceleran las búsquedas, consumen espacio adicional y pueden ralentizar las operaciones de escritura.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Cómo se verifica la integridad de una tabla en MySQL?
+
+**Respuesta(s) correcta(s):**
+- CHECK TABLE nombre
+
+**Explicación actual:**
+CHECK TABLE nombre es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es un stored procedure en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un conjunto de sentencias SQL almacenadas que pueden ejecutarse como una unidad
+
+**Explicación actual:**
+Un conjunto de sentencias SQL almacenadas que pueden ejecutarse como una unidad es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué comando crea un usuario en MySQL?
+
+**Respuesta(s) correcta(s):**
+- CREATE USER
+
+**Explicación actual:**
+CREATE USER es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Cómo se otorgan permisos a un usuario en MySQL?
+
+**Respuesta(s) correcta(s):**
+- GRANT permisos ON base.tabla TO usuario
+
+**Explicación actual:**
+GRANT permisos ON base.tabla TO usuario es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué comando recarga los privilegios en MySQL?
+
+**Respuesta(s) correcta(s):**
+- FLUSH PRIVILEGES
+
+**Explicación actual:**
+FLUSH PRIVILEGES es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué es el query cache en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Una caché que almacena resultados de consultas para mejorar rendimiento
+
+**Explicación actual:**
+Una caché que almacena resultados de consultas para mejorar rendimiento es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué herramienta gráfica es popular para administrar MySQL?
+
+**Respuesta(s) correcta(s):**
+- phpMyAdmin
+
+**Explicación actual:**
+phpMyAdmin es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es un trigger en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un procedimiento que se ejecuta automáticamente antes o después de INSERT, UPDATE o DELETE
+
+**Explicación actual:**
+Un procedimiento que se ejecuta automáticamente antes o después de INSERT, UPDATE o DELETE es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Cómo se ven las variables del sistema en MySQL?
+
+**Respuesta(s) correcta(s):**
+- SHOW VARIABLES
+
+**Explicación actual:**
+SHOW VARIABLES es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué es el binary log en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un archivo que registra todas las modificaciones de datos para replicación y recuperación
+
+**Explicación actual:**
+Un archivo que registra todas las modificaciones de datos para replicación y recuperación es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Cuáles son tipos de logs en MySQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- General query log
+- Binary log
+
+**Explicación actual:**
+Las respuestas correctas son: "General query log" y "Binary log". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es el slow query log?
+
+**Respuesta(s) correcta(s):**
+- Registra consultas que tardan más de un tiempo específico
+
+**Explicación actual:**
+Registra consultas que tardan más de un tiempo específico es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es EXPLAIN en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Muestra el plan de ejecución y uso de índices
+
+**Explicación actual:**
+Muestra el plan de ejecución y uso de índices es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Qué es el query optimizer en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Componente que determina la mejor manera de ejecutar consultas
+
+**Explicación actual:**
+Componente que determina la mejor manera de ejecutar consultas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Cuáles son motores de almacenamiento en MySQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- MyISAM
+- Memory (HEAP)
+
+**Explicación actual:**
+Las respuestas correctas son: "MyISAM" y "Memory (HEAP)". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Diferencia principal entre InnoDB y MyISAM?
+
+**Respuesta(s) correcta(s):**
+- InnoDB soporta transacciones y FK, MyISAM no
+
+**Explicación actual:**
+InnoDB soporta transacciones y FK, MyISAM no es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué es el buffer pool en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Área de memoria que cachea datos y índices
+
+**Explicación actual:**
+Área de memoria que cachea datos y índices es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué son las foreign keys en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Constraints que mantienen integridad referencial
+
+**Explicación actual:**
+Constraints que mantienen integridad referencial es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es ON DELETE CASCADE?
+
+**Respuesta(s) correcta(s):**
+- Elimina automáticamente filas relacionadas cuando se elimina el padre
+
+**Explicación actual:**
+Elimina automáticamente filas relacionadas cuando se elimina el padre es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Cuáles son opciones de ON DELETE? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- SET NULL
+- RESTRICT
+
+**Explicación actual:**
+Las respuestas correctas son: "SET NULL" y "RESTRICT". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué es AUTO_INCREMENT?
+
+**Respuesta(s) correcta(s):**
+- Genera valores secuenciales automáticamente
+
+**Explicación actual:**
+Genera valores secuenciales automáticamente es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Cómo se reinicia AUTO_INCREMENT?
+
+**Respuesta(s) correcta(s):**
+- ALTER TABLE tabla AUTO_INCREMENT = 1
+
+**Explicación actual:**
+ALTER TABLE tabla AUTO_INCREMENT = 1 es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es ENUM en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un tipo de dato con valores predefinidos
+
+**Explicación actual:**
+Un tipo de dato con valores predefinidos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué es SET en MySQL (tipo de dato)?
+
+**Respuesta(s) correcta(s):**
+- Permite almacenar múltiples valores de una lista predefinida
+
+**Explicación actual:**
+Permite almacenar múltiples valores de una lista predefinida es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Diferencia entre CHAR y VARCHAR?
+
+**Respuesta(s) correcta(s):**
+- CHAR es longitud fija, VARCHAR variable
+
+**Explicación actual:**
+CHAR es longitud fija, VARCHAR variable es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Cuándo usar CHAR vs VARCHAR?
+
+**Respuesta(s) correcta(s):**
+- CHAR para datos de longitud fija, VARCHAR para variable
+
+**Explicación actual:**
+CHAR para datos de longitud fija, VARCHAR para variable es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es TEXT en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Tipo para strings largos
+
+**Explicación actual:**
+Tipo para strings largos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Cuáles son tipos TEXT en MySQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- TEXT
+- MEDIUMTEXT
+
+**Explicación actual:**
+Las respuestas correctas son: "TEXT" y "MEDIUMTEXT". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es BLOB en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Binary Large Object para datos binarios
+
+**Explicación actual:**
+Binary Large Object para datos binarios es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es JSON en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Un tipo de dato nativo para documentos JSON
+
+**Explicación actual:**
+Un tipo de dato nativo para documentos JSON es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué funciones JSON existen en MySQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- JSON_SET
+- JSON_ARRAY
+
+**Explicación actual:**
+Las respuestas correctas son: "JSON_SET" y "JSON_ARRAY". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es una partición en MySQL?
+
+**Respuesta(s) correcta(s):**
+- División de una tabla en partes más pequeñas
+
+**Explicación actual:**
+División de una tabla en partes más pequeñas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Cuáles son tipos de particionamiento? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- LIST
+- HASH
+
+**Explicación actual:**
+Las respuestas correctas son: "LIST" y "HASH". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué es replicación en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Proceso de copiar datos de un servidor maestro a esclavos
+
+**Explicación actual:**
+Proceso de copiar datos de un servidor maestro a esclavos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Cuáles son tipos de replicación? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Semi-síncrona
+- Group Replication
+
+**Explicación actual:**
+Las respuestas correctas son: "Semi-síncrona" y "Group Replication". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué es un master-slave setup?
+
+**Respuesta(s) correcta(s):**
+- Arquitectura con un servidor maestro y réplicas esclavas
+
+**Explicación actual:**
+Arquitectura con un servidor maestro y réplicas esclavas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es MySQL Cluster?
+
+**Respuesta(s) correcta(s):**
+- Solución de alta disponibilidad con replicación síncrona
+
+**Explicación actual:**
+Solución de alta disponibilidad con replicación síncrona es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Qué es el file-per-table en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Configuración donde cada tabla tiene su propio archivo
+
+**Explicación actual:**
+Configuración donde cada tabla tiene su propio archivo es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es el tablespace en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Contenedor de almacenamiento para tablas y índices
+
+**Explicación actual:**
+Contenedor de almacenamiento para tablas y índices es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Qué es INFORMATION_SCHEMA?
+
+**Respuesta(s) correcta(s):**
+- Base de datos con metadatos sobre el servidor MySQL
+
+**Explicación actual:**
+Base de datos con metadatos sobre el servidor MySQL es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es PERFORMANCE_SCHEMA?
+
+**Respuesta(s) correcta(s):**
+- Base de datos para monitorear rendimiento del servidor
+
+**Explicación actual:**
+Base de datos para monitorear rendimiento del servidor es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Qué es el thread pool en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Gestión eficiente de conexiones con threads reutilizables
+
+**Explicación actual:**
+Gestión eficiente de conexiones con threads reutilizables es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué son las vistas materializadas en MySQL?
+
+**Respuesta(s) correcta(s):**
+- No existen nativamente en MySQL, requieren workarounds
+
+**Explicación actual:**
+No existen nativamente en MySQL, requieren workarounds es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es el Event Scheduler en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Ejecuta tareas programadas automáticamente
+
+**Explicación actual:**
+Ejecuta tareas programadas automáticamente es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Cómo se crea un evento programado?
+
+**Respuesta(s) correcta(s):**
+- CREATE EVENT
+
+**Explicación actual:**
+CREATE EVENT es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué es LOAD DATA INFILE?
+
+**Respuesta(s) correcta(s):**
+- Importa datos masivamente desde un archivo
+
+**Explicación actual:**
+Importa datos masivamente desde un archivo es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es mysqldump?
+
+**Respuesta(s) correcta(s):**
+- Herramienta para exportar bases de datos
+
+**Explicación actual:**
+Herramienta para exportar bases de datos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Cuáles son opciones comunes de mysqldump? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- --single-transaction
+- --no-data
+
+**Explicación actual:**
+Las respuestas correctas son: "--single-transaction" y "--no-data". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es mysqlimport?
+
+**Respuesta(s) correcta(s):**
+- Herramienta para importar archivos de datos
+
+**Explicación actual:**
+Herramienta para importar archivos de datos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Qué es REPAIR TABLE?
+
+**Respuesta(s) correcta(s):**
+- Intenta reparar una tabla corrupta
+
+**Explicación actual:**
+Intenta reparar una tabla corrupta es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué es ANALYZE TABLE?
+
+**Respuesta(s) correcta(s):**
+- Actualiza estadísticas de distribución de datos
+
+**Explicación actual:**
+Actualiza estadísticas de distribución de datos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué es el query cache en MySQL?
+
+**Respuesta(s) correcta(s):**
+- Caché de resultados de consultas (deprecated en 8.0)
+
+**Explicación actual:**
+Caché de resultados de consultas (deprecated en 8.0) es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Por qué se deprecó el query cache?
+
+**Respuesta(s) correcta(s):**
+- Problemas de escalabilidad y contención
+
+**Explicación actual:**
+Problemas de escalabilidad y contención es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es innodb_buffer_pool_size?
+
+**Respuesta(s) correcta(s):**
+- Parámetro crucial que define memoria para caché de InnoDB
+
+**Explicación actual:**
+Parámetro crucial que define memoria para caché de InnoDB es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es max_connections?
+
+**Respuesta(s) correcta(s):**
+- Número máximo de conexiones simultáneas
+
+**Explicación actual:**
+Número máximo de conexiones simultáneas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué es wait_timeout?
+
+**Respuesta(s) correcta(s):**
+- Segundos que el servidor espera antes de cerrar conexión inactiva
+
+**Explicación actual:**
+Segundos que el servidor espera antes de cerrar conexión inactiva es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Qué herramientas gráficas existen para MySQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- MySQL Workbench
+- Adminer
+
+**Explicación actual:**
+Las respuestas correctas son: "MySQL Workbench" y "Adminer". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es MySQL Workbench?
+
+**Respuesta(s) correcta(s):**
+- Herramienta oficial de administración y diseño de MySQL
+
+**Explicación actual:**
+Herramienta oficial de administración y diseño de MySQL es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Qué es pt-query-digest?
+
+**Respuesta(s) correcta(s):**
+- Herramienta de Percona para analizar logs de consultas
+
+**Explicación actual:**
+Herramienta de Percona para analizar logs de consultas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es ProxySQL?
+
+**Respuesta(s) correcta(s):**
+- Proxy de alto rendimiento para MySQL con load balancing
+
+**Explicación actual:**
+Proxy de alto rendimiento para MySQL con load balancing es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Qué es Percona Server?
+
+**Respuesta(s) correcta(s):**
+- Fork mejorado de MySQL con características adicionales
+
+**Explicación actual:**
+Fork mejorado de MySQL con características adicionales es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Qué es MariaDB?
+
+**Respuesta(s) correcta(s):**
+- Fork de MySQL con compatibilidad y mejoras
+
+**Explicación actual:**
+Fork de MySQL con compatibilidad y mejoras es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Diferencias entre MySQL y MariaDB? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Algunas características adicionales
+- Desarrollo más abierto
+
+**Explicación actual:**
+Las respuestas correctas son: "Algunas características adicionales" y "Desarrollo más abierto". MySQL es uno de los sistemas de gestión de bases de datos relacionales más populares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué es el adaptive hash index en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Índice hash automático en memoria para acceso frecuente
+
+**Explicación actual:**
+Los índices son estructuras de datos que mejoran la velocidad de las consultas al crear referencias rápidas a los datos. Aunque aceleran las búsquedas, consumen espacio adicional y pueden ralentizar las operaciones de escritura.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Qué es change buffer en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Caché para operaciones de índices secundarios
+
+**Explicación actual:**
+Caché para operaciones de índices secundarios es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Qué es doublewrite buffer?
+
+**Respuesta(s) correcta(s):**
+- Protección contra páginas parcialmente escritas
+
+**Explicación actual:**
+Protección contra páginas parcialmente escritas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Qué son los redo logs en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Logs para recuperación de transacciones
+
+**Explicación actual:**
+Logs para recuperación de transacciones es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Qué son los undo logs en InnoDB?
+
+**Respuesta(s) correcta(s):**
+- Logs para revertir transacciones y MVCC
+
+**Explicación actual:**
+Logs para revertir transacciones y MVCC es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

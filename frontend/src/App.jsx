@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import { useAuth } from './context/AuthContext'
 import TopicSelection from './components/TopicSelection'
 import QuizConfig from './components/QuizConfig'
 import Quiz from './components/Quiz'
 import Results from './components/Results'
+import AuthModal from './components/AuthModal'
+import UserMenu from './components/UserMenu'
 import './App.css'
 
 function App() {
@@ -10,6 +13,9 @@ function App() {
   const [selectedTopic, setSelectedTopic] = useState(null)
   const [quizConfig, setQuizConfig] = useState(null)
   const [quizResults, setQuizResults] = useState(null)
+  const [showAuthModal, setShowAuthModal] = useState(false)
+
+  const { user, loading } = useAuth()
 
   const handleTopicSelect = (topic) => {
     setSelectedTopic(topic)
@@ -33,28 +39,64 @@ function App() {
     setQuizResults(null)
   }
 
+  if (loading) {
+    return (
+      <div className="app loading">
+        <div className="loading-spinner">Cargando...</div>
+      </div>
+    )
+  }
+
   return (
     <div className="app">
-      {screen === 'topics' && (
-        <TopicSelection onSelectTopic={handleTopicSelect} />
-      )}
-      {screen === 'config' && (
-        <QuizConfig 
-          topic={selectedTopic} 
-          onComplete={handleConfigComplete}
-          onBack={() => setScreen('topics')}
-        />
-      )}
-      {screen === 'quiz' && (
-        <Quiz 
-          topic={selectedTopic} 
-          config={quizConfig}
-          onComplete={handleQuizComplete} 
-        />
-      )}
-      {screen === 'results' && (
-        <Results results={quizResults} onRestart={handleRestart} />
-      )}
+      {/* Header con botón de login/usuario */}
+      <div className="app-header">
+        <div className="app-logo">
+          <h1>🎯 Training App</h1>
+        </div>
+        <div className="auth-section">
+          {user ? (
+            <UserMenu />
+          ) : (
+            <button 
+              className="login-button"
+              onClick={() => setShowAuthModal(true)}
+            >
+              Iniciar Sesión
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Contenido principal */}
+      <div className="app-content">
+        {screen === 'topics' && (
+          <TopicSelection onSelectTopic={handleTopicSelect} />
+        )}
+        {screen === 'config' && (
+          <QuizConfig 
+            topic={selectedTopic} 
+            onComplete={handleConfigComplete}
+            onBack={() => setScreen('topics')}
+          />
+        )}
+        {screen === 'quiz' && (
+          <Quiz 
+            topic={selectedTopic} 
+            config={quizConfig}
+            onComplete={handleQuizComplete} 
+          />
+        )}
+        {screen === 'results' && (
+          <Results results={quizResults} onRestart={handleRestart} />
+        )}
+      </div>
+
+      {/* Modal de autenticación */}
+      <AuthModal 
+        isOpen={showAuthModal} 
+        onClose={() => setShowAuthModal(false)} 
+      />
     </div>
   )
 }

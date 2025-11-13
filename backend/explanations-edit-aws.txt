@@ -1,0 +1,1342 @@
+# Explicaciones para AWS
+
+Total de preguntas: 88
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es AWS?
+
+**Respuesta(s) correcta(s):**
+- Plataforma de servicios en la nube de Amazon
+
+**Explicación actual:**
+Plataforma de servicios en la nube de Amazon es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué es EC2?
+
+**Respuesta(s) correcta(s):**
+- Elastic Compute Cloud - servicio de máquinas virtuales
+
+**Explicación actual:**
+EC2 (Elastic Compute Cloud) proporciona servidores virtuales escalables en la nube. Permite elegir tipos de instancia según necesidades de CPU, memoria y almacenamiento, pagando solo por el tiempo de uso.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Qué es S3?
+
+**Respuesta(s) correcta(s):**
+- Simple Storage Service - servicio de almacenamiento de objetos
+
+**Explicación actual:**
+S3 (Simple Storage Service) es un servicio de almacenamiento de objetos altamente escalable y duradero. Ofrece 99.999999999% de durabilidad, ideal para backups, hosting de archivos estáticos y data lakes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Qué es RDS?
+
+**Respuesta(s) correcta(s):**
+- Relational Database Service - bases de datos relacionales gestionadas
+
+**Explicación actual:**
+RDS (Relational Database Service) gestiona bases de datos relacionales en la nube. Automatiza tareas como backups, parches y escalado, soportando múltiples motores como MySQL, PostgreSQL y SQL Server.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué es Lambda?
+
+**Respuesta(s) correcta(s):**
+- Servicio de computación serverless que ejecuta código sin servidores
+
+**Explicación actual:**
+AWS Lambda ejecuta código sin gestionar servidores (serverless). El código se ejecuta en respuesta a eventos, escalando automáticamente y cobrando solo por el tiempo de ejecución en milisegundos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Cuáles son características de Lambda? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Auto-escalable
+- Sin gestión de servidores
+
+**Explicación actual:**
+AWS Lambda ejecuta código sin gestionar servidores (serverless). El código se ejecuta en respuesta a eventos, escalando automáticamente y cobrando solo por el tiempo de ejecución en milisegundos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué es VPC?
+
+**Respuesta(s) correcta(s):**
+- Virtual Private Cloud - red virtual aislada
+
+**Explicación actual:**
+Virtual Private Cloud - red virtual aislada es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué es IAM?
+
+**Respuesta(s) correcta(s):**
+- Identity and Access Management - gestión de permisos y usuarios
+
+**Explicación actual:**
+Identity and Access Management - gestión de permisos y usuarios es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué son las políticas (policies) en IAM?
+
+**Respuesta(s) correcta(s):**
+- Documentos JSON que definen permisos
+
+**Explicación actual:**
+Documentos JSON que definen permisos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué es un rol de IAM?
+
+**Respuesta(s) correcta(s):**
+- Identidad con permisos que pueden asumir servicios o usuarios
+
+**Explicación actual:**
+Identidad con permisos que pueden asumir servicios o usuarios es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Diferencia entre usuario y rol IAM?
+
+**Respuesta(s) correcta(s):**
+- Usuarios son permanentes, roles son asumidos temporalmente
+
+**Explicación actual:**
+Usuarios son permanentes, roles son asumidos temporalmente es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué es CloudWatch?
+
+**Respuesta(s) correcta(s):**
+- Servicio de monitoreo y observabilidad
+
+**Explicación actual:**
+Servicio de monitoreo y observabilidad es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué métricas puede monitorear CloudWatch? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Memoria
+- Logs de aplicación
+
+**Explicación actual:**
+Las respuestas correctas son: "Memoria" y "Logs de aplicación". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué es CloudFormation?
+
+**Respuesta(s) correcta(s):**
+- Servicio de infraestructura como código (IaC)
+
+**Explicación actual:**
+Servicio de infraestructura como código (IaC) es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué formato usa CloudFormation?
+
+**Respuesta(s) correcta(s):**
+- XML
+
+**Explicación actual:**
+XML es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué es un stack en CloudFormation?
+
+**Respuesta(s) correcta(s):**
+- Colección de recursos AWS gestionados como unidad
+
+**Explicación actual:**
+Colección de recursos AWS gestionados como unidad es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es EBS?
+
+**Respuesta(s) correcta(s):**
+- Elastic Block Store - almacenamiento de bloques para EC2
+
+**Explicación actual:**
+Elastic Block Store - almacenamiento de bloques para EC2 describe EC2. Este servicio proporciona servidores virtuales escalables en la nube, permitiendo ejecutar aplicaciones con la capacidad de cómputo exacta que se necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Diferencia entre EBS y S3?
+
+**Respuesta(s) correcta(s):**
+- EBS es almacenamiento de bloques (para EC2), S3 es almacenamiento de objetos
+
+**Explicación actual:**
+S3 (Simple Storage Service) es un servicio de almacenamiento de objetos altamente escalable y duradero. Ofrece 99.999999999% de durabilidad, ideal para backups, hosting de archivos estáticos y data lakes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué es EFS?
+
+**Respuesta(s) correcta(s):**
+- Elastic File System - sistema de archivos compartido
+
+**Explicación actual:**
+Elastic File System - sistema de archivos compartido es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué es Elastic Load Balancer (ELB)?
+
+**Respuesta(s) correcta(s):**
+- Distribuye tráfico automáticamente entre múltiples destinos
+
+**Explicación actual:**
+Distribuye tráfico automáticamente entre múltiples destinos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Cuáles son tipos de ELB? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Network Load Balancer (NLB)
+- Classic Load Balancer (CLB)
+
+**Explicación actual:**
+Las respuestas correctas son: "Network Load Balancer (NLB)" y "Classic Load Balancer (CLB)". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué es Auto Scaling?
+
+**Respuesta(s) correcta(s):**
+- Ajusta automáticamente la capacidad de recursos
+
+**Explicación actual:**
+Ajusta automáticamente la capacidad de recursos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es Route 53?
+
+**Respuesta(s) correcta(s):**
+- Servicio de DNS gestionado
+
+**Explicación actual:**
+Servicio de DNS gestionado es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Qué es DynamoDB?
+
+**Respuesta(s) correcta(s):**
+- Base de datos NoSQL de clave-valor totalmente gestionada
+
+**Explicación actual:**
+Base de datos NoSQL de clave-valor totalmente gestionada es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué es ElastiCache?
+
+**Respuesta(s) correcta(s):**
+- Servicio de caché en memoria (Redis/Memcached)
+
+**Explicación actual:**
+Servicio de caché en memoria (Redis/Memcached) es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Qué es SNS?
+
+**Respuesta(s) correcta(s):**
+- Simple Notification Service - servicio de mensajería pub/sub
+
+**Explicación actual:**
+Simple Notification Service - servicio de mensajería pub/sub es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es SQS?
+
+**Respuesta(s) correcta(s):**
+- Simple Queue Service - servicio de colas de mensajes
+
+**Explicación actual:**
+Simple Queue Service - servicio de colas de mensajes es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Diferencia entre SNS y SQS?
+
+**Respuesta(s) correcta(s):**
+- SNS es pub/sub push, SQS es cola pull
+
+**Explicación actual:**
+SNS es pub/sub push, SQS es cola pull es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Qué es CloudFront?
+
+**Respuesta(s) correcta(s):**
+- Content Delivery Network (CDN) global
+
+**Explicación actual:**
+Content Delivery Network (CDN) global es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es API Gateway?
+
+**Respuesta(s) correcta(s):**
+- Servicio para crear, publicar y gestionar APIs
+
+**Explicación actual:**
+Servicio para crear, publicar y gestionar APIs es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué protocolos soporta API Gateway? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- HTTP
+- WebSocket
+
+**Explicación actual:**
+Las respuestas correctas son: "HTTP" y "WebSocket". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué es Cognito?
+
+**Respuesta(s) correcta(s):**
+- Servicio de autenticación y autorización de usuarios
+
+**Explicación actual:**
+Servicio de autenticación y autorización de usuarios es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué es ECS?
+
+**Respuesta(s) correcta(s):**
+- Elastic Container Service - orquestador de contenedores Docker
+
+**Explicación actual:**
+Elastic Container Service - orquestador de contenedores Docker es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es EKS?
+
+**Respuesta(s) correcta(s):**
+- Elastic Kubernetes Service - Kubernetes gestionado
+
+**Explicación actual:**
+Elastic Kubernetes Service - Kubernetes gestionado es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué es Fargate?
+
+**Respuesta(s) correcta(s):**
+- Motor serverless para ECS/EKS sin gestionar servidores
+
+**Explicación actual:**
+Motor serverless para ECS/EKS sin gestionar servidores es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Diferencia entre ECS y EKS?
+
+**Respuesta(s) correcta(s):**
+- ECS usa API propia de AWS, EKS usa Kubernetes estándar
+
+**Explicación actual:**
+ECS usa API propia de AWS, EKS usa Kubernetes estándar es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué es ECR?
+
+**Respuesta(s) correcta(s):**
+- Elastic Container Registry - registro privado de imágenes Docker
+
+**Explicación actual:**
+Elastic Container Registry - registro privado de imágenes Docker es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es Elastic Beanstalk?
+
+**Respuesta(s) correcta(s):**
+- PaaS para desplegar aplicaciones sin gestionar infraestructura
+
+**Explicación actual:**
+PaaS para desplegar aplicaciones sin gestionar infraestructura es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué lenguajes soporta Elastic Beanstalk? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Node.js, Python
+- Ruby, PHP
+
+**Explicación actual:**
+Las respuestas correctas son: "Node.js, Python" y "Ruby, PHP". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es Secrets Manager?
+
+**Respuesta(s) correcta(s):**
+- Servicio para rotar, gestionar y recuperar credenciales
+
+**Explicación actual:**
+Servicio para rotar, gestionar y recuperar credenciales es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es Systems Manager (SSM)?
+
+**Respuesta(s) correcta(s):**
+- Suite de herramientas para gestionar recursos AWS
+
+**Explicación actual:**
+Suite de herramientas para gestionar recursos AWS es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es Parameter Store?
+
+**Respuesta(s) correcta(s):**
+- Almacenamiento seguro de configuraciones y secretos (parte de SSM)
+
+**Explicación actual:**
+Almacenamiento seguro de configuraciones y secretos (parte de SSM) es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Diferencia entre Secrets Manager y Parameter Store?
+
+**Respuesta(s) correcta(s):**
+- Secrets Manager tiene rotación automática, Parameter Store es más simple
+
+**Explicación actual:**
+Secrets Manager tiene rotación automática, Parameter Store es más simple es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es CloudTrail?
+
+**Respuesta(s) correcta(s):**
+- Servicio de auditoría que registra llamadas API
+
+**Explicación actual:**
+Servicio de auditoría que registra llamadas API es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es Config?
+
+**Respuesta(s) correcta(s):**
+- Servicio que evalúa configuraciones y conformidad de recursos
+
+**Explicación actual:**
+Servicio que evalúa configuraciones y conformidad de recursos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué es X-Ray?
+
+**Respuesta(s) correcta(s):**
+- Servicio de tracing distribuido para depurar aplicaciones
+
+**Explicación actual:**
+Servicio de tracing distribuido para depurar aplicaciones es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es Step Functions?
+
+**Respuesta(s) correcta(s):**
+- Servicio para orquestar funciones Lambda en workflows
+
+**Explicación actual:**
+Servicio para orquestar funciones Lambda en workflows describe AWS Lambda. Este servicio serverless ejecuta código en respuesta a eventos sin necesidad de gestionar servidores, cobrando solo por el tiempo de ejecución.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Qué es EventBridge?
+
+**Respuesta(s) correcta(s):**
+- Bus de eventos serverless para conectar aplicaciones
+
+**Explicación actual:**
+Bus de eventos serverless para conectar aplicaciones es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué es Kinesis?
+
+**Respuesta(s) correcta(s):**
+- Plataforma de streaming de datos en tiempo real
+
+**Explicación actual:**
+Plataforma de streaming de datos en tiempo real es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Cuáles son servicios de Kinesis? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Kinesis Data Firehose
+- Kinesis Data Analytics
+
+**Explicación actual:**
+Las respuestas correctas son: "Kinesis Data Firehose" y "Kinesis Data Analytics". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué es Glue?
+
+**Respuesta(s) correcta(s):**
+- Servicio ETL serverless para preparar datos
+
+**Explicación actual:**
+Servicio ETL serverless para preparar datos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es Athena?
+
+**Respuesta(s) correcta(s):**
+- Servicio de consultas SQL sobre datos en S3
+
+**Explicación actual:**
+Servicio de consultas SQL sobre datos en S3 explica S3. Este servicio de almacenamiento de objetos es altamente escalable y duradero, ideal para almacenar cualquier tipo de datos desde backups hasta archivos multimedia.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Qué es Redshift?
+
+**Respuesta(s) correcta(s):**
+- Data warehouse para análisis de big data
+
+**Explicación actual:**
+Data warehouse para análisis de big data es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es EMR?
+
+**Respuesta(s) correcta(s):**
+- Elastic MapReduce - procesamiento de big data con Hadoop/Spark
+
+**Explicación actual:**
+Elastic MapReduce - procesamiento de big data con Hadoop/Spark es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Qué es SageMaker?
+
+**Respuesta(s) correcta(s):**
+- Plataforma para construir, entrenar y desplegar modelos ML
+
+**Explicación actual:**
+Plataforma para construir, entrenar y desplegar modelos ML es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es Rekognition?
+
+**Respuesta(s) correcta(s):**
+- Servicio de análisis de imágenes y videos con ML
+
+**Explicación actual:**
+Servicio de análisis de imágenes y videos con ML es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Qué es Comprehend?
+
+**Respuesta(s) correcta(s):**
+- Servicio de procesamiento de lenguaje natural (NLP)
+
+**Explicación actual:**
+Servicio de procesamiento de lenguaje natural (NLP) es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es Transcribe?
+
+**Respuesta(s) correcta(s):**
+- Servicio de conversión de voz a texto
+
+**Explicación actual:**
+Servicio de conversión de voz a texto es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es Polly?
+
+**Respuesta(s) correcta(s):**
+- Servicio de conversión de texto a voz
+
+**Explicación actual:**
+Servicio de conversión de texto a voz es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué es Translate?
+
+**Respuesta(s) correcta(s):**
+- Servicio de traducción automática de textos
+
+**Explicación actual:**
+Servicio de traducción automática de textos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué son las regiones AWS?
+
+**Respuesta(s) correcta(s):**
+- Ubicaciones físicas con múltiples zonas de disponibilidad
+
+**Explicación actual:**
+Ubicaciones físicas con múltiples zonas de disponibilidad es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué son las zonas de disponibilidad (AZ)?
+
+**Respuesta(s) correcta(s):**
+- Data centers separados dentro de una región
+
+**Explicación actual:**
+Data centers separados dentro de una región es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Por qué usar múltiples AZ? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Tolerancia a fallos
+- Mejor rendimiento
+
+**Explicación actual:**
+Las respuestas correctas son: "Tolerancia a fallos" y "Mejor rendimiento". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué son los edge locations?
+
+**Respuesta(s) correcta(s):**
+- Puntos de presencia para CloudFront y Route 53
+
+**Explicación actual:**
+Puntos de presencia para CloudFront y Route 53 es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Qué es el modelo de responsabilidad compartida?
+
+**Respuesta(s) correcta(s):**
+- AWS gestiona la seguridad DE la nube, cliente gestiona seguridad EN la nube
+
+**Explicación actual:**
+AWS gestiona la seguridad DE la nube, cliente gestiona seguridad EN la nube es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué gestiona AWS en el modelo compartido? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Red global
+- Software de virtualización
+
+**Explicación actual:**
+Las respuestas correctas son: "Red global" y "Software de virtualización". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué gestiona el cliente? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Configuración de aplicaciones
+- Gestión de accesos IAM
+
+**Explicación actual:**
+Las respuestas correctas son: "Configuración de aplicaciones" y "Gestión de accesos IAM". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué es el Free Tier?
+
+**Respuesta(s) correcta(s):**
+- Servicios gratuitos con límites para nuevos usuarios
+
+**Explicación actual:**
+Servicios gratuitos con límites para nuevos usuarios es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Cuánto dura el Free Tier de EC2?
+
+**Respuesta(s) correcta(s):**
+- 12 meses (750 horas/mes de t2.micro)
+
+**Explicación actual:**
+EC2 (Elastic Compute Cloud) proporciona servidores virtuales escalables en la nube. Permite elegir tipos de instancia según necesidades de CPU, memoria y almacenamiento, pagando solo por el tiempo de uso.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es el pricing modelo Pay-as-you-go?
+
+**Respuesta(s) correcta(s):**
+- Paga solo por lo que usas sin contratos largos
+
+**Explicación actual:**
+Paga solo por lo que usas sin contratos largos es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Cuáles son modelos de pricing para EC2? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Reserved Instances
+- Spot Instances
+
+**Explicación actual:**
+EC2 (Elastic Compute Cloud) proporciona servidores virtuales escalables en la nube. Permite elegir tipos de instancia según necesidades de CPU, memoria y almacenamiento, pagando solo por el tiempo de uso.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Qué son Reserved Instances?
+
+**Respuesta(s) correcta(s):**
+- Compromiso de 1-3 años con descuento significativo
+
+**Explicación actual:**
+Compromiso de 1-3 años con descuento significativo es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué son Spot Instances?
+
+**Respuesta(s) correcta(s):**
+- Capacidad no utilizada de AWS con hasta 90% descuento
+
+**Explicación actual:**
+Capacidad no utilizada de AWS con hasta 90% descuento es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Cuándo usar Spot Instances?
+
+**Respuesta(s) correcta(s):**
+- Workloads tolerantes a interrupciones (batch, big data)
+
+**Explicación actual:**
+Workloads tolerantes a interrupciones (batch, big data) es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es Cost Explorer?
+
+**Respuesta(s) correcta(s):**
+- Herramienta para visualizar y analizar costos de AWS
+
+**Explicación actual:**
+Herramienta para visualizar y analizar costos de AWS es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Qué es Budgets?
+
+**Respuesta(s) correcta(s):**
+- Herramienta para crear alertas de costos y uso
+
+**Explicación actual:**
+Herramienta para crear alertas de costos y uso es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Qué es Trusted Advisor?
+
+**Respuesta(s) correcta(s):**
+- Herramienta que recomienda mejores prácticas en costos, seguridad, rendimiento
+
+**Explicación actual:**
+Herramienta que recomienda mejores prácticas en costos, seguridad, rendimiento es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Qué categorías revisa Trusted Advisor? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Security
+- Performance
+
+**Explicación actual:**
+Las respuestas correctas son: "Security" y "Performance". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué es AWS Organizations?
+
+**Respuesta(s) correcta(s):**
+- Servicio para gestionar múltiples cuentas AWS centralizadamente
+
+**Explicación actual:**
+Servicio para gestionar múltiples cuentas AWS centralizadamente es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Qué son las SCPs?
+
+**Respuesta(s) correcta(s):**
+- Protocolos de seguridad
+
+**Explicación actual:**
+Protocolos de seguridad es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Qué es Control Tower?
+
+**Respuesta(s) correcta(s):**
+- Servicio para configurar y gobernar entornos multi-cuenta
+
+**Explicación actual:**
+Servicio para configurar y gobernar entornos multi-cuenta es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Qué es Well-Architected Framework?
+
+**Respuesta(s) correcta(s):**
+- Conjunto de mejores prácticas en 6 pilares para arquitectura en AWS
+
+**Explicación actual:**
+Conjunto de mejores prácticas en 6 pilares para arquitectura en AWS es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Cuáles son los 6 pilares de Well-Architected? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Security
+- Reliability
+
+**Explicación actual:**
+Las respuestas correctas son: "Security" y "Reliability". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 84
+
+**Pregunta:** ¿Qué es AWS CLI?
+
+**Respuesta(s) correcta(s):**
+- Un servicio web
+
+**Explicación actual:**
+Un servicio web es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 85
+
+**Pregunta:** ¿Qué es AWS SDK?
+
+**Respuesta(s) correcta(s):**
+- Un servicio
+
+**Explicación actual:**
+Un servicio es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 86
+
+**Pregunta:** ¿Qué lenguajes tienen SDK oficial? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- JavaScript/Node.js
+- Java
+
+**Explicación actual:**
+Las respuestas correctas son: "JavaScript/Node.js" y "Java". AWS (Amazon Web Services) es la plataforma de servicios en la nube más completa del mercado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 87
+
+**Pregunta:** ¿Qué es CloudShell?
+
+**Respuesta(s) correcta(s):**
+- Terminal preconfigurada en el navegador para AWS CLI
+
+**Explicación actual:**
+Terminal preconfigurada en el navegador para AWS CLI es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 88
+
+**Pregunta:** ¿Qué es Management Console?
+
+**Respuesta(s) correcta(s):**
+- Interfaz web para gestionar servicios AWS
+
+**Explicación actual:**
+Interfaz web para gestionar servicios AWS es correcto para AWS. Amazon Web Services es la plataforma de servicios en la nube más completa, ofreciendo cientos de servicios para compute, storage, bases de datos y más.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

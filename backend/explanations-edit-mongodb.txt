@@ -1,0 +1,1282 @@
+# Explicaciones para MONGODB
+
+Total de preguntas: 84
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Una base de datos NoSQL orientada a documentos
+
+**Explicación actual:**
+Una base de datos NoSQL orientada a documentos describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿En qué formato almacena MongoDB los documentos?
+
+**Respuesta(s) correcta(s):**
+- BSON (Binary JSON)
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Qué es una colección en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Un grupo de documentos, equivalente a una tabla en SQL
+
+**Explicación actual:**
+Las colecciones en MongoDB son grupos de documentos, equivalentes a tablas en bases de datos relacionales. No requieren un esquema fijo, permitiendo almacenar documentos con diferentes estructuras en la misma colección.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Qué es un documento en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Una estructura de datos similar a JSON con pares clave-valor
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué comando inserta un documento en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.coleccion.insertOne() o insertMany()
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué comando busca documentos en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.coleccion.find()
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué comando actualiza documentos en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.coleccion.updateOne() o updateMany()
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué comando elimina documentos en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.coleccion.deleteOne() o deleteMany()
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué es el _id en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Un campo único generado automáticamente para cada documento
+
+**Explicación actual:**
+Un campo único generado automáticamente para cada documento describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué es un índice en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Una estructura que mejora el rendimiento de las consultas
+
+**Explicación actual:**
+Una estructura que mejora el rendimiento de las consultas es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué comando crea un índice en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.coleccion.createIndex()
+
+**Explicación actual:**
+db.coleccion.createIndex() es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué es el aggregation pipeline en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Un framework para procesar documentos y transformar datos en etapas
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué operador se usa en aggregation para filtrar documentos?
+
+**Respuesta(s) correcta(s):**
+- $match
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué operador se usa en aggregation para agrupar documentos?
+
+**Respuesta(s) correcta(s):**
+- $group
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es un replica set en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Un grupo de instancias MongoDB que mantienen los mismos datos para alta disponibilidad
+
+**Explicación actual:**
+Un grupo de instancias MongoDB que mantienen los mismos datos para alta disponibilidad es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué es sharding en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Distribución de datos entre múltiples servidores para escalabilidad horizontal
+
+**Explicación actual:**
+Distribución de datos entre múltiples servidores para escalabilidad horizontal es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué comando muestra todas las bases de datos en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- show dbs o show databases
+
+**Explicación actual:**
+show dbs o show databases es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué comando selecciona una base de datos en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- use nombre
+
+**Explicación actual:**
+use nombre es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué comando muestra todas las colecciones?
+
+**Respuesta(s) correcta(s):**
+- show collections
+
+**Explicación actual:**
+Las colecciones en MongoDB son grupos de documentos, equivalentes a tablas en bases de datos relacionales. No requieren un esquema fijo, permitiendo almacenar documentos con diferentes estructuras en la misma colección.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué es un embedded document en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Un documento anidado dentro de otro documento
+
+**Explicación actual:**
+Un documento anidado dentro de otro documento describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué comando cuenta documentos en una colección?
+
+**Respuesta(s) correcta(s):**
+- db.coleccion.countDocuments()
+
+**Explicación actual:**
+Los documentos en MongoDB son estructuras de datos similares a JSON (BSON) que almacenan información de forma flexible. Cada documento puede tener campos diferentes, permitiendo esquemas dinámicos sin necesidad de migraciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué operador de consulta busca valores dentro de un array?
+
+**Respuesta(s) correcta(s):**
+- $in
+
+**Explicación actual:**
+$in es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es MongoDB Atlas?
+
+**Respuesta(s) correcta(s):**
+- La plataforma cloud de MongoDB como servicio (DBaaS)
+
+**Explicación actual:**
+La plataforma cloud de MongoDB como servicio (DBaaS) es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Qué garantiza MongoDB en términos de consistencia?
+
+**Respuesta(s) correcta(s):**
+- Consistencia eventual por defecto, ACID en transacciones multi-documento
+
+**Explicación actual:**
+Consistencia eventual por defecto, ACID en transacciones multi-documento describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué es Mongoose?
+
+**Respuesta(s) correcta(s):**
+- Un ODM (Object Document Mapper) para MongoDB en Node.js
+
+**Explicación actual:**
+Un ODM (Object Document Mapper) para MongoDB en Node.js describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Cuáles son operadores de consulta en MongoDB? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- $gt (greater than)
+- $lt (less than)
+
+**Explicación actual:**
+Las respuestas correctas son: "$gt (greater than)" y "$lt (less than)". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es $and en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Operador que combina múltiples condiciones (todas deben cumplirse)
+
+**Explicación actual:**
+Operador que combina múltiples condiciones (todas deben cumplirse) es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es $or en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Operador donde al menos una condición debe cumplirse
+
+**Explicación actual:**
+Operador donde al menos una condición debe cumplirse es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Cuáles son operadores de array en MongoDB? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- $pull
+- $addToSet
+
+**Explicación actual:**
+Las respuestas correctas son: "$pull" y "$addToSet". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué hace $push en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Añade un elemento a un array
+
+**Explicación actual:**
+Añade un elemento a un array es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué hace $pull en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Elimina elementos de un array que cumplen condición
+
+**Explicación actual:**
+Elimina elementos de un array que cumplen condición es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué hace $addToSet?
+
+**Respuesta(s) correcta(s):**
+- Añade elemento a array solo si no existe
+
+**Explicación actual:**
+Añade elemento a array solo si no existe es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué es projection en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Especifica qué campos incluir o excluir en resultados
+
+**Explicación actual:**
+Especifica qué campos incluir o excluir en resultados es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Cómo se excluye un campo en projection?
+
+**Respuesta(s) correcta(s):**
+- field: false
+
+**Explicación actual:**
+field: false es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué es $lookup en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Realiza un LEFT JOIN entre colecciones
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué es $unwind en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Deconstruye un array en múltiples documentos
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué es $project en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Remodela documentos (incluye, excluye o calcula campos)
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es $sort en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Ordena documentos por campos
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Cuáles son etapas del aggregation pipeline? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- $group
+- $project
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es $limit en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Limita el número de documentos
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es $skip en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Salta un número de documentos
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es $count en aggregation?
+
+**Respuesta(s) correcta(s):**
+- Cuenta el número de documentos
+
+**Explicación actual:**
+El pipeline de agregación en MongoDB procesa documentos en etapas secuenciales para transformar y analizar datos. Permite operaciones como filtrado, agrupamiento, cálculos y ordenamiento de forma eficiente.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Qué es write concern en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Nivel de confirmación requerido para escrituras
+
+**Explicación actual:**
+Nivel de confirmación requerido para escrituras es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Cuáles son niveles de write concern? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- w: 1 (confirmado por primario)
+- w: "majority"
+
+**Explicación actual:**
+Las respuestas correctas son: "w: 1 (confirmado por primario)" y "w: "majority"". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es read concern en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Nivel de consistencia de datos leídos
+
+**Explicación actual:**
+Nivel de consistencia de datos leídos es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Cuáles son niveles de read concern? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- majority
+- linearizable
+
+**Explicación actual:**
+Las respuestas correctas son: "majority" y "linearizable". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es read preference en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Define de qué miembro del replica set leer
+
+**Explicación actual:**
+Define de qué miembro del replica set leer es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Cuáles son opciones de read preference? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- primaryPreferred
+- secondary
+
+**Explicación actual:**
+Las respuestas correctas son: "primaryPreferred" y "secondary". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué es un índice compuesto en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Índice sobre múltiples campos
+
+**Explicación actual:**
+Índice sobre múltiples campos es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Qué es un índice de texto en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Índice especial para búsquedas de texto completo
+
+**Explicación actual:**
+Índice especial para búsquedas de texto completo es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Cómo se crea un índice de texto?
+
+**Respuesta(s) correcta(s):**
+- createIndex({ campo: 1 })
+
+**Explicación actual:**
+createIndex({ campo: 1 }) es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es un índice geoespacial en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Índice para consultas de ubicación geográfica
+
+**Explicación actual:**
+Índice para consultas de ubicación geográfica es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Cuáles son tipos de índices geoespaciales? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- 2dsphere
+- geoHaystack
+
+**Explicación actual:**
+Las respuestas correctas son: "2dsphere" y "geoHaystack". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es TTL index en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Índice que elimina documentos automáticamente después de un tiempo
+
+**Explicación actual:**
+Índice que elimina documentos automáticamente después de un tiempo describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Qué es un capped collection?
+
+**Respuesta(s) correcta(s):**
+- Colección de tamaño fijo que sobrescribe documentos viejos
+
+**Explicación actual:**
+Colección de tamaño fijo que sobrescribe documentos viejos describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Para qué se usa capped collection? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Cache
+- Datos de alta inserción
+
+**Explicación actual:**
+Las respuestas correctas son: "Cache" y "Datos de alta inserción". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Qué es ObjectId en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Tipo de dato único de 12 bytes generado automáticamente
+
+**Explicación actual:**
+Tipo de dato único de 12 bytes generado automáticamente es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué información contiene ObjectId? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- ID de máquina
+- ID de proceso
+
+**Explicación actual:**
+Las respuestas correctas son: "ID de máquina" y "ID de proceso". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es BSON vs JSON?
+
+**Respuesta(s) correcta(s):**
+- BSON es binario y más eficiente, JSON es texto
+
+**Explicación actual:**
+BSON es binario y más eficiente, JSON es texto es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué tipos adicionales tiene BSON? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Binary Data
+- ObjectId
+
+**Explicación actual:**
+Las respuestas correctas son: "Binary Data" y "ObjectId". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué es la opción upsert?
+
+**Respuesta(s) correcta(s):**
+- Actualiza si existe, inserta si no existe
+
+**Explicación actual:**
+Actualiza si existe, inserta si no existe es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es bulkWrite en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Ejecuta múltiples operaciones de escritura en lote
+
+**Explicación actual:**
+Ejecuta múltiples operaciones de escritura en lote es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Cuáles son operaciones de bulkWrite? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- updateOne
+- deleteOne
+
+**Explicación actual:**
+Las respuestas correctas son: "updateOne" y "deleteOne". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es change streams en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Notificaciones en tiempo real de cambios en datos
+
+**Explicación actual:**
+Notificaciones en tiempo real de cambios en datos es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Para qué se usan change streams? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Auditoría
+- Sincronización
+
+**Explicación actual:**
+Las respuestas correctas son: "Auditoría" y "Sincronización". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué es session en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Contexto para transacciones multi-documento
+
+**Explicación actual:**
+Contexto para transacciones multi-documento describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué son las transacciones en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Operaciones ACID multi-documento (desde 4.0)
+
+**Explicación actual:**
+Operaciones ACID multi-documento (desde 4.0) describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué es el oplog en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Log especial que registra operaciones para replicación
+
+**Explicación actual:**
+Log especial que registra operaciones para replicación es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es un secondary en replica set?
+
+**Respuesta(s) correcta(s):**
+- Miembro que replica datos del primario
+
+**Explicación actual:**
+Miembro que replica datos del primario es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es un arbiter en replica set?
+
+**Respuesta(s) correcta(s):**
+- Miembro que vota en elecciones pero no guarda datos
+
+**Explicación actual:**
+Miembro que vota en elecciones pero no guarda datos es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Cuándo se usa un arbiter?
+
+**Respuesta(s) correcta(s):**
+- Para número impar de votos sin agregar almacenamiento
+
+**Explicación actual:**
+Para número impar de votos sin agregar almacenamiento es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Qué es priority en replica set?
+
+**Respuesta(s) correcta(s):**
+- Valor que influye en elecciones de primario
+
+**Explicación actual:**
+Valor que influye en elecciones de primario es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es hidden member en replica set?
+
+**Respuesta(s) correcta(s):**
+- Secondary que no es elegible como primario ni visible a clientes
+
+**Explicación actual:**
+Secondary que no es elegible como primario ni visible a clientes es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Qué es delayed member en replica set?
+
+**Respuesta(s) correcta(s):**
+- Secondary con delay intencional para recuperación de errores
+
+**Explicación actual:**
+Secondary con delay intencional para recuperación de errores es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es shard key en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Campo(s) usado para distribuir datos entre shards
+
+**Explicación actual:**
+Campo(s) usado para distribuir datos entre shards es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Cómo elegir una buena shard key? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Buena distribución
+- Evitar hotspots
+
+**Explicación actual:**
+Las respuestas correctas son: "Buena distribución" y "Evitar hotspots". MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato JSON.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Qué es chunk en sharding?
+
+**Respuesta(s) correcta(s):**
+- Rango de datos basado en shard key
+
+**Explicación actual:**
+Rango de datos basado en shard key es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Qué es balancer en sharding?
+
+**Respuesta(s) correcta(s):**
+- Proceso que distribuye chunks entre shards
+
+**Explicación actual:**
+Proceso que distribuye chunks entre shards es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué es config server en sharding?
+
+**Respuesta(s) correcta(s):**
+- Almacena metadatos sobre el cluster
+
+**Explicación actual:**
+Almacena metadatos sobre el cluster es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Qué es mongos en sharding?
+
+**Respuesta(s) correcta(s):**
+- Proceso de enrutamiento que dirige consultas a shards correctos
+
+**Explicación actual:**
+Proceso de enrutamiento que dirige consultas a shards correctos es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Qué es MongoDB Compass?
+
+**Respuesta(s) correcta(s):**
+- GUI oficial de MongoDB para visualización y análisis
+
+**Explicación actual:**
+GUI oficial de MongoDB para visualización y análisis es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Qué es Studio 3T?
+
+**Respuesta(s) correcta(s):**
+- IDE comercial potente para MongoDB
+
+**Explicación actual:**
+IDE comercial potente para MongoDB es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Qué es Robo 3T (Robomongo)?
+
+**Respuesta(s) correcta(s):**
+- Cliente gráfico gratuito para MongoDB
+
+**Explicación actual:**
+Cliente gráfico gratuito para MongoDB es la respuesta correcta para MongoDB. MongoDB es una base de datos NoSQL orientada a documentos, ideal para aplicaciones que requieren flexibilidad en el esquema.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 84
+
+**Pregunta:** ¿Qué son los validators en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Reglas JSON Schema para validar documentos
+
+**Explicación actual:**
+Reglas JSON Schema para validar documentos describe documentos en MongoDB. Los documentos son estructuras flexibles similares a JSON que permiten almacenar datos sin un esquema rígido, facilitando la evolución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

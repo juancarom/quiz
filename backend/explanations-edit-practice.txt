@@ -1,0 +1,909 @@
+# Explicaciones para PRACTICE
+
+Total de preguntas: 60
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Cuál es la forma correcta de sumar todos los elementos de un arreglo en Ruby?
+
+**Respuesta(s) correcta(s):**
+- array.reduce(:+)
+
+**Explicación actual:**
+El método reduce(:+) aplica el operador + entre todos los elementos del array de forma acumulativa. Es una forma elegante y concisa de sumar todos los valores. También puedes usar array.sum que es más explícito.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Cómo se itera sobre un arreglo en Ruby e imprime cada elemento?
+
+**Respuesta(s) correcta(s):**
+- array.each { |item| puts item }
+
+**Explicación actual:**
+El método each es el iterador más común en Ruby. Acepta un bloque que se ejecuta para cada elemento del array. La variable entre pipes (|item|) representa cada elemento durante la iteración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Cuál es la forma correcta de crear un hash en Ruby?
+
+**Respuesta(s) correcta(s):**
+- hash = { name: "Juan", age: 30 }
+
+**Explicación actual:**
+En Ruby, los hashes se crean con llaves {}. Puedes usar símbolos como keys con la sintaxis name: 'valor' (desde Ruby 1.9) o la sintaxis hashrocket :name => 'valor'. Los símbolos son más eficientes que strings como keys.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Cómo se define un método que recibe parámetros opcionales en Ruby?
+
+**Respuesta(s) correcta(s):**
+- def greet(name = "World"); puts "Hello, #{name}"; end
+
+**Explicación actual:**
+Los parámetros opcionales en Ruby se definen asignándoles un valor por defecto con =. Si el método se llama sin ese argumento, usa el valor por defecto. Esto hace los métodos más flexibles.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Cuál es la forma correcta de filtrar elementos de un arreglo en Ruby?
+
+**Respuesta(s) correcta(s):**
+- array.select { |item| item > 5 }
+
+**Explicación actual:**
+El método select filtra elementos basándose en una condición. Devuelve un nuevo array con todos los elementos para los cuales el bloque retorna true. Es similar a filter en otros lenguajes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Cómo se maneja un error en Ruby?
+
+**Respuesta(s) correcta(s):**
+- begin; risky_code; rescue => e; handle_error; end
+
+**Explicación actual:**
+Ruby usa bloques begin-rescue-end para manejo de excepciones. El código que puede fallar va en begin, y rescue captura la excepción. La variable después de => contiene el objeto de la excepción para inspección.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una clase en Ruby con un constructor?
+
+**Respuesta(s) correcta(s):**
+- class Person; def initialize(name); @name = name; end; end
+
+**Explicación actual:**
+El método initialize es el constructor en Ruby. Se llama automáticamente cuando creas una instancia con .new. Las variables de instancia se definen con @ y persisten durante la vida del objeto.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Cómo se concatenan strings en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Todas las anteriores son correctas
+
+**Explicación actual:**
+Ruby ofrece múltiples formas de concatenar strings: el operador +, el método concat, o interpolación con #{}. Todas son válidas, aunque la interpolación suele ser más legible para combinar strings con variables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Cuál es la forma correcta de verificar si un elemento existe en un arreglo en Ruby?
+
+**Respuesta(s) correcta(s):**
+- array.include?(element)
+
+**Explicación actual:**
+El método include? verifica si un elemento está presente en un array o rango. Devuelve true o false. El signo de interrogación en el nombre es una convención de Ruby para métodos que retornan booleanos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Cómo se convierte un string a un entero en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Ambas a y b son correctas
+
+**Explicación actual:**
+Tanto .to_i como Integer() convierten strings a enteros. to_i es más permisivo (devuelve 0 si falla), mientras que Integer() lanza una excepción si el string no es válido. Ambas son correctas según el caso de uso.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Cuál es la forma correcta de hacer una petición GET en JavaScript con fetch?
+
+**Respuesta(s) correcta(s):**
+- fetch('url').then(res => res.json()).then(data => console.log(data))
+
+**Explicación actual:**
+La API fetch devuelve una Promise. El primer .then() recibe la respuesta y usa res.json() para parsear el body. El segundo .then() recibe los datos ya parseados. Este patrón de encadenamiento de promises es estándar en JS moderno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Cómo se desestructura un objeto en JavaScript?
+
+**Respuesta(s) correcta(s):**
+- const { name, age } = person
+
+**Explicación actual:**
+La desestructuración usa llaves {} para extraer propiedades de un objeto en variables individuales. Los nombres de las variables deben coincidir con los nombres de las propiedades del objeto. Es una forma concisa de acceder a múltiples propiedades.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una función arrow en JavaScript?
+
+**Respuesta(s) correcta(s):**
+- const sum = (a, b) => a + b
+
+**Explicación actual:**
+Las arrow functions usan la sintaxis => y tienen un comportamiento diferente con 'this'. Si el cuerpo es una sola expresión, el return es implícito. Son más concisas que las funciones tradicionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Cómo se usa async/await en JavaScript?
+
+**Respuesta(s) correcta(s):**
+- async function getData() { const data = await fetch(url); return data; }
+
+**Explicación actual:**
+async declara que una función retorna una Promise. await pausa la ejecución hasta que la Promise se resuelva. Solo puede usarse dentro de funciones async. Hace el código asíncrono más legible, como si fuera síncrono.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una promesa en JavaScript?
+
+**Respuesta(s) correcta(s):**
+- new Promise((resolve, reject) => { /* code */ })
+
+**Explicación actual:**
+Una Promise se crea con el constructor new Promise(). Recibe una función con dos parámetros: resolve (para éxito) y reject (para error). Las promises representan valores que estarán disponibles en el futuro.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Cómo se hace un JOIN en SQL para obtener datos de dos tablas?
+
+**Respuesta(s) correcta(s):**
+- Todas las anteriores son correctas
+
+**Explicación actual:**
+Todas las opciones son correctas. JOIN e INNER JOIN son equivalentes. La sintaxis WHERE con múltiples tablas (JOIN implícito) también funciona. Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Cuál es la forma correcta de crear un índice en SQL?
+
+**Respuesta(s) correcta(s):**
+- CREATE INDEX idx_name ON users(name)
+
+**Explicación actual:**
+CREATE INDEX crea un índice en una columna para acelerar las búsquedas. Los índices mejoran el rendimiento de SELECT pero pueden ralentizar INSERT/UPDATE. Es importante indexar columnas usadas frecuentemente en WHERE y JOIN.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Cómo se hace un UPDATE condicional en SQL?
+
+**Respuesta(s) correcta(s):**
+- UPDATE users SET active = true WHERE last_login > '2024-01-01'
+
+**Explicación actual:**
+UPDATE modifica registros existentes. SET especifica qué columnas cambiar. WHERE determina qué filas actualizar. Sin WHERE, todas las filas serían actualizadas, lo cual suele ser un error.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Cuál es la forma correcta de hacer un GROUP BY en SQL con COUNT?
+
+**Respuesta(s) correcta(s):**
+- SELECT country, COUNT(*) FROM users GROUP BY country
+
+**Explicación actual:**
+GROUP BY agrupa filas con valores iguales en columnas especificadas. COUNT(*) cuenta el número de filas en cada grupo. Es fundamental para generar reportes y estadísticas agregadas.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Cómo se crea una subconsulta en SQL?
+
+**Respuesta(s) correcta(s):**
+- SELECT * FROM users WHERE id IN (SELECT user_id FROM orders)
+
+**Explicación actual:**
+Las subconsultas son queries dentro de otras queries. IN permite verificar si un valor está en el resultado de la subconsulta. Son útiles cuando necesitas datos de una tabla para filtrar otra.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Cuál es la forma correcta de crear un componente funcional en React con hooks?
+
+**Respuesta(s) correcta(s):**
+- const MyComponent = () => { const [state, setState] = useState(0); return <div>{state}</div> }
+
+**Explicación actual:**
+const MyComponent = () => { const [state, setState] = useState(0); return <div>{state}</div> } es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Cómo se usa useEffect en React para ejecutar código al montar el componente?
+
+**Respuesta(s) correcta(s):**
+- useEffect(() => { console.log('mounted') }, [])
+
+**Explicación actual:**
+useEffect(() => { console.log('mounted') }, []) es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Cuál es la forma correcta de pasar props a un componente hijo en React?
+
+**Respuesta(s) correcta(s):**
+- <Child name="John" age={30} />
+
+**Explicación actual:**
+<Child name="John" age={30} /> es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Cómo se maneja un evento onClick en React?
+
+**Respuesta(s) correcta(s):**
+- <button onClick={() => handleClick()}>Click</button>
+
+**Explicación actual:**
+<button onClick={() => handleClick()}>Click</button> es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Cuál es la forma correcta de usar Context en React?
+
+**Respuesta(s) correcta(s):**
+- const value = useContext(MyContext)
+
+**Explicación actual:**
+const value = useContext(MyContext) es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Cómo se define un decorador en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @Injectable() export class MyService {}
+
+**Explicación actual:**
+Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Cuál es la forma correcta de crear un endpoint POST en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @Post() create(@Body() dto: CreateDto) { return this.service.create(dto) }
+
+**Explicación actual:**
+Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Cómo se inyecta un servicio en un controlador de NestJS?
+
+**Respuesta(s) correcta(s):**
+- constructor(private readonly service: MyService) {}
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. constructor(private readonly service: MyService) {} es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Cuál es la forma correcta de usar un Guard en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @UseGuards(AuthGuard) @Get() findAll() {}
+
+**Explicación actual:**
+Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Cómo se valida un DTO en NestJS con class-validator?
+
+**Respuesta(s) correcta(s):**
+- @IsString() @IsNotEmpty() name: string
+
+**Explicación actual:**
+Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una migración en Rails?
+
+**Respuesta(s) correcta(s):**
+- rails generate migration AddEmailToUsers email:string
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. rails generate migration AddEmailToUsers email:string es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Cómo se define una asociación has_many en Rails?
+
+**Respuesta(s) correcta(s):**
+- class User < ApplicationRecord; has_many :posts; end
+
+**Explicación actual:**
+Una asociación has_many en Rails se define en un modelo para indicar que una instancia de ese modelo puede estar asociada con cero o más instancias de otro modelo. Esta relación típicamente requiere que el modelo asociado tenga una columna de clave foránea que apunte al modelo principal.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Cuál es la forma correcta de hacer una query con ActiveRecord en Rails?
+
+**Respuesta(s) correcta(s):**
+- User.where(active: true).order(created_at: :desc)
+
+**Explicación actual:**
+User.where(active: true).order(created_at: :desc) es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Cómo se crea un callback before_save en Rails?
+
+**Respuesta(s) correcta(s):**
+- before_save :normalize_email
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. before_save :normalize_email es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Cuál es la forma correcta de validar presencia de un campo en Rails?
+
+**Respuesta(s) correcta(s):**
+- Ambas a y c son correctas
+
+**Explicación actual:**
+Ambas a y c son correctas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Cómo se crea un volumen en Docker?
+
+**Respuesta(s) correcta(s):**
+- docker volume create my_volume
+
+**Explicación actual:**
+docker volume create my_volume es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Cuál es la forma correcta de ejecutar un comando dentro de un contenedor corriendo?
+
+**Respuesta(s) correcta(s):**
+- docker exec -it container_name bash
+
+**Explicación actual:**
+docker exec -it container_name bash es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Cómo se construye una imagen Docker desde un Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- docker build -t my_image:tag .
+
+**Explicación actual:**
+docker build -t my_image:tag . es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Cuál es la forma correcta de exponer un puerto en un Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- EXPOSE 3000
+
+**Explicación actual:**
+EXPOSE 3000 es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Cómo se listan todos los contenedores incluyendo los detenidos?
+
+**Respuesta(s) correcta(s):**
+- Ambas a y c son correctas
+
+**Explicación actual:**
+Ambas a y c son correctas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una función Lambda en Python?
+
+**Respuesta(s) correcta(s):**
+- lambda x, y: x + y
+
+**Explicación actual:**
+Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Cómo se lee un archivo en Python?
+
+**Respuesta(s) correcta(s):**
+- with open('file.txt', 'r') as f: content = f.read()
+
+**Explicación actual:**
+with open('file.txt', 'r') as f: content = f.read() es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una lista por comprensión en Python?
+
+**Respuesta(s) correcta(s):**
+- Ambas a y c son correctas
+
+**Explicación actual:**
+Ambas a y c son correctas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Cómo se maneja una excepción en Python?
+
+**Respuesta(s) correcta(s):**
+- try: code except Exception as e: handle
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. try: code except Exception as e: handle es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Cuál es la forma correcta de crear un decorador en Python?
+
+**Respuesta(s) correcta(s):**
+- Ambas a y b son correctas
+
+**Explicación actual:**
+Ambas a y b son correctas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Cómo se crea un bucket en AWS S3 usando AWS CLI?
+
+**Respuesta(s) correcta(s):**
+- Todas las anteriores son correctas
+
+**Explicación actual:**
+Todas las anteriores son correctas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Cuál es la forma correcta de subir un archivo a S3 usando AWS CLI?
+
+**Respuesta(s) correcta(s):**
+- aws s3 cp file.txt s3://my-bucket/
+
+**Explicación actual:**
+aws s3 cp file.txt s3://my-bucket/ es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Cómo se lista el contenido de un bucket S3?
+
+**Respuesta(s) correcta(s):**
+- aws s3 ls s3://my-bucket
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. aws s3 ls s3://my-bucket es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Cuál es la forma correcta de crear una instancia EC2 usando AWS CLI?
+
+**Respuesta(s) correcta(s):**
+- aws ec2 run-instances --image-id ami-xxx --instance-type t2.micro
+
+**Explicación actual:**
+aws ec2 run-instances --image-id ami-xxx --instance-type t2.micro es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Cómo se configura una variable de entorno en un contenedor Lambda?
+
+**Respuesta(s) correcta(s):**
+- aws lambda update-function-configuration --function-name my-func --environment Variables={KEY=value}
+
+**Explicación actual:**
+Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Cuál es la forma correcta de definir un tipo en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- type User { id: ID! name: String! email: String }
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. type User { id: ID! name: String! email: String } es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Cómo se define una query en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- type Query { users: [User!]! user(id: ID!): User }
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. type Query { users: [User!]! user(id: ID!): User } es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Cuál es la forma correcta de hacer una mutación en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- type Mutation { createUser(input: CreateUserInput!): User! }
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. type Mutation { createUser(input: CreateUserInput!): User! } es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Cómo se define un enum en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- enum Status { ACTIVE INACTIVE PENDING }
+
+**Explicación actual:**
+enum Status { ACTIVE INACTIVE PENDING } es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Cuál es la forma correcta de usar variables en una query GraphQL?
+
+**Respuesta(s) correcta(s):**
+- query GetUser($id: ID!) { user(id: $id) { name } }
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. query GetUser($id: ID!) { user(id: $id) { name } } es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Cómo se crea una colección en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- MongoDB crea colecciones automáticamente al insertar
+
+**Explicación actual:**
+MongoDB crea colecciones automáticamente al insertar es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Cuál es la forma correcta de insertar un documento en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- Ambas a y b son correctas
+
+**Explicación actual:**
+Ambas a y b son correctas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Cómo se hace una búsqueda con filtros en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.users.find({ age: { $gt: 18 }, active: true })
+
+**Explicación actual:**
+db.users.find({ age: { $gt: 18 }, active: true }) es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Cuál es la forma correcta de actualizar un documento en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.users.updateOne({ _id: id }, { $set: { name: "Jane" } })
+
+**Explicación actual:**
+db.users.updateOne({ _id: id }, { $set: { name: "Jane" } }) es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Cómo se crea un índice en MongoDB?
+
+**Respuesta(s) correcta(s):**
+- db.users.createIndex({ email: 1 })
+
+**Explicación actual:**
+db.users.createIndex({ email: 1 }) es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

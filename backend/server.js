@@ -1,16 +1,37 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const session = require('express-session');
+const passport = require('./config/passport');
 require('dotenv').config();
 
 const Question = require('./models/Question');
 const Result = require('./models/Result');
+
+// Importar rutas de autenticación
+const authRoutes = require('./routes/auth');
+const scoresRoutes = require('./routes/scores');
 
 const app = express();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Configurar sesión para Passport
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'tu_secreto_de_sesion_cambialo_en_produccion',
+  resave: false,
+  saveUninitialized: false,
+  cookie: { 
+    secure: process.env.NODE_ENV === 'production',
+    maxAge: 24 * 60 * 60 * 1000 // 24 horas
+  }
+}));
+
+// Inicializar Passport
+app.use(passport.initialize());
+app.use(passport.session());
 
 // Conectar a MongoDB
 mongoose.connect(process.env.MONGODB_URI, {
@@ -21,6 +42,10 @@ mongoose.connect(process.env.MONGODB_URI, {
 .catch(err => console.error('❌ Error conectando a MongoDB:', err));
 
 // Rutas
+
+// Rutas de autenticación y scores
+app.use('/api/auth', authRoutes);
+app.use('/api/scores', scoresRoutes);
 
 // Obtener preguntas por tema
 app.get('/api/questions/:topic', async (req, res) => {

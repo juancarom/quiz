@@ -1,0 +1,1262 @@
+# Explicaciones para SQL
+
+Total de preguntas: 83
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué significa SQL?
+
+**Respuesta(s) correcta(s):**
+- Structured Query Language
+
+**Explicación actual:**
+Structured Query Language es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué comando se usa para seleccionar datos de una tabla?
+
+**Respuesta(s) correcta(s):**
+- SELECT
+
+**Explicación actual:**
+SELECT es el comando fundamental de SQL para consultar datos. SELECT permite especificar qué columnas recuperar y de qué tablas. Es la base de todas las operaciones de lectura en bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Cómo se insertan datos en una tabla SQL?
+
+**Respuesta(s) correcta(s):**
+- INSERT INTO tabla
+
+**Explicación actual:**
+INSERT INTO tabla es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Qué comando actualiza datos existentes?
+
+**Respuesta(s) correcta(s):**
+- CHANGE
+
+**Explicación actual:**
+CHANGE es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué comando elimina filas de una tabla?
+
+**Respuesta(s) correcta(s):**
+- DROP
+
+**Explicación actual:**
+DROP es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué es una PRIMARY KEY?
+
+**Respuesta(s) correcta(s):**
+- Un identificador único para cada fila de una tabla
+
+**Explicación actual:**
+Una clave primaria es una columna o conjunto de columnas que identifica de forma única cada fila de una tabla. No puede contener valores NULL y cada valor debe ser único, siendo fundamental para la integridad referencial.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué es una FOREIGN KEY?
+
+**Respuesta(s) correcta(s):**
+- Un campo que referencia la primary key de otra tabla
+
+**Explicación actual:**
+Un campo que referencia la primary key de otra tabla define una relación de clave en SQL. Las claves son fundamentales para la integridad referencial, asegurando que las relaciones entre tablas se mantengan consistentes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué comando se usa para crear una tabla?
+
+**Respuesta(s) correcta(s):**
+- CREATE TABLE
+
+**Explicación actual:**
+CREATE TABLE es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué cláusula filtra resultados en SQL?
+
+**Respuesta(s) correcta(s):**
+- WHERE
+
+**Explicación actual:**
+WHERE es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué es un JOIN en SQL?
+
+**Respuesta(s) correcta(s):**
+- Una operación que combina filas de dos o más tablas basándose en una relación
+
+**Explicación actual:**
+Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada. INNER JOIN devuelve solo las coincidencias, LEFT JOIN incluye todos los registros de la tabla izquierda, y RIGHT/FULL JOIN tienen comportamientos similares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué tipo de JOIN devuelve todas las filas de la tabla izquierda?
+
+**Respuesta(s) correcta(s):**
+- RIGHT JOIN
+
+**Explicación actual:**
+Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada. INNER JOIN devuelve solo las coincidencias, LEFT JOIN incluye todos los registros de la tabla izquierda, y RIGHT/FULL JOIN tienen comportamientos similares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué función cuenta el número de filas?
+
+**Respuesta(s) correcta(s):**
+- COUNT()
+
+**Explicación actual:**
+COUNT() es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué cláusula agrupa resultados en SQL?
+
+**Respuesta(s) correcta(s):**
+- GROUP BY
+
+**Explicación actual:**
+GROUP BY es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué cláusula ordena los resultados?
+
+**Respuesta(s) correcta(s):**
+- ORDER BY
+
+**Explicación actual:**
+ORDER BY es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es un índice en SQL?
+
+**Respuesta(s) correcta(s):**
+- Una estructura que mejora la velocidad de búsqueda en una tabla
+
+**Explicación actual:**
+Los índices son estructuras de datos que mejoran la velocidad de las consultas al crear referencias rápidas a los datos. Aunque aceleran las búsquedas, consumen espacio adicional y pueden ralentizar las operaciones de escritura.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué garantiza el modelo ACID?
+
+**Respuesta(s) correcta(s):**
+- Atomicidad, Consistencia, Aislamiento, Durabilidad
+
+**Explicación actual:**
+Atomicidad, Consistencia, Aislamiento, Durabilidad es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es una transacción en SQL?
+
+**Respuesta(s) correcta(s):**
+- Un conjunto de operaciones que se ejecutan como una unidad atómica
+
+**Explicación actual:**
+Las transacciones agrupan múltiples operaciones SQL en una unidad atómica. Si alguna operación falla, todas se revierten (ROLLBACK), garantizando la integridad de los datos. Si todas tienen éxito, se confirman con COMMIT.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué comando inicia una transacción?
+
+**Respuesta(s) correcta(s):**
+- INIT TRANSACTION
+
+**Explicación actual:**
+Las transacciones agrupan múltiples operaciones SQL en una unidad atómica. Si alguna operación falla, todas se revierten (ROLLBACK), garantizando la integridad de los datos. Si todas tienen éxito, se confirman con COMMIT.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué comando confirma una transacción?
+
+**Respuesta(s) correcta(s):**
+- COMMIT
+
+**Explicación actual:**
+Las transacciones agrupan múltiples operaciones SQL en una unidad atómica. Si alguna operación falla, todas se revierten (ROLLBACK), garantizando la integridad de los datos. Si todas tienen éxito, se confirman con COMMIT.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué comando revierte una transacción?
+
+**Respuesta(s) correcta(s):**
+- ROLLBACK
+
+**Explicación actual:**
+Las transacciones agrupan múltiples operaciones SQL en una unidad atómica. Si alguna operación falla, todas se revierten (ROLLBACK), garantizando la integridad de los datos. Si todas tienen éxito, se confirman con COMMIT.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué es una vista (VIEW) en SQL?
+
+**Respuesta(s) correcta(s):**
+- Una consulta guardada que actúa como tabla virtual
+
+**Explicación actual:**
+Una consulta guardada que actúa como tabla virtual es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué operador se usa para buscar patrones en texto?
+
+**Respuesta(s) correcta(s):**
+- LIKE
+
+**Explicación actual:**
+LIKE es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué símbolo es un comodín en SQL con LIKE?
+
+**Respuesta(s) correcta(s):**
+- %
+
+**Explicación actual:**
+% es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Qué cláusula elimina duplicados en resultados?
+
+**Respuesta(s) correcta(s):**
+- DISTINCT
+
+**Explicación actual:**
+DISTINCT es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué es una subconsulta?
+
+**Respuesta(s) correcta(s):**
+- Una consulta dentro de otra consulta
+
+**Explicación actual:**
+Una consulta dentro de otra consulta es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Cuáles son tipos de JOIN en SQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- LEFT JOIN
+- RIGHT JOIN
+
+**Explicación actual:**
+Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada. INNER JOIN devuelve solo las coincidencias, LEFT JOIN incluye todos los registros de la tabla izquierda, y RIGHT/FULL JOIN tienen comportamientos similares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es un INNER JOIN?
+
+**Respuesta(s) correcta(s):**
+- Retorna solo las filas que tienen coincidencias en ambas tablas
+
+**Explicación actual:**
+Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada. INNER JOIN devuelve solo las coincidencias, LEFT JOIN incluye todos los registros de la tabla izquierda, y RIGHT/FULL JOIN tienen comportamientos similares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es UNION en SQL?
+
+**Respuesta(s) correcta(s):**
+- Combina resultados de dos o más SELECT eliminando duplicados
+
+**Explicación actual:**
+SELECT es el comando fundamental de SQL para consultar datos. Combina resultados de dos o más SELECT eliminando duplicados permite especificar qué columnas recuperar y de qué tablas. Es la base de todas las operaciones de lectura en bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Diferencia entre UNION y UNION ALL?
+
+**Respuesta(s) correcta(s):**
+- UNION elimina duplicados, UNION ALL los mantiene
+
+**Explicación actual:**
+UNION elimina duplicados, UNION ALL los mantiene es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es un constraint en SQL?
+
+**Respuesta(s) correcta(s):**
+- Una regla que limita los datos que pueden insertarse en una tabla
+
+**Explicación actual:**
+Una regla que limita los datos que pueden insertarse en una tabla es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Cuáles son tipos de constraints? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- FOREIGN KEY
+- UNIQUE
+
+**Explicación actual:**
+Las respuestas correctas son: "FOREIGN KEY" y "UNIQUE". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué es NOT NULL constraint?
+
+**Respuesta(s) correcta(s):**
+- Asegura que una columna no pueda contener valores NULL
+
+**Explicación actual:**
+Asegura que una columna no pueda contener valores NULL es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué es DEFAULT constraint?
+
+**Respuesta(s) correcta(s):**
+- Establece un valor por defecto para una columna
+
+**Explicación actual:**
+Establece un valor por defecto para una columna es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es CHECK constraint?
+
+**Respuesta(s) correcta(s):**
+- Valida que los valores cumplan una condición específica
+
+**Explicación actual:**
+Valida que los valores cumplan una condición específica es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué función suma valores en SQL?
+
+**Respuesta(s) correcta(s):**
+- SUM()
+
+**Explicación actual:**
+SUM() es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué función calcula el promedio?
+
+**Respuesta(s) correcta(s):**
+- AVG()
+
+**Explicación actual:**
+AVG() es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué función obtiene el valor máximo?
+
+**Respuesta(s) correcta(s):**
+- MAX()
+
+**Explicación actual:**
+MAX() es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué función obtiene el valor mínimo?
+
+**Respuesta(s) correcta(s):**
+- MIN()
+
+**Explicación actual:**
+MIN() es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Cuáles son funciones agregadas en SQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- SUM()
+- AVG()
+
+**Explicación actual:**
+Las respuestas correctas son: "SUM()" y "AVG()". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es HAVING en SQL?
+
+**Respuesta(s) correcta(s):**
+- Filtra resultados después de GROUP BY
+
+**Explicación actual:**
+Filtra resultados después de GROUP BY es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Diferencia entre WHERE y HAVING?
+
+**Respuesta(s) correcta(s):**
+- WHERE filtra antes de agrupar, HAVING después
+
+**Explicación actual:**
+WHERE filtra antes de agrupar, HAVING después es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es NULL en SQL?
+
+**Respuesta(s) correcta(s):**
+- Ausencia de valor o valor desconocido
+
+**Explicación actual:**
+Ausencia de valor o valor desconocido es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Cómo se verifica NULL en SQL?
+
+**Respuesta(s) correcta(s):**
+- IS NULL o IS NOT NULL
+
+**Explicación actual:**
+IS NULL o IS NOT NULL es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es COALESCE en SQL?
+
+**Respuesta(s) correcta(s):**
+- Retorna el primer valor no NULL de una lista
+
+**Explicación actual:**
+Retorna el primer valor no NULL de una lista es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es CASE en SQL?
+
+**Respuesta(s) correcta(s):**
+- Una expresión condicional como if-else
+
+**Explicación actual:**
+Una expresión condicional como if-else es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué es LIMIT en SQL?
+
+**Respuesta(s) correcta(s):**
+- Restringe el número de filas retornadas
+
+**Explicación actual:**
+Restringe el número de filas retornadas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es OFFSET en SQL?
+
+**Respuesta(s) correcta(s):**
+- Salta un número específico de filas antes de retornar resultados
+
+**Explicación actual:**
+Salta un número específico de filas antes de retornar resultados es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Qué hace ALTER TABLE?
+
+**Respuesta(s) correcta(s):**
+- Modifica la estructura de una tabla existente
+
+**Explicación actual:**
+Modifica la estructura de una tabla existente es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Cuáles son operaciones de ALTER TABLE? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- DROP COLUMN
+- MODIFY COLUMN
+
+**Explicación actual:**
+Las respuestas correctas son: "DROP COLUMN" y "MODIFY COLUMN". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Qué hace DROP TABLE?
+
+**Respuesta(s) correcta(s):**
+- Elimina completamente una tabla y sus datos
+
+**Explicación actual:**
+Elimina completamente una tabla y sus datos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué hace TRUNCATE TABLE?
+
+**Respuesta(s) correcta(s):**
+- Elimina todos los datos de una tabla pero mantiene su estructura
+
+**Explicación actual:**
+Elimina todos los datos de una tabla pero mantiene su estructura es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Diferencia entre DELETE y TRUNCATE?
+
+**Respuesta(s) correcta(s):**
+- DELETE puede usar WHERE y es más lento, TRUNCATE es más rápido
+
+**Explicación actual:**
+DELETE puede usar WHERE y es más lento, TRUNCATE es más rápido es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Qué es un stored procedure?
+
+**Respuesta(s) correcta(s):**
+- Un conjunto de sentencias SQL almacenadas que pueden ejecutarse
+
+**Explicación actual:**
+Un conjunto de sentencias SQL almacenadas que pueden ejecutarse es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es una función en SQL?
+
+**Respuesta(s) correcta(s):**
+- Una rutina que retorna un valor
+
+**Explicación actual:**
+Una rutina que retorna un valor es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Diferencia entre stored procedure y función?
+
+**Respuesta(s) correcta(s):**
+- Funciones retornan valores, procedures pueden no retornar
+
+**Explicación actual:**
+Funciones retornan valores, procedures pueden no retornar es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es un trigger en SQL?
+
+**Respuesta(s) correcta(s):**
+- Un procedimiento que se ejecuta automáticamente ante eventos
+
+**Explicación actual:**
+Un procedimiento que se ejecuta automáticamente ante eventos es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Cuándo se ejecutan los triggers? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- AFTER UPDATE
+- BEFORE DELETE
+
+**Explicación actual:**
+Las respuestas correctas son: "AFTER UPDATE" y "BEFORE DELETE". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es un cursor en SQL?
+
+**Respuesta(s) correcta(s):**
+- Un objeto para procesar filas una por una
+
+**Explicación actual:**
+Un objeto para procesar filas una por una es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es normalización en bases de datos?
+
+**Respuesta(s) correcta(s):**
+- Proceso de organizar datos para reducir redundancia
+
+**Explicación actual:**
+Proceso de organizar datos para reducir redundancia es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Cuáles son formas normales? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Segunda Forma Normal (2NF)
+- Tercera Forma Normal (3NF)
+
+**Explicación actual:**
+Las respuestas correctas son: "Segunda Forma Normal (2NF)" y "Tercera Forma Normal (3NF)". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué es desnormalización?
+
+**Respuesta(s) correcta(s):**
+- Agregar redundancia intencionalmente para mejorar rendimiento
+
+**Explicación actual:**
+Agregar redundancia intencionalmente para mejorar rendimiento es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es un índice compuesto?
+
+**Respuesta(s) correcta(s):**
+- Un índice sobre múltiples columnas
+
+**Explicación actual:**
+Los índices son estructuras de datos que mejoran la velocidad de las consultas al crear referencias rápidas a los datos. Aunque aceleran las búsquedas, consumen espacio adicional y pueden ralentizar las operaciones de escritura.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Qué es un índice único (UNIQUE)?
+
+**Respuesta(s) correcta(s):**
+- Un índice que garantiza valores únicos en la columna
+
+**Explicación actual:**
+Los índices son estructuras de datos que mejoran la velocidad de las consultas al crear referencias rápidas a los datos. Aunque aceleran las búsquedas, consumen espacio adicional y pueden ralentizar las operaciones de escritura.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es EXPLAIN en SQL?
+
+**Respuesta(s) correcta(s):**
+- Muestra el plan de ejecución de una consulta
+
+**Explicación actual:**
+Muestra el plan de ejecución de una consulta es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Qué es un deadlock?
+
+**Respuesta(s) correcta(s):**
+- Situación donde dos transacciones se bloquean mutuamente
+
+**Explicación actual:**
+Situación donde dos transacciones se bloquean mutuamente es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué son niveles de aislamiento en transacciones? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- READ COMMITTED
+- REPEATABLE READ
+
+**Explicación actual:**
+Las respuestas correctas son: "READ COMMITTED" y "REPEATABLE READ". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué es READ COMMITTED?
+
+**Respuesta(s) correcta(s):**
+- Solo lee datos confirmados por otras transacciones
+
+**Explicación actual:**
+Solo lee datos confirmados por otras transacciones es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué es SERIALIZABLE?
+
+**Respuesta(s) correcta(s):**
+- El nivel más alto de aislamiento, transacciones completamente aisladas
+
+**Explicación actual:**
+El nivel más alto de aislamiento, transacciones completamente aisladas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es un plan de ejecución?
+
+**Respuesta(s) correcta(s):**
+- La estrategia que usa el motor para ejecutar una consulta
+
+**Explicación actual:**
+La estrategia que usa el motor para ejecutar una consulta es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es cardinality en bases de datos?
+
+**Respuesta(s) correcta(s):**
+- El número de valores únicos en una columna
+
+**Explicación actual:**
+El número de valores únicos en una columna es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué es selectivity?
+
+**Respuesta(s) correcta(s):**
+- La proporción de filas que cumplen una condición
+
+**Explicación actual:**
+La proporción de filas que cumplen una condición es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Qué es un hash join?
+
+**Respuesta(s) correcta(s):**
+- Un algoritmo de JOIN que usa tablas hash
+
+**Explicación actual:**
+Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada. INNER JOIN devuelve solo las coincidencias, LEFT JOIN incluye todos los registros de la tabla izquierda, y RIGHT/FULL JOIN tienen comportamientos similares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es un nested loop join?
+
+**Respuesta(s) correcta(s):**
+- Un algoritmo de JOIN que itera sobre filas
+
+**Explicación actual:**
+Los JOINs combinan filas de dos o más tablas basándose en una columna relacionada. INNER JOIN devuelve solo las coincidencias, LEFT JOIN incluye todos los registros de la tabla izquierda, y RIGHT/FULL JOIN tienen comportamientos similares.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Cuáles son operadores lógicos en SQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- OR
+- NOT
+
+**Explicación actual:**
+Las respuestas correctas son: "OR" y "NOT". SQL es el lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es IN en SQL?
+
+**Respuesta(s) correcta(s):**
+- Verifica si un valor está en un conjunto
+
+**Explicación actual:**
+Verifica si un valor está en un conjunto es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Qué es EXISTS en SQL?
+
+**Respuesta(s) correcta(s):**
+- Verifica si una subconsulta retorna alguna fila
+
+**Explicación actual:**
+Verifica si una subconsulta retorna alguna fila es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Qué es BETWEEN en SQL?
+
+**Respuesta(s) correcta(s):**
+- Verifica si un valor está en un rango
+
+**Explicación actual:**
+Verifica si un valor está en un rango es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Qué hace CONCAT en SQL?
+
+**Respuesta(s) correcta(s):**
+- Une strings
+
+**Explicación actual:**
+Une strings es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué hace SUBSTRING en SQL?
+
+**Respuesta(s) correcta(s):**
+- Extrae parte de un string
+
+**Explicación actual:**
+Extrae parte de un string es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Qué hace UPPER/LOWER en SQL?
+
+**Respuesta(s) correcta(s):**
+- Convierte texto a mayúsculas/minúsculas
+
+**Explicación actual:**
+Convierte texto a mayúsculas/minúsculas es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Qué hace TRIM en SQL?
+
+**Respuesta(s) correcta(s):**
+- Elimina espacios al inicio y fin de un string
+
+**Explicación actual:**
+Elimina espacios al inicio y fin de un string es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Qué es DATE_FORMAT en SQL?
+
+**Respuesta(s) correcta(s):**
+- Formatea fechas según un patrón
+
+**Explicación actual:**
+Formatea fechas según un patrón es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Qué hace NOW() o CURRENT_TIMESTAMP?
+
+**Respuesta(s) correcta(s):**
+- Retorna la fecha y hora actuales
+
+**Explicación actual:**
+Retorna la fecha y hora actuales es la respuesta correcta en SQL. SQL es el lenguaje estándar para gestionar bases de datos relacionales, usado universalmente para consultar y manipular datos estructurados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

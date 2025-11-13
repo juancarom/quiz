@@ -1,0 +1,1339 @@
+# Explicaciones para GRAPHQL
+
+Total de preguntas: 88
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Lenguaje de consulta para APIs y runtime para ejecutar esas consultas
+
+**Explicación actual:**
+Lenguaje de consulta para APIs y runtime para ejecutar esas consultas es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Quién desarrolló GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Facebook (Meta)
+
+**Explicación actual:**
+Facebook (Meta) es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Cuándo se hizo open source GraphQL?
+
+**Respuesta(s) correcta(s):**
+- 2015
+
+**Explicación actual:**
+2015 es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Diferencia principal entre GraphQL y REST?
+
+**Respuesta(s) correcta(s):**
+- GraphQL permite pedir exactamente los datos necesarios en una sola consulta
+
+**Explicación actual:**
+GraphQL permite pedir exactamente los datos necesarios en una sola consulta es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué es un schema en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Contrato que define tipos, queries y mutations disponibles
+
+**Explicación actual:**
+El schema de GraphQL es un contrato que define todos los tipos de datos disponibles y las operaciones permitidas. Proporciona documentación automática y validación de tipos en tiempo de desarrollo.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué lenguaje se usa para definir un schema?
+
+**Respuesta(s) correcta(s):**
+- SDL (Schema Definition Language)
+
+**Explicación actual:**
+El schema de GraphQL es un contrato que define todos los tipos de datos disponibles y las operaciones permitidas. Proporciona documentación automática y validación de tipos en tiempo de desarrollo.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué es un type en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Define la estructura de un objeto con sus campos
+
+**Explicación actual:**
+Define la estructura de un objeto con sus campos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Cuáles son tipos escalares en GraphQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Float
+- String
+
+**Explicación actual:**
+Las respuestas correctas son: "Float" y "String". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué es el tipo ID?
+
+**Respuesta(s) correcta(s):**
+- Tipo escalar para identificadores únicos
+
+**Explicación actual:**
+Tipo escalar para identificadores únicos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué es una Query en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Operación para leer/obtener datos
+
+**Explicación actual:**
+Las queries en GraphQL permiten solicitar exactamente los datos necesarios, evitando over-fetching o under-fetching. El cliente especifica la estructura deseada y el servidor responde con datos en ese formato.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué es una Mutation en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Operación para crear, actualizar o eliminar datos
+
+**Explicación actual:**
+Las mutations en GraphQL modifican datos en el servidor. Son equivalentes a operaciones POST, PUT, PATCH y DELETE en REST, pero con la ventaja de poder solicitar datos específicos en la respuesta.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué es una Subscription en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Operación para recibir actualizaciones en tiempo real
+
+**Explicación actual:**
+Operación para recibir actualizaciones en tiempo real es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Cuáles son las 3 operaciones principales? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Mutation
+- Subscription
+
+**Explicación actual:**
+Las respuestas correctas son: "Mutation" y "Subscription". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué es un resolver?
+
+**Respuesta(s) correcta(s):**
+- Función que obtiene los datos para un campo específico
+
+**Explicación actual:**
+Los resolvers en GraphQL son funciones que recuperan los datos para cada campo. Determinan cómo y de dónde obtener los datos, pudiendo consultar bases de datos, APIs externas u otras fuentes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es el campo __typename?
+
+**Respuesta(s) correcta(s):**
+- Meta-campo que retorna el nombre del tipo de objeto
+
+**Explicación actual:**
+Meta-campo que retorna el nombre del tipo de objeto es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué son los arguments en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Parámetros que se pasan a campos para filtrar/modificar datos
+
+**Explicación actual:**
+Parámetros que se pasan a campos para filtrar/modificar datos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué son las variables en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Manera de parametrizar queries para reutilización
+
+**Explicación actual:**
+Manera de parametrizar queries para reutilización es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Cómo se definen variables en una query?
+
+**Respuesta(s) correcta(s):**
+- Usando $ antes del nombre (ej: $id: ID!)
+
+**Explicación actual:**
+Las queries en GraphQL permiten solicitar exactamente los datos necesarios, evitando over-fetching o under-fetching. El cliente especifica la estructura deseada y el servidor responde con datos en ese formato.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué es el signo ! en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Indica que un campo o argumento es requerido (non-null)
+
+**Explicación actual:**
+Indica que un campo o argumento es requerido (non-null) es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué son los fragments en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Conjuntos reutilizables de campos
+
+**Explicación actual:**
+Conjuntos reutilizables de campos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Cómo se define un fragment?
+
+**Respuesta(s) correcta(s):**
+- type Fragment
+
+**Explicación actual:**
+type Fragment es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué son inline fragments?
+
+**Respuesta(s) correcta(s):**
+- Fragmentos para manejar diferentes tipos en unions/interfaces
+
+**Explicación actual:**
+Fragmentos para manejar diferentes tipos en unions/interfaces es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es una Interface en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Tipo abstracto que otros tipos pueden implementar
+
+**Explicación actual:**
+Tipo abstracto que otros tipos pueden implementar es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Qué es un Union type?
+
+**Respuesta(s) correcta(s):**
+- Tipo que puede ser uno de varios tipos posibles
+
+**Explicación actual:**
+Tipo que puede ser uno de varios tipos posibles es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Diferencia entre Interface y Union?
+
+**Respuesta(s) correcta(s):**
+- Interface requiere campos comunes, Union no
+
+**Explicación actual:**
+Interface requiere campos comunes, Union no es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Qué es un Enum en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Tipo con conjunto finito de valores posibles
+
+**Explicación actual:**
+Tipo con conjunto finito de valores posibles es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es un Input type?
+
+**Respuesta(s) correcta(s):**
+- Tipo especial para pasar objetos complejos como argumentos
+
+**Explicación actual:**
+Tipo especial para pasar objetos complejos como argumentos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Diferencia entre type e input?
+
+**Respuesta(s) correcta(s):**
+- type para outputs, input para argumentos
+
+**Explicación actual:**
+type para outputs, input para argumentos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Qué son las directivas en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Modificadores que alteran la ejecución (@include, @skip)
+
+**Explicación actual:**
+Modificadores que alteran la ejecución (@include, @skip) es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Cuáles son directivas comunes? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- @skip
+- @deprecated
+
+**Explicación actual:**
+Las respuestas correctas son: "@skip" y "@deprecated". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué hace @include?
+
+**Respuesta(s) correcta(s):**
+- Incluye campo solo si la condición es true
+
+**Explicación actual:**
+Incluye campo solo si la condición es true es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué hace @skip?
+
+**Respuesta(s) correcta(s):**
+- Omite campo si la condición es true
+
+**Explicación actual:**
+Omite campo si la condición es true es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué hace @deprecated?
+
+**Respuesta(s) correcta(s):**
+- Marca un campo como obsoleto
+
+**Explicación actual:**
+Marca un campo como obsoleto es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es introspection en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Capacidad de consultar el schema mismo
+
+**Explicación actual:**
+Capacidad de consultar el schema mismo describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué query muestra el schema completo?
+
+**Respuesta(s) correcta(s):**
+- getSchema
+
+**Explicación actual:**
+Las queries en GraphQL permiten solicitar exactamente los datos necesarios, evitando over-fetching o under-fetching. El cliente especifica la estructura deseada y el servidor responde con datos en ese formato.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué query muestra información de un tipo?
+
+**Respuesta(s) correcta(s):**
+- getType
+
+**Explicación actual:**
+Las queries en GraphQL permiten solicitar exactamente los datos necesarios, evitando over-fetching o under-fetching. El cliente especifica la estructura deseada y el servidor responde con datos en ese formato.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Es recomendable deshabilitar introspection en producción?
+
+**Respuesta(s) correcta(s):**
+- Sí, por seguridad para evitar exponer schema completo
+
+**Explicación actual:**
+Sí, por seguridad para evitar exponer schema completo describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es DataLoader?
+
+**Respuesta(s) correcta(s):**
+- Utilidad para batching y caching de queries de datos
+
+**Explicación actual:**
+Utilidad para batching y caching de queries de datos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué problema soluciona DataLoader?
+
+**Respuesta(s) correcta(s):**
+- Problema N+1 mediante batching de requests
+
+**Explicación actual:**
+Problema N+1 mediante batching de requests es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es el problema N+1 en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Hacer múltiples queries individuales en lugar de una batch query
+
+**Explicación actual:**
+Hacer múltiples queries individuales en lugar de una batch query describe queries en GraphQL. Las queries permiten solicitar exactamente los datos necesarios en una sola petición, evitando problemas de over-fetching o under-fetching comunes en REST.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es Apollo Server?
+
+**Respuesta(s) correcta(s):**
+- Servidor GraphQL popular para Node.js
+
+**Explicación actual:**
+Servidor GraphQL popular para Node.js es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es Apollo Client?
+
+**Respuesta(s) correcta(s):**
+- Cliente GraphQL completo para frontend con cache
+
+**Explicación actual:**
+Cliente GraphQL completo para frontend con cache es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Qué es el Apollo Cache?
+
+**Respuesta(s) correcta(s):**
+- Sistema de caching normalizado para datos GraphQL
+
+**Explicación actual:**
+Sistema de caching normalizado para datos GraphQL es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es GraphQL Playground?
+
+**Respuesta(s) correcta(s):**
+- IDE interactiva para explorar APIs GraphQL
+
+**Explicación actual:**
+IDE interactiva para explorar APIs GraphQL es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es GraphiQL?
+
+**Respuesta(s) correcta(s):**
+- IDE en el navegador para GraphQL (predecesora de Playground)
+
+**Explicación actual:**
+IDE en el navegador para GraphQL (predecesora de Playground) es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué es Relay?
+
+**Respuesta(s) correcta(s):**
+- Framework de Facebook para construir apps con GraphQL
+
+**Explicación actual:**
+Framework de Facebook para construir apps con GraphQL es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué son las Relay Connections?
+
+**Respuesta(s) correcta(s):**
+- Patrón para paginación con cursor-based pagination
+
+**Explicación actual:**
+Patrón para paginación con cursor-based pagination es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Qué es el Relay Cursor?
+
+**Respuesta(s) correcta(s):**
+- Identificador opaco para paginación
+
+**Explicación actual:**
+Identificador opaco para paginación es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué es pagination en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Dividir resultados grandes en páginas manejables
+
+**Explicación actual:**
+Dividir resultados grandes en páginas manejables es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Cuáles son tipos de paginación? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Cursor-based
+- Page-based
+
+**Explicación actual:**
+Las respuestas correctas son: "Cursor-based" y "Page-based". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué es offset-based pagination?
+
+**Respuesta(s) correcta(s):**
+- Paginación usando offset y limit (ej: first: 10, offset: 20)
+
+**Explicación actual:**
+Paginación usando offset y limit (ej: first: 10, offset: 20) es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es cursor-based pagination?
+
+**Respuesta(s) correcta(s):**
+- Paginación con números
+
+**Explicación actual:**
+Paginación con números es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Ventaja de cursor-based sobre offset?
+
+**Respuesta(s) correcta(s):**
+- Más confiable con datos que cambian frecuentemente
+
+**Explicación actual:**
+Más confiable con datos que cambian frecuentemente es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es batching en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Combinar múltiples queries en una sola petición HTTP
+
+**Explicación actual:**
+Combinar múltiples queries en una sola petición HTTP es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Qué es persisted queries?
+
+**Respuesta(s) correcta(s):**
+- Queries pre-registradas en el servidor con un ID
+
+**Explicación actual:**
+Queries pre-registradas en el servidor con un ID es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Ventajas de persisted queries? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Mejor rendimiento
+- Menor tamaño de request
+
+**Explicación actual:**
+Las respuestas correctas son: "Mejor rendimiento" y "Menor tamaño de request". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Qué es @defer en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Directiva para cargar campos pesados después
+
+**Explicación actual:**
+Directiva para cargar campos pesados después es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es @stream?
+
+**Respuesta(s) correcta(s):**
+- Directiva para streaming de listas grandes
+
+**Explicación actual:**
+Directiva para streaming de listas grandes es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es federation en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Arquitectura para componer schemas de múltiples servicios
+
+**Explicación actual:**
+Arquitectura para componer schemas de múltiples servicios describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué es Apollo Federation?
+
+**Respuesta(s) correcta(s):**
+- Implementación de federation para arquitecturas distribuidas
+
+**Explicación actual:**
+Implementación de federation para arquitecturas distribuidas es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué son los subgraphs en federation?
+
+**Respuesta(s) correcta(s):**
+- Servicios individuales con sus propios schemas
+
+**Explicación actual:**
+Servicios individuales con sus propios schemas describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es el gateway en federation?
+
+**Respuesta(s) correcta(s):**
+- Punto de entrada que compone queries entre subgraphs
+
+**Explicación actual:**
+Punto de entrada que compone queries entre subgraphs es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Qué es @key en federation?
+
+**Respuesta(s) correcta(s):**
+- Directiva que define cómo identificar una entidad entre servicios
+
+**Explicación actual:**
+Directiva que define cómo identificar una entidad entre servicios es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es schema stitching?
+
+**Respuesta(s) correcta(s):**
+- Técnica para combinar múltiples schemas GraphQL
+
+**Explicación actual:**
+El schema de GraphQL es un contrato que define todos los tipos de datos disponibles y las operaciones permitidas. Proporciona documentación automática y validación de tipos en tiempo de desarrollo.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Diferencia entre federation y stitching?
+
+**Respuesta(s) correcta(s):**
+- Federation es más moderna y escalable que stitching
+
+**Explicación actual:**
+Federation es más moderna y escalable que stitching es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué es error handling en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Sistema donde errors son parte de la response, no del status HTTP
+
+**Explicación actual:**
+Sistema donde errors son parte de la response, no del status HTTP es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Estructura de una response GraphQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- errors (array de errores)
+- extensions (metadata)
+
+**Explicación actual:**
+Las respuestas correctas son: "errors (array de errores)" y "extensions (metadata)". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué status code retorna GraphQL normalmente?
+
+**Respuesta(s) correcta(s):**
+- 400, 500, etc.
+
+**Explicación actual:**
+400, 500, etc. es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Cómo manejar errores de negocio en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- En el campo data con campos de error explícitos
+
+**Explicación actual:**
+En el campo data con campos de error explícitos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es el context en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Objeto compartido entre resolvers con información común (auth, db)
+
+**Explicación actual:**
+Objeto compartido entre resolvers con información común (auth, db) es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué información típicamente va en context? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Conexión a base de datos
+- Request headers
+
+**Explicación actual:**
+Las respuestas correctas son: "Conexión a base de datos" y "Request headers". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Qué es middleware en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Funciones que se ejecutan antes/después de resolvers
+
+**Explicación actual:**
+Funciones que se ejecutan antes/después de resolvers es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es authorization en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Verificar permisos para acceder a recursos
+
+**Explicación actual:**
+Verificar permisos para acceder a recursos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Dónde implementar authorization? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- En middleware
+- En el schema con directivas custom
+
+**Explicación actual:**
+Las respuestas correctas son: "En middleware" y "En el schema con directivas custom". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es validation en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Verificar que la query cumple con el schema
+
+**Explicación actual:**
+Verificar que la query cumple con el schema describe queries en GraphQL. Las queries permiten solicitar exactamente los datos necesarios en una sola petición, evitando problemas de over-fetching o under-fetching comunes en REST.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Cuándo ocurre validation?
+
+**Respuesta(s) correcta(s):**
+- Antes de ejecutar la query
+
+**Explicación actual:**
+Antes de ejecutar la query describe queries en GraphQL. Las queries permiten solicitar exactamente los datos necesarios en una sola petición, evitando problemas de over-fetching o under-fetching comunes en REST.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Qué es execution en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Proceso de ejecutar resolvers para obtener datos
+
+**Explicación actual:**
+Proceso de ejecutar resolvers para obtener datos es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Qué es el execution algorithm?
+
+**Respuesta(s) correcta(s):**
+- Proceso que GraphQL usa para resolver queries de forma eficiente
+
+**Explicación actual:**
+Proceso que GraphQL usa para resolver queries de forma eficiente es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué es N+1 query problem?
+
+**Respuesta(s) correcta(s):**
+- Ejecutar N queries adicionales para obtener datos relacionados
+
+**Explicación actual:**
+Las queries en GraphQL permiten solicitar exactamente los datos necesarios, evitando over-fetching o under-fetching. El cliente especifica la estructura deseada y el servidor responde con datos en ese formato.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Cómo evitar N+1 en GraphQL? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Batching
+- Eager loading
+
+**Explicación actual:**
+Las respuestas correctas son: "Batching" y "Eager loading". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Qué es optimistic UI?
+
+**Respuesta(s) correcta(s):**
+- Actualizar UI inmediatamente antes de confirmar con servidor
+
+**Explicación actual:**
+Actualizar UI inmediatamente antes de confirmar con servidor es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Qué es normalization en cache?
+
+**Respuesta(s) correcta(s):**
+- Almacenar objetos por ID en lugar de por query
+
+**Explicación actual:**
+Almacenar objetos por ID en lugar de por query describe queries en GraphQL. Las queries permiten solicitar exactamente los datos necesarios en una sola petición, evitando problemas de over-fetching o under-fetching comunes en REST.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Ventaja de normalized cache?
+
+**Respuesta(s) correcta(s):**
+- Actualiza automáticamente todos los lugares donde aparece un objeto
+
+**Explicación actual:**
+Actualiza automáticamente todos los lugares donde aparece un objeto es correcto para GraphQL. GraphQL es un lenguaje de consulta que permite al cliente especificar exactamente qué datos necesita, mejorando la eficiencia de las APIs.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 84
+
+**Pregunta:** ¿Qué es code generation en GraphQL?
+
+**Respuesta(s) correcta(s):**
+- Generar tipos TypeScript/Flow desde schema automáticamente
+
+**Explicación actual:**
+Generar tipos TypeScript/Flow desde schema automáticamente describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 85
+
+**Pregunta:** ¿Cuáles son herramientas de codegen? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Apollo Codegen
+- Relay Compiler
+
+**Explicación actual:**
+Las respuestas correctas son: "Apollo Codegen" y "Relay Compiler". GraphQL es un lenguaje de consulta para APIs que permite al cliente solicitar exactamente los datos que necesita.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 86
+
+**Pregunta:** ¿Qué es schema-first vs code-first?
+
+**Respuesta(s) correcta(s):**
+- Schema-first define schema primero, code-first genera desde código
+
+**Explicación actual:**
+El schema de GraphQL es un contrato que define todos los tipos de datos disponibles y las operaciones permitidas. Proporciona documentación automática y validación de tipos en tiempo de desarrollo.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 87
+
+**Pregunta:** ¿Qué es SDL-first?
+
+**Respuesta(s) correcta(s):**
+- Definir schema con SDL antes que resolvers
+
+**Explicación actual:**
+Definir schema con SDL antes que resolvers describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 88
+
+**Pregunta:** ¿Qué es type-graphql?
+
+**Respuesta(s) correcta(s):**
+- Librería para crear schemas con decoradores TypeScript
+
+**Explicación actual:**
+Librería para crear schemas con decoradores TypeScript describe el schema de GraphQL. El schema es un contrato que define todos los tipos disponibles y operaciones permitidas, proporcionando documentación automática y validación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,1143 @@
+# Explicaciones para RAILS
+
+Total de preguntas: 75
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué patrón arquitectónico usa Rails?
+
+**Respuesta(s) correcta(s):**
+- MVC (Model-View-Controller)
+
+**Explicación actual:**
+MVC (Model-View-Controller) es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué es ActiveRecord en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un ORM donde cada modelo representa una tabla con métodos CRUD
+
+**Explicación actual:**
+Un ORM donde cada modelo representa una tabla con métodos CRUD es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Cómo se genera un modelo en Rails?
+
+**Respuesta(s) correcta(s):**
+- rails generate model Nombre
+
+**Explicación actual:**
+rails generate model Nombre es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Cómo se ejecutan las migraciones en Rails?
+
+**Respuesta(s) correcta(s):**
+- rails db:migrate
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. rails db:migrate es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué son las migraciones en Rails?
+
+**Respuesta(s) correcta(s):**
+- Movimiento de archivos
+
+**Explicación actual:**
+Movimiento de archivos es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Cómo se define una ruta en Rails?
+
+**Respuesta(s) correcta(s):**
+- En el controlador
+
+**Explicación actual:**
+En el controlador es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué es un callback en Rails?
+
+**Respuesta(s) correcta(s):**
+- Métodos que se ejecutan en momentos específicos del ciclo de vida de un objeto
+
+**Explicación actual:**
+Métodos que se ejecutan en momentos específicos del ciclo de vida de un objeto es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Cuál es un ejemplo de callback en Rails?
+
+**Respuesta(s) correcta(s):**
+- after_create
+
+**Explicación actual:**
+after_create es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Cómo se evita el problema N+1 en Rails?
+
+**Respuesta(s) correcta(s):**
+- Usando includes o eager loading para precargar asociaciones
+
+**Explicación actual:**
+Usando includes o eager loading para precargar asociaciones es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué es Sidekiq en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una librería para procesamiento de trabajos en segundo plano
+
+**Explicación actual:**
+Una librería para procesamiento de trabajos en segundo plano es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué es un scope en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un método de consulta reutilizable definido en el modelo
+
+**Explicación actual:**
+Un método de consulta reutilizable definido en el modelo es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Cómo se definen validaciones en Rails?
+
+**Respuesta(s) correcta(s):**
+- En el modelo usando validates
+
+**Explicación actual:**
+En el modelo usando validates es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué es un helper en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un tipo de controlador
+
+**Explicación actual:**
+Un tipo de controlador es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Cómo se define una asociación has_many en Rails?
+
+**Respuesta(s) correcta(s):**
+- En el modelo: has_many :items
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. En el modelo: has_many :items es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es el Asset Pipeline en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un framework que concatena y minifica archivos CSS y JavaScript
+
+**Explicación actual:**
+Un framework que concatena y minifica archivos CSS y JavaScript es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué archivo contiene la configuración de la base de datos en Rails?
+
+**Respuesta(s) correcta(s):**
+- db.config
+
+**Explicación actual:**
+db.config es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es un partial en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un modelo incompleto
+
+**Explicación actual:**
+Un modelo incompleto es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué gema se usa comúnmente para autenticación en Rails?
+
+**Respuesta(s) correcta(s):**
+- Devise
+
+**Explicación actual:**
+Devise es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué comando inicia el servidor de desarrollo en Rails?
+
+**Respuesta(s) correcta(s):**
+- rails server o rails s
+
+**Explicación actual:**
+rails server o rails s es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué es un concern en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un módulo que encapsula lógica compartida entre modelos o controladores
+
+**Explicación actual:**
+Un módulo que encapsula lógica compartida entre modelos o controladores es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué es el Asset Pipeline en Rails? (expansión)
+
+**Respuesta(s) correcta(s):**
+- Concatena, minifica y precompila assets (CSS, JS, imágenes)
+
+**Explicación actual:**
+Concatena, minifica y precompila assets (CSS, JS, imágenes) es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Cuáles son ambientes por defecto en Rails? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- test
+- production
+
+**Explicación actual:**
+Las respuestas correctas son: "test" y "production". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es Strong Parameters en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un mecanismo de seguridad para permitir solo ciertos parámetros
+
+**Explicación actual:**
+Un mecanismo de seguridad para permitir solo ciertos parámetros es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Cómo se definen Strong Parameters?
+
+**Respuesta(s) correcta(s):**
+- Con los métodos require y permit en el controlador
+
+**Explicación actual:**
+Con los métodos require y permit en el controlador es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué es un filtro (filter) en controladores Rails?
+
+**Respuesta(s) correcta(s):**
+- Un método que se ejecuta before, after o around de una acción
+
+**Explicación actual:**
+Un método que se ejecuta before, after o around de una acción es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Cuáles son tipos de filtros en Rails? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- after_action
+- around_action
+
+**Explicación actual:**
+Las respuestas correctas son: "after_action" y "around_action". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es render en Rails?
+
+**Respuesta(s) correcta(s):**
+- Muestra una vista o respuesta sin ejecutar otra acción
+
+**Explicación actual:**
+Muestra una vista o respuesta sin ejecutar otra acción es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es redirect_to en Rails?
+
+**Respuesta(s) correcta(s):**
+- Redirige a otra URL o acción
+
+**Explicación actual:**
+Redirige a otra URL o acción es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Diferencia entre render y redirect_to?
+
+**Respuesta(s) correcta(s):**
+- render muestra vista sin nueva petición, redirect_to hace nueva petición HTTP
+
+**Explicación actual:**
+render muestra vista sin nueva petición, redirect_to hace nueva petición HTTP es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es flash en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un hash para mostrar mensajes temporales entre peticiones
+
+**Explicación actual:**
+Un hash para mostrar mensajes temporales entre peticiones es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Cuáles son tipos de flash en Rails? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- flash[:alert]
+- flash[:error]
+
+**Explicación actual:**
+Las respuestas correctas son: "flash[:alert]" y "flash[:error]". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué es un layout en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una plantilla que envuelve las vistas
+
+**Explicación actual:**
+Una plantilla que envuelve las vistas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Dónde se ubican los layouts por defecto?
+
+**Respuesta(s) correcta(s):**
+- app/layouts
+
+**Explicación actual:**
+app/layouts es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es yield en vistas Rails?
+
+**Respuesta(s) correcta(s):**
+- Marca donde se insertará el contenido de la vista
+
+**Explicación actual:**
+Marca donde se insertará el contenido de la vista es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué son los helpers en Rails?
+
+**Respuesta(s) correcta(s):**
+- Módulos con métodos auxiliares para las vistas
+
+**Explicación actual:**
+Módulos con métodos auxiliares para las vistas es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué es link_to en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un helper que genera enlaces HTML
+
+**Explicación actual:**
+Un helper que genera enlaces HTML es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué es form_with en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un helper para crear formularios
+
+**Explicación actual:**
+Un helper para crear formularios es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Cuáles son asociaciones en Rails? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- belongs_to
+- has_one
+
+**Explicación actual:**
+Las respuestas correctas son: "belongs_to" y "has_one". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué es una asociación polymorphic en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una asociación donde un modelo puede pertenecer a varios tipos de modelos
+
+**Explicación actual:**
+Una asociación donde un modelo puede pertenecer a varios tipos de modelos es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es nested resources en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un tipo de asociación
+
+**Explicación actual:**
+Un tipo de asociación es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es un namespace en rutas Rails?
+
+**Respuesta(s) correcta(s):**
+- Una variable
+
+**Explicación actual:**
+Una variable es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es ActiveJob en Rails?
+
+**Respuesta(s) correcta(s):**
+- Un framework para declarar trabajos en segundo plano
+
+**Explicación actual:**
+Un framework para declarar trabajos en segundo plano es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Cuáles son adaptadores de ActiveJob? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Resque
+- Delayed Job
+
+**Explicación actual:**
+Las respuestas correctas son: "Resque" y "Delayed Job". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es ActionCable en Rails?
+
+**Respuesta(s) correcta(s):**
+- Framework para WebSockets en tiempo real
+
+**Explicación actual:**
+Framework para WebSockets en tiempo real es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es Turbo en Rails (Hotwire)?
+
+**Respuesta(s) correcta(s):**
+- Framework para SPAs sin mucho JavaScript
+
+**Explicación actual:**
+Framework para SPAs sin mucho JavaScript es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué es Stimulus en Rails?
+
+**Respuesta(s) correcta(s):**
+- Framework JavaScript modesto para Rails
+
+**Explicación actual:**
+Framework JavaScript modesto para Rails es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué son las validaciones personalizadas en Rails?
+
+**Respuesta(s) correcta(s):**
+- Métodos de validación definidos por el usuario
+
+**Explicación actual:**
+Métodos de validación definidos por el usuario es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Cómo se crea una validación custom?
+
+**Respuesta(s) correcta(s):**
+- Definiendo un método y usando validate :metodo
+
+**Explicación actual:**
+Los símbolos en Ruby (que comienzan con :) son identificadores inmutables más eficientes que strings. Definiendo un método y usando validate :metodo es la forma correcta. Se usan comúnmente como claves de hash y para representar nombres o estados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué es accepts_nested_attributes_for?
+
+**Respuesta(s) correcta(s):**
+- Permite guardar asociaciones anidadas desde un formulario
+
+**Explicación actual:**
+Permite guardar asociaciones anidadas desde un formulario es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Qué es el patrón Service Object en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una clase que encapsula lógica de negocio compleja
+
+**Explicación actual:**
+Una clase que encapsula lógica de negocio compleja es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué es Rack en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una interfaz entre el servidor web y la aplicación Rails
+
+**Explicación actual:**
+Una interfaz entre el servidor web y la aplicación Rails es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es middleware en Rails?
+
+**Respuesta(s) correcta(s):**
+- Componentes que procesan peticiones antes de llegar al router
+
+**Explicación actual:**
+Componentes que procesan peticiones antes de llegar al router es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Cómo se añade middleware en Rails?
+
+**Respuesta(s) correcta(s):**
+- En config/application.rb con config.middleware.use
+
+**Explicación actual:**
+En config/application.rb con config.middleware.use es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es Action Mailer en Rails?
+
+**Respuesta(s) correcta(s):**
+- Framework para enviar emails
+
+**Explicación actual:**
+Framework para enviar emails es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Cómo se genera un mailer en Rails?
+
+**Respuesta(s) correcta(s):**
+- rails generate mailer NombreMailer
+
+**Explicación actual:**
+rails generate mailer NombreMailer es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es Active Storage en Rails?
+
+**Respuesta(s) correcta(s):**
+- Framework para subir archivos a servicios cloud
+
+**Explicación actual:**
+Framework para subir archivos a servicios cloud es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Cuáles son servicios soportados por Active Storage? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Google Cloud Storage
+- Azure Storage
+
+**Explicación actual:**
+Las respuestas correctas son: "Google Cloud Storage" y "Azure Storage". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es has_one_attached en Active Storage?
+
+**Respuesta(s) correcta(s):**
+- Declara que el modelo tiene un archivo adjunto
+
+**Explicación actual:**
+Declara que el modelo tiene un archivo adjunto es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es has_many_attached en Active Storage?
+
+**Respuesta(s) correcta(s):**
+- Declara que el modelo tiene múltiples archivos adjuntos
+
+**Explicación actual:**
+Declara que el modelo tiene múltiples archivos adjuntos es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué es la convención sobre configuración en Rails?
+
+**Respuesta(s) correcta(s):**
+- Principio que reduce configuración siguiendo convenciones estándar
+
+**Explicación actual:**
+El método reduce (o inject) en Ruby acumula valores iterando sobre una colección. Es perfecto para sumar elementos, encontrar máximos o construir estructuras complejas.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué es DRY en Rails?
+
+**Respuesta(s) correcta(s):**
+- Don't Repeat Yourself - evitar duplicación de código
+
+**Explicación actual:**
+Don't Repeat Yourself - evitar duplicación de código es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es REST en Rails?
+
+**Respuesta(s) correcta(s):**
+- Architectural style para APIs con recursos y verbos HTTP
+
+**Explicación actual:**
+Architectural style para APIs con recursos y verbos HTTP es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Cuáles son verbos HTTP REST? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- POST
+- PUT/PATCH
+
+**Explicación actual:**
+Las respuestas correctas son: "POST" y "PUT/PATCH". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es resources en routes.rb?
+
+**Respuesta(s) correcta(s):**
+- Genera las 7 rutas RESTful estándar para un recurso
+
+**Explicación actual:**
+Genera las 7 rutas RESTful estándar para un recurso es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Cuáles son las 7 acciones RESTful en Rails? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- new, create
+- edit, update
+
+**Explicación actual:**
+Las respuestas correctas son: "new, create" y "edit, update". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué es member route en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una ruta adicional que actúa sobre un recurso individual
+
+**Explicación actual:**
+Una ruta adicional que actúa sobre un recurso individual es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué es collection route en Rails?
+
+**Respuesta(s) correcta(s):**
+- Una ruta adicional que actúa sobre la colección de recursos
+
+**Explicación actual:**
+Una ruta adicional que actúa sobre la colección de recursos es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué es ActiveRecord Enum?
+
+**Respuesta(s) correcta(s):**
+- Mapea atributos a valores enteros con nombres significativos
+
+**Explicación actual:**
+El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados, siendo esencial para procesamiento de datos funcional.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es counter_cache en Rails?
+
+**Respuesta(s) correcta(s):**
+- Cachea el número de asociaciones para mejorar rendimiento
+
+**Explicación actual:**
+Cachea el número de asociaciones para mejorar rendimiento es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es touch en asociaciones Rails?
+
+**Respuesta(s) correcta(s):**
+- Actualiza el timestamp del modelo asociado
+
+**Explicación actual:**
+Actualiza el timestamp del modelo asociado es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué es dependent en asociaciones?
+
+**Respuesta(s) correcta(s):**
+- Define qué pasa con asociaciones cuando se elimina el padre
+
+**Explicación actual:**
+Define qué pasa con asociaciones cuando se elimina el padre es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Cuáles son opciones de dependent? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- delete_all
+- nullify
+
+**Explicación actual:**
+Las respuestas correctas son: "delete_all" y "nullify". Ruby on Rails es un framework web MVC que sigue el principio de convención sobre configuración.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es inverse_of en asociaciones?
+
+**Respuesta(s) correcta(s):**
+- Especifica la asociación inversa para mejorar rendimiento
+
+**Explicación actual:**
+Especifica la asociación inversa para mejorar rendimiento es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Qué es delegate en Rails?
+
+**Respuesta(s) correcta(s):**
+- Delega métodos a objetos asociados
+
+**Explicación actual:**
+Delega métodos a objetos asociados es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es presence en Rails?
+
+**Respuesta(s) correcta(s):**
+- Valida que un atributo no esté en blanco
+
+**Explicación actual:**
+Valida que un atributo no esté en blanco es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

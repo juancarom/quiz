@@ -1,0 +1,1141 @@
+# Explicaciones para RUBY
+
+Total de preguntas: 74
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un lenguaje de programación interpretado y orientado a objetos
+
+**Explicación actual:**
+Un lenguaje de programación interpretado y orientado a objetos es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Ruby es un lenguaje de programación interpretado, dinámico y completamente orientado a objetos, creado por Yukihiro Matsumoto en 1995. Se caracteriza por su sintaxis elegante y natural que prioriza la felicidad del programador. A diferencia de lenguajes compilados, Ruby ejecuta el código línea por línea en tiempo de ejecución, lo que facilita el desarrollo rápido aunque con menor rendimiento que lenguajes compilados.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué símbolo se usa para definir un símbolo en Ruby?
+
+**Respuesta(s) correcta(s):**
+- #
+
+**Explicación actual:**
+Los símbolos en Ruby son identificadores inmutables que comienzan con :. Son más eficientes que strings como claves de hash porque cada símbolo existe solo una vez en memoria, mientras que strings idénticos pueden ocupar múltiples espacios.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Los símbolos en Ruby se definen con dos puntos (:) al inicio, por ejemplo :nombre o :status. Son identificadores inmutables que se almacenan una única vez en memoria, a diferencia de los strings que crean nuevas instancias cada vez. Por esta razón, los símbolos son más eficientes como claves de hash y para representar estados o nombres constantes. Una vez que Ruby encuentra :nombre, todas las referencias posteriores apuntan al mismo objeto en memoria.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Cómo se define un método en Ruby?
+
+**Respuesta(s) correcta(s):**
+- def nombre
+
+**Explicación actual:**
+En Ruby, los métodos se definen con la palabra clave 'def'. def nombre es la sintaxis correcta. Los métodos encapsulan comportamiento reutilizable y pueden recibir parámetros y retornar valores.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Los métodos en Ruby se definen con la palabra clave 'def' seguida del nombre del método: def nombre_metodo...end. Los nombres de métodos usan snake_case por convención. Pueden recibir parámetros: def saludar(nombre), tener valores por defecto: def saludar(nombre="Mundo"), y retornan automáticamente el valor de la última expresión evaluada (no necesitas escribir 'return' explícitamente, aunque puedes). Los métodos son fundamentales para encapsular lógica reutilizable y pueden terminar con ?, ! o = para seguir convenciones Ruby.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Qué es un bloque en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un tipo de variable
+
+**Explicación actual:**
+Los bloques en Ruby son fragmentos de código que se pueden pasar a métodos. Se definen con {} para una línea o do...end para múltiples líneas. Los bloques reciben parámetros entre pipes (|param|) y son fundamentales para iteradores y callbacks.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Los bloques en Ruby son fragmentos de código anónimos que se pueden pasar a métodos como argumentos. Se definen con llaves {} para código de una línea (ej: {|x| x * 2}) o con do...end para múltiples líneas. Los bloques reciben parámetros entre pipes (|param|) y son la base de los iteradores en Ruby. Por ejemplo, [1,2,3].each {|n| puts n} pasa un bloque al método each. Los bloques son fundamentales para callbacks, iteración y programación funcional en Ruby.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Cómo se define una clase en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Class MiClase
+
+**Explicación actual:**
+Class MiClase es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+En Ruby, las clases se definen usando la palabra clave 'class' seguida del nombre de la clase en CamelCase, y se cierra con 'end'. Por ejemplo: class MiClase...end. Las clases son plantillas para crear objetos y definen sus atributos (variables de instancia con @) y comportamientos (métodos). Ruby sigue convenciones estrictas: los nombres de clase deben comenzar con mayúscula y usar CamelCase. Todo en Ruby es un objeto, incluso las clases mismas son instancias de la clase Class.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué es un Proc en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un objeto que encapsula un bloque de código para reutilizarlo
+
+**Explicación actual:**
+Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué es un Lambda en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un tipo especial de Proc con validación estricta de argumentos
+
+**Explicación actual:**
+Tanto lambda como Proc crean bloques reutilizables en Ruby, pero con diferencias sutiles. Lambda verifica el número de argumentos estrictamente y return sale solo del lambda. Proc es más flexible con argumentos y return sale del método contenedor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Un lambda en Ruby es un tipo especial de objeto Proc que se comporta más como un método tradicional. Se crea con lambda {|x| x * 2} o con la sintaxis moderna ->(x) { x * 2 }. Las diferencias clave con Proc son: 1) Lambda valida estrictamente el número de argumentos (lanza error si no coincide), mientras que Proc es flexible. 2) Cuando un lambda ejecuta 'return', solo sale del lambda, mientras que Proc sale del método contenedor. Los lambdas son preferibles cuando necesitas comportamiento predecible similar a métodos.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Cómo se heredan clases en Ruby?
+
+**Respuesta(s) correcta(s):**
+- class Hijo < Padre
+
+**Explicación actual:**
+La herencia en Ruby se define usando el operador <. class Hijo < Padre indica que la clase hereda de otra, obteniendo acceso a sus métodos y atributos. Esto permite reutilizar código y crear jerarquías de clases.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+En Ruby, la herencia se implementa usando el operador < (menor que) entre el nombre de la clase hija y la clase padre: class Hijo < Padre. La clase hija hereda todos los métodos y atributos de la clase padre, pudiendo sobrescribirlos (override) o agregar nuevos. Ruby solo soporta herencia simple (una clase solo puede heredar de una clase padre directa), a diferencia de lenguajes con herencia múltiple. Para compartir comportamiento entre clases sin herencia, se usan módulos y mixins con include o extend.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué es un módulo en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un tipo de variable
+
+**Explicación actual:**
+Los módulos en Ruby permiten compartir métodos entre clases mediante mixins. Se incluyen con include (métodos de instancia) o extend (métodos de clase). También sirven como namespaces para organizar código relacionado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Los módulos en Ruby son colecciones de métodos y constantes que sirven dos propósitos principales: 1) Como mixins para compartir comportamiento entre clases múltiples sin usar herencia. Se incluyen con 'include' (añade métodos de instancia) o 'extend' (añade métodos de clase). 2) Como namespaces para organizar código y evitar colisiones de nombres. Por ejemplo, module MiModulo contiene métodos que pueden ser incluidos en varias clases. A diferencia de las clases, los módulos no pueden instanciarse directamente con .new.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué método se usa para iterar sobre un array en Ruby?
+
+**Respuesta(s) correcta(s):**
+- each
+
+**Explicación actual:**
+El método each en Ruby itera sobre cada elemento de una colección ejecutando un bloque. Es el iterador fundamental y siempre devuelve la colección original.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+El método each es el iterador fundamental en Ruby para recorrer colecciones. Se invoca sobre un array (o cualquier enumerable) y ejecuta un bloque de código para cada elemento: [1, 2, 3].each {|n| puts n}. El bloque recibe cada elemento como parámetro entre pipes |n|. A diferencia de map que devuelve un nuevo array transformado, each siempre devuelve la colección original sin modificar, siendo ideal para efectos secundarios como imprimir, guardar en base de datos o acumular en variables externas.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué es el método initialize en Ruby?
+
+**Respuesta(s) correcta(s):**
+- El constructor de la clase
+
+**Explicación actual:**
+El constructor de la clase es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+El método initialize es el constructor de las clases en Ruby. Se invoca automáticamente cuando creas un nuevo objeto con ClassName.new. Dentro de initialize defines las variables de instancia (@variable) y realizas cualquier configuración inicial necesaria. Puede recibir parámetros que se pasan desde .new: class Persona; def initialize(nombre); @nombre = nombre; end; end. A diferencia de otros lenguajes, el constructor en Ruby siempre se llama initialize, no lleva el nombre de la clase.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Cómo se definen variables de instancia en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Con @variable
+
+**Explicación actual:**
+Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Cómo se definen variables de clase en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Con @variable
+
+**Explicación actual:**
+Las variables de instancia en Ruby se definen con @ al inicio. Estas variables pertenecen a cada instancia de la clase y mantienen su valor durante toda la vida del objeto. Son privadas por defecto y se acceden mediante métodos getter/setter o attr_accessor.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Las variables de clase en Ruby se definen con @@ (doble arroba), por ejemplo @@contador. A diferencia de las variables de instancia (@variable) que pertenecen a cada objeto individual, las variables de clase son compartidas por TODAS las instancias de la clase y sus subclases. Se usan para mantener estado compartido, como contar cuántos objetos se han creado. Sin embargo, son controversiales porque las subclases comparten la misma variable, lo que puede causar efectos secundarios inesperados. Se prefiere usar variables de instancia de clase (@variable en el contexto de clase).
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué significa el operador ||= en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Asignación condicional (asigna solo si la variable es nil o false)
+
+**Explicación actual:**
+Asignación condicional (asigna solo si la variable es nil o false) es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+El operador ||= es asignación condicional en Ruby: asigna un valor solo si la variable es nil o false. Por ejemplo, @nombre ||= "Anónimo" significa "si @nombre es nil o false, asígnale 'Anónimo', de lo contrario mantén su valor actual". Es muy útil para lazy initialization (inicializar solo cuando se necesita) y valores por defecto. Sin embargo, ten cuidado: false ||= true resultará en true porque false es un valor falsy. Si solo quieres verificar nil, usa: @variable = valor if @variable.nil?
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es duck typing en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un principio donde el tipo de objeto se determina por sus métodos, no por su clase
+
+**Explicación actual:**
+Un principio donde el tipo de objeto se determina por sus métodos, no por su clase es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Duck typing es un principio de Ruby que dice "si camina como un pato y grazna como un pato, entonces es un pato". En términos prácticos, el tipo de un objeto se determina por los métodos que responde, no por su clase o herencia. Por ejemplo, cualquier objeto que tenga un método .each puede tratarse como enumerable, sin importar su clase. Esto permite polimorfismo flexible sin necesidad de interfaces formales o herencia. Ruby pregunta "¿puedes hacer esto?" en lugar de "¿eres de este tipo?".
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Cómo se manejan excepciones en Ruby?
+
+**Respuesta(s) correcta(s):**
+- begin/rescue/end
+
+**Explicación actual:**
+begin/rescue/end es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Ruby maneja excepciones con la estructura begin-rescue-end. El código que puede fallar va en el bloque begin, rescue captura la excepción (similar a catch en otros lenguajes), y end cierra el bloque. Puedes capturar tipos específicos: rescue ArgumentError => e, usar else para código que solo se ejecuta si NO hubo excepción, y ensure para código que SIEMPRE se ejecuta (como finally). También puedes lanzar excepciones con raise StandardError, "mensaje". Las excepciones en Ruby heredan de Exception, pero normalmente trabajas con StandardError y sus subclases.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es un singleton method en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un patrón de diseño
+
+**Explicación actual:**
+Un método singleton en Ruby es un método que pertenece a un objeto específico en lugar de a una clase. Se define usando def objeto.metodo, permitiendo comportamiento único para instancias individuales sin afectar a otros objetos de la misma clase.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué es metaprogramming en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Código que escribe código, modificando clases y métodos en tiempo de ejecución
+
+**Explicación actual:**
+Código que escribe código, modificando clases y métodos en tiempo de ejecución es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Metaprogramming en Ruby es la capacidad de escribir código que genera o modifica código en tiempo de ejecución. Ruby permite definir métodos dinámicamente con define_method, abrir y modificar clases existentes (monkey patching), evaluar strings como código con eval, y manipular la estructura de clases con method_missing (captura llamadas a métodos inexistentes). Es muy poderoso y usado en frameworks como Rails, pero debe usarse con cuidado porque puede hacer el código difícil de entender y debuggear. Ejemplos comunes: attr_accessor, has_many en Rails, todos usan metaprogramming.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué método convierte un string a entero en Ruby?
+
+**Respuesta(s) correcta(s):**
+- .to_i
+
+**Explicación actual:**
+Los métodos de conversión como .to_i transforman objetos entre tipos en Ruby. to_i convierte a entero, to_s a string, to_f a flotante, y to_a a array.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+El método .to_i convierte un string a entero en Ruby. Por ejemplo, "123".to_i devuelve 123. Es muy permisivo: si el string no puede convertirse completamente, devuelve 0 ("abc".to_i => 0), y si empieza con números seguidos de texto, devuelve solo la parte numérica ("123abc".to_i => 123). Para una conversión más estricta que lance error si el string no es válido, usa Integer("123"). Ruby también ofrece .to_f para flotantes, .to_s para strings, .to_a para arrays, y .to_sym para símbolos.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué es un Hash en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Una estructura de datos de pares clave-valor
+
+**Explicación actual:**
+Una estructura de datos de pares clave-valor es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+Un Hash en Ruby es una colección de pares clave-valor, similar a diccionarios en Python o objetos en JavaScript. Se crea con llaves: {nombre: "Juan", edad: 25} o {"nombre" => "Juan", "edad" => 25}. Las claves pueden ser cualquier objeto, aunque símbolos y strings son los más comunes. Los hashes son fundamentales en Ruby para estructurar datos, pasar opciones a métodos, y representar configuraciones. Accedes a valores con hash[:clave] y Ruby mantiene el orden de inserción desde la versión 1.9.
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué método se usa para iterar sobre un hash?
+
+**Respuesta(s) correcta(s):**
+- each o each_pair
+
+**Explicación actual:**
+El método each en Ruby itera sobre cada elemento de una colección ejecutando un bloque. Es el iterador fundamental y siempre devuelve la colección original.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué es yield en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Transfiere el control a un bloque pasado al método
+
+**Explicación actual:**
+Transfiere el control a un bloque pasado al método es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Cuáles son tipos de variables en Ruby? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Variables de clase (@@var)
+- Variables globales ($var)
+
+**Explicación actual:**
+Las respuestas correctas son: "Variables de clase (@@var)" y "Variables globales ($var)". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Qué es un singleton class en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Una clase única asociada a un objeto específico
+
+**Explicación actual:**
+Un método singleton en Ruby es un método que pertenece a un objeto específico en lugar de a una clase. Se define usando def objeto.metodo, permitiendo comportamiento único para instancias individuales sin afectar a otros objetos de la misma clase.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué operador se usa para concatenar strings en Ruby?
+
+**Respuesta(s) correcta(s):**
+- &
+
+**Explicación actual:**
+& es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Qué método convierte un array a string en Ruby?
+
+**Respuesta(s) correcta(s):**
+- .join
+
+**Explicación actual:**
+El método join en Ruby convierte los elementos de un array en un string, uniéndolos con un separador especificado. Es muy útil para formatear listas y crear strings a partir de colecciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Qué es el método send en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Invoca un método dinámicamente por su nombre
+
+**Explicación actual:**
+Invoca un método dinámicamente por su nombre es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es attr_accessor en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Crea getters y setters automáticamente
+
+**Explicación actual:**
+En Ruby, attr_reader crea métodos de lectura (getter), attr_writer crea métodos de escritura (setter), y attr_accessor crea ambos. Estos métodos permiten acceder y modificar variables de instancia sin escribir métodos explícitos, simplificando el código de las clases.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Cuáles son métodos de attr en Ruby? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- attr_writer
+- attr_accessor
+
+**Explicación actual:**
+Las respuestas correctas son: "attr_writer" y "attr_accessor". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es super en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Llama al método del mismo nombre en la clase padre
+
+**Explicación actual:**
+Llama al método del mismo nombre en la clase padre es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué es method_missing en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un método que se llama cuando se invoca un método inexistente
+
+**Explicación actual:**
+Un método que se llama cuando se invoca un método inexistente es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué hace el método freeze en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Hace inmutable un objeto
+
+**Explicación actual:**
+Hace inmutable un objeto es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué es un Range en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Una secuencia de valores con inicio y fin
+
+**Explicación actual:**
+Una secuencia de valores con inicio y fin es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Cómo se define un Range en Ruby?
+
+**Respuesta(s) correcta(s):**
+- (1..10) o (1...10)
+
+**Explicación actual:**
+(1..10) o (1...10) es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué diferencia hay entre .. y ... en Ranges?
+
+**Respuesta(s) correcta(s):**
+- .. incluye el último valor, ... lo excluye
+
+**Explicación actual:**
+.. incluye el último valor, ... lo excluye es un método en Ruby. Los métodos se invocan sobre objetos usando el operador punto (.). Este método permite realizar operaciones específicas sobre el objeto que lo contiene.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué es alias en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Crea un alias para un método existente
+
+**Explicación actual:**
+Crea un alias para un método existente es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué es undef en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Elimina la definición de un método
+
+**Explicación actual:**
+undef en Ruby elimina completamente la definición de un método, haciendo que deje de existir. A diferencia de establecer a nil o redefinir, undef garantiza que el método no puede ser llamado, ni siquiera desde clases padre.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué son los symbols ventajas en Ruby? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Más eficientes en memoria que strings
+- Se usan como keys en hashes
+
+**Explicación actual:**
+Los símbolos en Ruby son identificadores inmutables que comienzan con :. Son más eficientes que strings como claves de hash porque cada símbolo existe solo una vez en memoria, mientras que strings idénticos pueden ocupar múltiples espacios.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué método convierte string a symbol?
+
+**Respuesta(s) correcta(s):**
+- .symbol
+
+**Explicación actual:**
+Los símbolos en Ruby son identificadores inmutables que comienzan con :. Son más eficientes que strings como claves de hash porque cada símbolo existe solo una vez en memoria, mientras que strings idénticos pueden ocupar múltiples espacios.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es self en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Referencia al objeto actual
+
+**Explicación actual:**
+Referencia al objeto actual es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es un Enumerator en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un objeto que permite iterar sobre colecciones
+
+**Explicación actual:**
+Un objeto que permite iterar sobre colecciones es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué hace el método reduce en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Reduce una colección a un único valor mediante acumulación
+
+**Explicación actual:**
+El método reduce (o inject) en Ruby acumula un valor iterando sobre una colección. Se utiliza frecuentemente para operaciones como sumar todos los elementos, encontrar el máximo, o construir estructuras de datos complejas a partir de colecciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Qué hace el método select en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Filtra elementos que cumplen una condición
+
+**Explicación actual:**
+El método select en Ruby crea una nueva colección (array o hash) que contiene solo los elementos de la colección original que cumplen una condición dada en un bloque. Es un método de filtrado que itera sobre la colección, evalúa el bloque para cada elemento y devuelve los que resultan en true.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué hace el método reject en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Filtra elementos que NO cumplen una condición
+
+**Explicación actual:**
+Filtra elementos que NO cumplen una condición es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué hace el método map en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Transforma cada elemento de una colección
+
+**Explicación actual:**
+El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados de la transformación, sin modificar el array original. Es fundamental para procesamiento de datos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué diferencia hay entre map y each?
+
+**Respuesta(s) correcta(s):**
+- map retorna un nuevo array, each retorna el original
+
+**Explicación actual:**
+El método map en Ruby transforma cada elemento de una colección aplicando un bloque. Devuelve un nuevo array con los resultados, siendo esencial para procesamiento de datos funcional.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es tap en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Ejecuta un bloque y retorna el objeto original
+
+**Explicación actual:**
+Ejecuta un bloque y retorna el objeto original es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Qué hace el método dig en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Navega estructuras anidadas de forma segura
+
+**Explicación actual:**
+Navega estructuras anidadas de forma segura es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué son las expresiones regulares en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Patrones para buscar y manipular texto
+
+**Explicación actual:**
+Patrones para buscar y manipular texto es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Cómo se define una regex en Ruby?
+
+**Respuesta(s) correcta(s):**
+- /patrón/ o Regexp.new
+
+**Explicación actual:**
+El operador =~ en Ruby compara strings con expresiones regulares (regex). Devuelve la posición del primer match o nil si no hay coincidencia. Es fundamental para validaciones de formato, búsqueda de patrones y manipulación de texto.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué operador compara con regex en Ruby?
+
+**Respuesta(s) correcta(s):**
+- =~
+
+**Explicación actual:**
+El operador =~ en Ruby se utiliza para comparar un string con una expresión regular (regex). Devuelve la posición del primer match o nil si no encuentra coincidencia. Es muy útil para validaciones de formato.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué método busca coincidencias de regex?
+
+**Respuesta(s) correcta(s):**
+- .match
+
+**Explicación actual:**
+El operador =~ en Ruby compara strings con expresiones regulares (regex). Devuelve la posición del primer match o nil si no hay coincidencia. Es fundamental para validaciones de formato, búsqueda de patrones y manipulación de texto.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Qué es $1, $2 en Ruby después de un match?
+
+**Respuesta(s) correcta(s):**
+- Grupos de captura de la regex
+
+**Explicación actual:**
+Grupos de captura de la regex es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué hace el método gsub en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Reemplaza todas las ocurrencias de un patrón
+
+**Explicación actual:**
+Reemplaza todas las ocurrencias de un patrón es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Qué diferencia hay entre gsub y sub?
+
+**Respuesta(s) correcta(s):**
+- gsub reemplaza todas las ocurrencias, sub solo la primera
+
+**Explicación actual:**
+gsub reemplaza todas las ocurrencias, sub solo la primera es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es prepend en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Incluye un módulo con precedencia sobre la clase
+
+**Explicación actual:**
+Incluye un módulo con precedencia sobre la clase es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Cuáles son formas de incluir módulos? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- extend
+- prepend
+
+**Explicación actual:**
+Los módulos en Ruby permiten compartir métodos entre clases mediante mixins. Se incluyen con include (métodos de instancia) o extend (métodos de clase). También sirven como namespaces para organizar código relacionado.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué hace extend en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Añade métodos de módulo como métodos de clase
+
+**Explicación actual:**
+Añade métodos de módulo como métodos de clase es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es Comparable en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un mixin que proporciona operadores de comparación
+
+**Explicación actual:**
+Un mixin que proporciona operadores de comparación es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué método debe implementarse para usar Comparable?
+
+**Respuesta(s) correcta(s):**
+- <=>
+
+**Explicación actual:**
+<=> es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué es Enumerable en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un mixin que proporciona métodos de iteración
+
+**Explicación actual:**
+Un mixin que proporciona métodos de iteración es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es defined? en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un operador que verifica si una variable está definida
+
+**Explicación actual:**
+Un operador que verifica si una variable está definida es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Qué hace el operador <=> en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Operador de comparación que retorna -1, 0 o 1
+
+**Explicación actual:**
+Operador de comparación que retorna -1, 0 o 1 es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es __FILE__ en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Una constante con el nombre del archivo actual
+
+**Explicación actual:**
+Una constante con el nombre del archivo actual es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Qué es __LINE__ en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Una constante con el número de línea actual
+
+**Explicación actual:**
+Una constante con el número de línea actual es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué hace require en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Carga un archivo o gema una sola vez
+
+**Explicación actual:**
+Carga un archivo o gema una sola vez es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué diferencia hay entre require y load?
+
+**Respuesta(s) correcta(s):**
+- require carga una vez, load carga cada vez que se llama
+
+**Explicación actual:**
+require carga una vez, load carga cada vez que se llama es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué hace require_relative?
+
+**Respuesta(s) correcta(s):**
+- Carga un archivo relativo al archivo actual
+
+**Explicación actual:**
+Carga un archivo relativo al archivo actual es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es Gem en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un paquete de código reutilizable
+
+**Explicación actual:**
+Un Gem en Ruby es un paquete de código reutilizable que encapsula funcionalidad específica. Los gems permiten compartir bibliotecas y herramientas entre proyectos, facilitando el desarrollo al no tener que reinventar soluciones comunes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es Bundler en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un gestor de dependencias para gems
+
+**Explicación actual:**
+Un gestor de dependencias para gems es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué archivo usa Bundler para definir dependencias?
+
+**Respuesta(s) correcta(s):**
+- Gemfile
+
+**Explicación actual:**
+Gemfile es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Qué comando instala las gems del Gemfile?
+
+**Respuesta(s) correcta(s):**
+- bundle install
+
+**Explicación actual:**
+Un Gem en Ruby es un paquete de código reutilizable que encapsula funcionalidad específica. Los gems permiten compartir bibliotecas y herramientas entre proyectos, facilitando el desarrollo al no tener que reinventar soluciones comunes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es RSpec en Ruby?
+
+**Respuesta(s) correcta(s):**
+- Un framework de testing BDD
+
+**Explicación actual:**
+Un framework de testing BDD es la respuesta correcta en Ruby. Ruby es un lenguaje dinámico y orientado a objetos que prioriza la legibilidad y productividad del desarrollador.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Cuáles son métodos de testing en RSpec? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- it
+- expect
+
+**Explicación actual:**
+Las respuestas correctas son: "it" y "expect". Ruby es un lenguaje de programación dinámico, orientado a objetos y de sintaxis elegante.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

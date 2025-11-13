@@ -1,0 +1,900 @@
+# Explicaciones para NESTJS
+
+Total de preguntas: 59
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué son los decoradores en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Anotaciones que definen metadatos y comportamiento de clases, métodos o parámetros
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué es Dependency Injection en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un patrón que inyecta dependencias en lugar de instanciarlas directamente
+
+**Explicación actual:**
+La inyección de dependencias es un patrón donde las dependencias se proporcionan a una clase en lugar de ser creadas por ella. NestJS usa este patrón para gestionar instancias, mejorar la testabilidad y desacoplar componentes.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Qué hace un Guard en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Controla acceso a rutas antes de ejecutar un controlador
+
+**Explicación actual:**
+Los Guards en NestJS son clases que implementan la lógica de autorización. Se ejecutan antes que los controladores y determinan si una petición debe procesarse basándose en condiciones como autenticación, roles o permisos específicos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Qué decorador se usa para definir un controlador en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @Controller
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué decorador se usa para definir una ruta GET en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @HttpGet
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué es un Pipe en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una clase que transforma o valida datos antes de que lleguen al controlador
+
+**Explicación actual:**
+Los Pipes en NestJS transforman o validan datos de entrada antes de que lleguen al controlador. Se usan comúnmente para conversión de tipos, validación de DTOs y sanitización de datos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué es un Interceptor en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una herramienta de debugging
+
+**Explicación actual:**
+Una herramienta de debugging es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué decorador se usa para marcar una clase como inyectable en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @Component
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué es un módulo en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una clase decorada con @Module que organiza la aplicación en partes cohesivas
+
+**Explicación actual:**
+Los módulos en NestJS organizan la aplicación en componentes cohesivos. Cada módulo agrupa controladores, servicios y otros providers relacionados, facilitando la modularidad y reutilización del código.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Cómo se documenta una API en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Con Swagger/OpenAPI mediante decoradores
+
+**Explicación actual:**
+Con Swagger/OpenAPI mediante decoradores es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué hace el Event Loop en Node.js?
+
+**Respuesta(s) correcta(s):**
+- Administra la ejecución de tareas asincrónicas en un solo hilo
+
+**Explicación actual:**
+Administra la ejecución de tareas asincrónicas en un solo hilo es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué es un Exception Filter en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una capa que captura y maneja excepciones de forma centralizada
+
+**Explicación actual:**
+Una capa que captura y maneja excepciones de forma centralizada es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué patrón arquitectónico usa NestJS principalmente?
+
+**Respuesta(s) correcta(s):**
+- MVVM
+
+**Explicación actual:**
+MVVM es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Para qué sirve el decorador @Body() en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Para extraer el body de una petición HTTP
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es un DTO en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Database Type Object
+
+**Explicación actual:**
+Database Type Object es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué decorador se usa para inyectar servicios en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @Inject
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es un middleware en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una función que se ejecuta antes de que la petición llegue al controlador
+
+**Explicación actual:**
+Una función que se ejecuta antes de que la petición llegue al controlador es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Cuáles son características de los Guards en NestJS? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Tienen acceso al ExecutionContext
+- Pueden devolver true o false
+
+**Explicación actual:**
+Los Guards en NestJS son clases que implementan la lógica de autorización. Se ejecutan antes que los controladores y determinan si una petición debe procesarse basándose en condiciones como autenticación, roles o permisos específicos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué patrón arquitectónico implementa NestJS?
+
+**Respuesta(s) correcta(s):**
+- Arquitectura modular con inyección de dependencias
+
+**Explicación actual:**
+Arquitectura modular con inyección de dependencias es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué son los Providers en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Clases que pueden ser inyectadas como dependencias
+
+**Explicación actual:**
+Clases que pueden ser inyectadas como dependencias es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Cómo se validan datos en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Usando class-validator con DTOs y ValidationPipe
+
+**Explicación actual:**
+Usando class-validator con DTOs y ValidationPipe es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué hace el decorador @Param() en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Extrae parámetros de ruta de la URL
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es el ExecutionContext en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un objeto que proporciona información sobre la petición actual
+
+**Explicación actual:**
+Un objeto que proporciona información sobre la petición actual es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Cuáles son tipos de Providers en NestJS? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- useValue
+- useFactory
+
+**Explicación actual:**
+Las respuestas correctas son: "useValue" y "useFactory". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué decorador se usa para manejar queries en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @Query
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Qué es un Custom Decorator en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un decorador personalizado creado con createParamDecorator
+
+**Explicación actual:**
+Un decorador personalizado creado con createParamDecorator es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Para qué sirve el decorador @Res() en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Para acceder al objeto response de Express/Fastify
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es un Dynamic Module en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un módulo que se configura en tiempo de ejecución
+
+**Explicación actual:**
+Un módulo que se configura en tiempo de ejecución relacionado con módulos de NestJS. Los módulos organizan la aplicación en componentes cohesivos, agrupando controladores, servicios y otros providers relacionados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Cuáles son lifecycle hooks en NestJS? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- OnApplicationBootstrap
+- OnModuleDestroy
+
+**Explicación actual:**
+Las respuestas correctas son: "OnApplicationBootstrap" y "OnModuleDestroy". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es el Reflector en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una utilidad para leer metadatos de decoradores
+
+**Explicación actual:**
+Una utilidad para leer metadatos de decoradores es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué hace el decorador @SetMetadata() en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Asocia metadatos personalizados a un handler
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué es un Exception Filter personalizado?
+
+**Respuesta(s) correcta(s):**
+- Una clase que implementa ExceptionFilter para manejo custom de errores
+
+**Explicación actual:**
+Una clase que implementa ExceptionFilter para manejo custom de errores es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Cómo se implementa paginación en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Usando query parameters y métodos como skip() y take()
+
+**Explicación actual:**
+Usando query parameters y métodos como skip() y take() es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué decorador se usa para archivos en NestJS?
+
+**Respuesta(s) correcta(s):**
+- @UploadedFile o @UploadedFiles
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué es un Circular Dependency en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un patrón de diseño
+
+**Explicación actual:**
+Un patrón de diseño es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Cómo se resuelven Circular Dependencies?
+
+**Respuesta(s) correcta(s):**
+- Usando forwardRef()
+
+**Explicación actual:**
+Usando forwardRef() es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué es @nestjs/config?
+
+**Respuesta(s) correcta(s):**
+- Un módulo para manejar variables de entorno y configuración
+
+**Explicación actual:**
+Un módulo para manejar variables de entorno y configuración relacionado con módulos de NestJS. Los módulos organizan la aplicación en componentes cohesivos, agrupando controladores, servicios y otros providers relacionados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es @nestjs/typeorm?
+
+**Respuesta(s) correcta(s):**
+- Una integración de TypeORM con NestJS
+
+**Explicación actual:**
+Una integración de TypeORM con NestJS es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Cuáles son ventajas de NestJS? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Arquitectura escalable
+- Testing integrado
+
+**Explicación actual:**
+Las respuestas correctas son: "Arquitectura escalable" y "Testing integrado". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es el decorador @UseInterceptors()?
+
+**Respuesta(s) correcta(s):**
+- Aplica interceptores a un controlador o handler
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es @nestjs/swagger?
+
+**Respuesta(s) correcta(s):**
+- Un módulo para generar documentación OpenAPI/Swagger
+
+**Explicación actual:**
+Un módulo para generar documentación OpenAPI/Swagger relacionado con módulos de NestJS. Los módulos organizan la aplicación en componentes cohesivos, agrupando controladores, servicios y otros providers relacionados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Cómo se implementa autenticación JWT en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Usando @nestjs/jwt con estrategias de Passport
+
+**Explicación actual:**
+Usando @nestjs/jwt con estrategias de Passport es un decorador de NestJS. Los decoradores son anotaciones que modifican el comportamiento de clases, métodos o parámetros, añadiendo funcionalidad como routing, validación o inyección de dependencias.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Qué es un Strategy en NestJS (Passport)?
+
+**Respuesta(s) correcta(s):**
+- Una clase que implementa una estrategia de autenticación
+
+**Explicación actual:**
+Una clase que implementa una estrategia de autenticación es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué decorador expone propiedades en Swagger?
+
+**Respuesta(s) correcta(s):**
+- @ApiProperty
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es el decorador @HttpCode()?
+
+**Respuesta(s) correcta(s):**
+- Define el código de estado HTTP de la respuesta
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Cómo se implementan WebSockets en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Usando @nestjs/websockets con decoradores como @WebSocketGateway
+
+**Explicación actual:**
+Usando @nestjs/websockets con decoradores como @WebSocketGateway es un decorador de NestJS. Los decoradores son anotaciones que modifican el comportamiento de clases, métodos o parámetros, añadiendo funcionalidad como routing, validación o inyección de dependencias.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es @nestjs/microservices?
+
+**Respuesta(s) correcta(s):**
+- Un módulo para crear microservicios con diferentes transportes
+
+**Explicación actual:**
+Un módulo para crear microservicios con diferentes transportes relacionado con módulos de NestJS. Los módulos organizan la aplicación en componentes cohesivos, agrupando controladores, servicios y otros providers relacionados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Cuáles son transportes soportados por @nestjs/microservices? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Redis
+- MQTT
+
+**Explicación actual:**
+Las respuestas correctas son: "Redis" y "MQTT". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué es el decorador @Header()?
+
+**Respuesta(s) correcta(s):**
+- Establece headers HTTP personalizados en la respuesta
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Qué es el APP_FILTER en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un token para registrar filtros globales
+
+**Explicación actual:**
+Un token para registrar filtros globales es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué es el APP_PIPE en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un token para registrar pipes globales
+
+**Explicación actual:**
+Los Pipes en NestJS transforman o validan datos de entrada antes de que lleguen al controlador. Se usan comúnmente para conversión de tipos, validación de DTOs y sanitización de datos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es el APP_GUARD en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un token para registrar guards globales
+
+**Explicación actual:**
+Los Guards en NestJS son clases que implementan la lógica de autorización. Se ejecutan antes que los controladores y determinan si una petición debe procesarse basándose en condiciones como autenticación, roles o permisos específicos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Cómo se implementa rate limiting en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Usando @nestjs/throttler
+
+**Explicación actual:**
+Usando @nestjs/throttler es un decorador de NestJS. Los decoradores son anotaciones que modifican el comportamiento de clases, métodos o parámetros, añadiendo funcionalidad como routing, validación o inyección de dependencias.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es un Health Check en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Un endpoint que verifica el estado de la aplicación
+
+**Explicación actual:**
+Un endpoint que verifica el estado de la aplicación es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Cómo se implementan Health Checks?
+
+**Respuesta(s) correcta(s):**
+- Usando @nestjs/terminus
+
+**Explicación actual:**
+Usando @nestjs/terminus es un decorador de NestJS. Los decoradores son anotaciones que modifican el comportamiento de clases, métodos o parámetros, añadiendo funcionalidad como routing, validación o inyección de dependencias.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es @nestjs/schedule?
+
+**Respuesta(s) correcta(s):**
+- Un módulo para programar tareas con cron jobs
+
+**Explicación actual:**
+Un módulo para programar tareas con cron jobs relacionado con módulos de NestJS. Los módulos organizan la aplicación en componentes cohesivos, agrupando controladores, servicios y otros providers relacionados.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Qué decorador se usa para programar tareas?
+
+**Respuesta(s) correcta(s):**
+- @Cron
+
+**Explicación actual:**
+Los decoradores en NestJS son anotaciones que añaden metadatos y funcionalidad a clases, métodos o parámetros. Utilizan la sintaxis @Nombre y son fundamentales para definir controladores, rutas, inyección de dependencias y validaciones.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es el Logger en NestJS?
+
+**Respuesta(s) correcta(s):**
+- Una clase integrada para logging con diferentes niveles
+
+**Explicación actual:**
+Una clase integrada para logging con diferentes niveles es la respuesta correcta en NestJS. NestJS es un framework de Node.js que usa TypeScript y sigue principios de arquitectura similar a Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Cuáles son niveles de log en NestJS? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- error
+- warn
+
+**Explicación actual:**
+Las respuestas correctas son: "error" y "warn". NestJS es un framework de Node.js que utiliza TypeScript y está inspirado en Angular.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

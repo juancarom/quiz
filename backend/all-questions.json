@@ -3919,7 +3919,7 @@
       "options": [
         {
           "text": "has_many",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "text": "belongs_to",
@@ -3931,11 +3931,11 @@
         },
         {
           "text": "has_and_belongs_to_many",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "`belongs_to` y `has_one` son tipos de asociaciones. `belongs_to` indica que el modelo tiene una clave foránea a otro, y `has_one` indica una relación uno-a-uno desde el otro lado."
+      "explanation": "Todas estas son asociaciones válidas en Rails. `belongs_to` indica clave foránea, `has_one` relación uno-a-uno, `has_many` uno-a-muchos, y `has_and_belongs_to_many` muchos-a-muchos."
     },
     {
       "question": "¿Qué es una asociación polymorphic en Rails?",
@@ -11332,24 +11332,24 @@
       "question": "¿Cuáles son categorías de patrones de diseño? (selección múltiple)",
       "options": [
         {
-          "text": "Métodos estáticos o de clase, definidos con self",
+          "text": "Creacionales",
           "isCorrect": true
         },
         {
-          "text": "Métodos privados",
-          "isCorrect": false
+          "text": "Estructurales",
+          "isCorrect": true
         },
         {
-          "text": "Métodos heredados",
-          "isCorrect": false
+          "text": "De comportamiento",
+          "isCorrect": true
         },
         {
-          "text": "Métodos abstractos",
+          "text": "Funcionales",
           "isCorrect": false
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Los patrones estructurales se centran en cómo se relacionan y componen las clases; los de comportamiento se centran en cómo se comunican y colaboran los objetos."
+      "explanation": "Las tres categorías principales de patrones de diseño son: Creacionales (cómo se crean objetos), Estructurales (cómo se componen clases/objetos), y De Comportamiento (cómo se comunican y colaboran los objetos)."
     },
     {
       "question": "¿Qué es el patrón Singleton?",
@@ -13013,24 +13013,24 @@
       "question": "¿Cuáles son capas en Docker? (selección múltiple)",
       "options": [
         {
-          "text": "docker system prune",
+          "text": "Capas de imagen (read-only)",
           "isCorrect": true
         },
         {
-          "text": "docker prune",
-          "isCorrect": false
+          "text": "Capa de contenedor (read-write)",
+          "isCorrect": true
         },
         {
-          "text": "docker clean",
-          "isCorrect": false
+          "text": "Capas cacheadas",
+          "isCorrect": true
         },
         {
-          "text": "docker remove unused",
+          "text": "Capas de red",
           "isCorrect": false
         }
       ],
       "isMultipleChoice": true,
-      "explanation": "Las imágenes Docker se construyen por **capas inmutables**, y esas capas se **cachean**. Inmutable significa que una vez creada la capa, no se modifica; si cambiás algo, se genera otra capa nueva. El cache permite que, si una instrucción no cambió, Docker reutilice la capa anterior, acelerando muchísimo los builds."
+      "explanation": "Las imágenes Docker se construyen por **capas inmutables** (read-only) que se **cachean**. Cuando se ejecuta un contenedor, se agrega una **capa de escritura** (read-write) encima. Las capas son inmutables y reutilizables, lo que acelera los builds."
     },
     {
       "question": "¿Qué comando lista las imágenes Docker?",
@@ -14809,19 +14809,19 @@
       "question": "¿Cuáles son características de Lambda? (selección múltiple)",
       "options": [
         {
-          "text": "S3 (Simple Storage Service)",
+          "text": "Auto-escalable",
           "isCorrect": true
         },
         {
-          "text": "EC2",
-          "isCorrect": false
+          "text": "Serverless (sin gestión de servidores)",
+          "isCorrect": true
         },
         {
-          "text": "RDS",
-          "isCorrect": false
+          "text": "Pago por uso",
+          "isCorrect": true
         },
         {
-          "text": "EBS",
+          "text": "Requiere instancias EC2",
           "isCorrect": false
         }
       ],

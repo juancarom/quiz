@@ -1,0 +1,1401 @@
+# Explicaciones para POO
+
+Total de preguntas: 92
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es una clase?
+
+**Respuesta(s) correcta(s):**
+- Una plantilla que define atributos y métodos para crear objetos
+
+**Explicación actual:**
+Una plantilla que define atributos y métodos para crear objetos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué es un objeto?
+
+**Respuesta(s) correcta(s):**
+- Una instancia de una clase con estado y comportamiento propios
+
+**Explicación actual:**
+Una instancia de una clase con estado y comportamiento propios es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Qué es encapsulación?
+
+**Respuesta(s) correcta(s):**
+- Ocultar los detalles internos de una clase y exponer solo lo necesario
+
+**Explicación actual:**
+La encapsulación oculta los detalles internos de implementación, exponiendo solo interfaces públicas. Protege los datos mediante modificadores de acceso (public, private, protected) y promueve el principio de bajo acoplamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Qué es herencia?
+
+**Respuesta(s) correcta(s):**
+- Un mecanismo donde una clase hija obtiene atributos y métodos de una clase padre
+
+**Explicación actual:**
+La herencia permite crear nuevas clases basadas en clases existentes, reutilizando y extendiendo su funcionalidad. La clase hija hereda atributos y métodos de la clase padre, pudiendo agregar o sobrescribir comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué es polimorfismo?
+
+**Respuesta(s) correcta(s):**
+- Un mismo método con diferentes comportamientos según el tipo de objeto
+
+**Explicación actual:**
+El polimorfismo permite que objetos de diferentes clases respondan al mismo mensaje de forma única. Facilita código flexible y extensible, donde una interfaz común puede tener múltiples implementaciones específicas.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué es abstracción?
+
+**Respuesta(s) correcta(s):**
+- Simplificar la realidad representando solo lo esencial y ocultando detalles
+
+**Explicación actual:**
+La abstracción simplifica la complejidad modelando clases según características esenciales. Las clases abstractas e interfaces definen contratos que las clases concretas deben cumplir, separando qué se hace de cómo se hace.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Diferencia entre herencia y composición?
+
+**Respuesta(s) correcta(s):**
+- Herencia reutiliza comportamiento ("es-un"), composición combina objetos ("tiene-un")
+
+**Explicación actual:**
+La herencia permite crear nuevas clases basadas en clases existentes, reutilizando y extendiendo su funcionalidad. La clase hija hereda atributos y métodos de la clase padre, pudiendo agregar o sobrescribir comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué significa el principio SRP en SOLID?
+
+**Respuesta(s) correcta(s):**
+- Single Responsibility Principle: cada clase debe tener una sola responsabilidad
+
+**Explicación actual:**
+Single Responsibility Principle: cada clase debe tener una sola responsabilidad es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué significa el principio OCP en SOLID?
+
+**Respuesta(s) correcta(s):**
+- Open/Closed Principle: abierto a extensión, cerrado a modificación
+
+**Explicación actual:**
+Open/Closed Principle: abierto a extensión, cerrado a modificación es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Qué significa el principio LSP en SOLID?
+
+**Respuesta(s) correcta(s):**
+- Liskov Substitution Principle: subtipos deben poder sustituir a sus tipos base
+
+**Explicación actual:**
+Liskov Substitution Principle: subtipos deben poder sustituir a sus tipos base es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué significa el principio ISP en SOLID?
+
+**Respuesta(s) correcta(s):**
+- Interface Segregation Principle: interfaces específicas mejor que una general
+
+**Explicación actual:**
+Interface Segregation Principle: interfaces específicas mejor que una general es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué significa el principio DIP en SOLID?
+
+**Respuesta(s) correcta(s):**
+- Dependency Inversion Principle: depender de abstracciones, no de implementaciones
+
+**Explicación actual:**
+Dependency Inversion Principle: depender de abstracciones, no de implementaciones describe la abstracción. Este principio simplifica la complejidad modelando solo las características esenciales, separando qué hace algo de cómo lo hace.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué es un método?
+
+**Respuesta(s) correcta(s):**
+- Una función definida dentro de una clase que define su comportamiento
+
+**Explicación actual:**
+Una función definida dentro de una clase que define su comportamiento es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué es un atributo?
+
+**Respuesta(s) correcta(s):**
+- Una variable que representa el estado de un objeto
+
+**Explicación actual:**
+Una variable que representa el estado de un objeto es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué es un constructor?
+
+**Respuesta(s) correcta(s):**
+- Un método especial que se ejecuta al crear una instancia de una clase
+
+**Explicación actual:**
+Un método especial que se ejecuta al crear una instancia de una clase es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Qué es un método estático?
+
+**Respuesta(s) correcta(s):**
+- Un método que pertenece a la clase, no a instancias individuales
+
+**Explicación actual:**
+Un método que pertenece a la clase, no a instancias individuales es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué es una interfaz?
+
+**Respuesta(s) correcta(s):**
+- Un contrato que define métodos que una clase debe implementar
+
+**Explicación actual:**
+Un contrato que define métodos que una clase debe implementar es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué es una clase abstracta?
+
+**Respuesta(s) correcta(s):**
+- Una clase que no puede instanciarse y sirve como base para otras clases
+
+**Explicación actual:**
+Una clase que no puede instanciarse y sirve como base para otras clases es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Qué es el modificador private?
+
+**Respuesta(s) correcta(s):**
+- Un modificador que restringe el acceso solo a la propia clase
+
+**Explicación actual:**
+Un modificador que restringe el acceso solo a la propia clase es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué es el modificador protected?
+
+**Respuesta(s) correcta(s):**
+- Un modificador que permite acceso a la clase y sus subclases
+
+**Explicación actual:**
+Un modificador que permite acceso a la clase y sus subclases es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué es el modificador public?
+
+**Respuesta(s) correcta(s):**
+- Un modificador que permite acceso desde cualquier parte del código
+
+**Explicación actual:**
+Un modificador que permite acceso desde cualquier parte del código es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué es sobrecarga de métodos (overloading)?
+
+**Respuesta(s) correcta(s):**
+- Definir múltiples métodos con el mismo nombre pero diferentes parámetros
+
+**Explicación actual:**
+Definir múltiples métodos con el mismo nombre pero diferentes parámetros es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es sobreescritura de métodos (overriding)?
+
+**Respuesta(s) correcta(s):**
+- Redefinir un método heredado en una clase hija con diferente implementación
+
+**Explicación actual:**
+Redefinir un método heredado en una clase hija con diferente implementación es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Qué significa DRY?
+
+**Respuesta(s) correcta(s):**
+- Don't Repeat Yourself: evitar duplicar lógica o código
+
+**Explicación actual:**
+Don't Repeat Yourself: evitar duplicar lógica o código es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Qué es el acoplamiento en POO?
+
+**Respuesta(s) correcta(s):**
+- El grado de dependencia entre clases (menor acoplamiento = mejor)
+
+**Explicación actual:**
+El grado de dependencia entre clases (menor acoplamiento = mejor) es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Qué es la cohesión en POO?
+
+**Respuesta(s) correcta(s):**
+- Grado en que elementos de una clase están relacionados (mayor cohesión = mejor)
+
+**Explicación actual:**
+Grado en que elementos de una clase están relacionados (mayor cohesión = mejor) es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Cuáles son beneficios de la POO? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Mantenibilidad
+- Escalabilidad
+
+**Explicación actual:**
+Las respuestas correctas son: "Mantenibilidad" y "Escalabilidad". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es el principio de responsabilidad única (SRP)?
+
+**Respuesta(s) correcta(s):**
+- Cada clase debe tener una sola razón para cambiar
+
+**Explicación actual:**
+Cada clase debe tener una sola razón para cambiar es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Qué es el principio Open/Closed?
+
+**Respuesta(s) correcta(s):**
+- Abierto a extensión, cerrado a modificación
+
+**Explicación actual:**
+Abierto a extensión, cerrado a modificación es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es el principio de Sustitución de Liskov (LSP)?
+
+**Respuesta(s) correcta(s):**
+- Los subtipos deben poder sustituir a sus tipos base
+
+**Explicación actual:**
+Los subtipos deben poder sustituir a sus tipos base es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué es el principio de Segregación de Interfaces (ISP)?
+
+**Respuesta(s) correcta(s):**
+- Muchas interfaces específicas mejor que una general
+
+**Explicación actual:**
+Muchas interfaces específicas mejor que una general es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué es el principio de Inversión de Dependencias (DIP)?
+
+**Respuesta(s) correcta(s):**
+- Depender de abstracciones, no de implementaciones concretas
+
+**Explicación actual:**
+Depender de abstracciones, no de implementaciones concretas describe la abstracción. Este principio simplifica la complejidad modelando solo las características esenciales, separando qué hace algo de cómo lo hace.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Cuáles son los 5 principios SOLID? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Open/Closed
+- Liskov Substitution
+
+**Explicación actual:**
+Las respuestas correctas son: "Open/Closed" y "Liskov Substitution". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es un patrón de diseño?
+
+**Respuesta(s) correcta(s):**
+- Solución reutilizable a problemas comunes en diseño de software
+
+**Explicación actual:**
+Solución reutilizable a problemas comunes en diseño de software es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Cuáles son categorías de patrones de diseño? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Estructurales
+- Comportamiento
+
+**Explicación actual:**
+Las respuestas correctas son: "Estructurales" y "Comportamiento". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué es el patrón Singleton?
+
+**Respuesta(s) correcta(s):**
+- Asegura que una clase tenga solo una instancia
+
+**Explicación actual:**
+Asegura que una clase tenga solo una instancia es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Qué es el patrón Factory?
+
+**Respuesta(s) correcta(s):**
+- Crea objetos sin especificar la clase exacta
+
+**Explicación actual:**
+Crea objetos sin especificar la clase exacta es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es el patrón Builder?
+
+**Respuesta(s) correcta(s):**
+- Construye objetos complejos paso a paso
+
+**Explicación actual:**
+Construye objetos complejos paso a paso es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué es el patrón Prototype?
+
+**Respuesta(s) correcta(s):**
+- Crea objetos clonando un prototipo existente
+
+**Explicación actual:**
+Crea objetos clonando un prototipo existente es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué es el patrón Adapter?
+
+**Respuesta(s) correcta(s):**
+- Permite que interfaces incompatibles trabajen juntas
+
+**Explicación actual:**
+Permite que interfaces incompatibles trabajen juntas es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué es el patrón Decorator?
+
+**Respuesta(s) correcta(s):**
+- Añade funcionalidad a objetos dinámicamente
+
+**Explicación actual:**
+Añade funcionalidad a objetos dinámicamente es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es el patrón Facade?
+
+**Respuesta(s) correcta(s):**
+- Proporciona una interfaz simplificada a un sistema complejo
+
+**Explicación actual:**
+Proporciona una interfaz simplificada a un sistema complejo es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Qué es el patrón Proxy?
+
+**Respuesta(s) correcta(s):**
+- Proporciona un sustituto o placeholder para otro objeto
+
+**Explicación actual:**
+Proporciona un sustituto o placeholder para otro objeto es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es el patrón Observer?
+
+**Respuesta(s) correcta(s):**
+- Define dependencia uno-a-muchos para notificar cambios
+
+**Explicación actual:**
+Define dependencia uno-a-muchos para notificar cambios es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué es el patrón Strategy?
+
+**Respuesta(s) correcta(s):**
+- Define familia de algoritmos intercambiables
+
+**Explicación actual:**
+Define familia de algoritmos intercambiables es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Qué es el patrón Template Method?
+
+**Respuesta(s) correcta(s):**
+- Define esqueleto de algoritmo, subclases implementan pasos
+
+**Explicación actual:**
+Define esqueleto de algoritmo, subclases implementan pasos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué es el patrón Command?
+
+**Respuesta(s) correcta(s):**
+- Encapsula una petición como objeto
+
+**Explicación actual:**
+Encapsula una petición como objeto define la encapsulación. Este principio oculta los detalles internos de implementación, exponiendo solo interfaces públicas y protegiendo la integridad de los datos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Qué es composición sobre herencia?
+
+**Respuesta(s) correcta(s):**
+- Principio que favorece composición de objetos sobre herencia de clases
+
+**Explicación actual:**
+La herencia permite crear nuevas clases basadas en clases existentes, reutilizando y extendiendo su funcionalidad. La clase hija hereda atributos y métodos de la clase padre, pudiendo agregar o sobrescribir comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Por qué favorecer composición sobre herencia? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Menor acoplamiento
+- Evita jerarquías complejas
+
+**Explicación actual:**
+La herencia permite crear nuevas clases basadas en clases existentes, reutilizando y extendiendo su funcionalidad. La clase hija hereda atributos y métodos de la clase padre, pudiendo agregar o sobrescribir comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Qué es una clase final o sealed?
+
+**Respuesta(s) correcta(s):**
+- Una clase que no puede ser heredada
+
+**Explicación actual:**
+Una clase que no puede ser heredada es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué es un método final?
+
+**Respuesta(s) correcta(s):**
+- Un método que no puede ser sobrescrito
+
+**Explicación actual:**
+Un método que no puede ser sobrescrito es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué es la inyección de dependencias?
+
+**Respuesta(s) correcta(s):**
+- Técnica donde las dependencias se proveen externamente
+
+**Explicación actual:**
+Técnica donde las dependencias se proveen externamente es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Cuáles son tipos de inyección de dependencias? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Setter injection
+- Interface injection
+
+**Explicación actual:**
+Las respuestas correctas son: "Setter injection" y "Interface injection". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es inversión de control (IoC)?
+
+**Respuesta(s) correcta(s):**
+- Framework controla flujo, no el código del usuario
+
+**Explicación actual:**
+Framework controla flujo, no el código del usuario es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Qué es un contenedor de IoC?
+
+**Respuesta(s) correcta(s):**
+- Framework que gestiona creación y dependencias de objetos
+
+**Explicación actual:**
+Framework que gestiona creación y dependencias de objetos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es GRASP?
+
+**Respuesta(s) correcta(s):**
+- General Responsibility Assignment Software Patterns
+
+**Explicación actual:**
+General Responsibility Assignment Software Patterns es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Cuáles son principios GRASP? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Information Expert
+- Low Coupling
+
+**Explicación actual:**
+Las respuestas correctas son: "Information Expert" y "Low Coupling". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es el principio Information Expert?
+
+**Respuesta(s) correcta(s):**
+- Asignar responsabilidad a la clase con información necesaria
+
+**Explicación actual:**
+Asignar responsabilidad a la clase con información necesaria es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es el principio Creator?
+
+**Respuesta(s) correcta(s):**
+- Define quién debe crear instancias de una clase
+
+**Explicación actual:**
+Define quién debe crear instancias de una clase es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué es el principio Controller en GRASP?
+
+**Respuesta(s) correcta(s):**
+- Asignar responsabilidad de manejar eventos del sistema
+
+**Explicación actual:**
+Asignar responsabilidad de manejar eventos del sistema es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué es Pure Fabrication?
+
+**Respuesta(s) correcta(s):**
+- Clase que no representa concepto del dominio, solo solución técnica
+
+**Explicación actual:**
+Clase que no representa concepto del dominio, solo solución técnica es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué es Indirection en GRASP?
+
+**Respuesta(s) correcta(s):**
+- Asignar responsabilidad a objeto intermediario para reducir acoplamiento
+
+**Explicación actual:**
+Asignar responsabilidad a objeto intermediario para reducir acoplamiento es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Qué es Protected Variations?
+
+**Respuesta(s) correcta(s):**
+- Proteger elementos de variaciones mediante interfaces estables
+
+**Explicación actual:**
+Proteger elementos de variaciones mediante interfaces estables es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Qué es Tell, Don't Ask?
+
+**Respuesta(s) correcta(s):**
+- Principio donde objetos hacen cosas en vez de exponer estado
+
+**Explicación actual:**
+Principio donde objetos hacen cosas en vez de exponer estado es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Qué es Law of Demeter?
+
+**Respuesta(s) correcta(s):**
+- Un objeto solo debe hablar con sus vecinos inmediatos
+
+**Explicación actual:**
+Un objeto solo debe hablar con sus vecinos inmediatos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué significa "hablar solo con vecinos" en LoD? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Parámetros del método
+- Objetos que crea
+
+**Explicación actual:**
+Las respuestas correctas son: "Parámetros del método" y "Objetos que crea". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué es YAGNI?
+
+**Respuesta(s) correcta(s):**
+- You Aren't Gonna Need It - no implementar hasta que sea necesario
+
+**Explicación actual:**
+You Aren't Gonna Need It - no implementar hasta que sea necesario es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Qué es KISS?
+
+**Respuesta(s) correcta(s):**
+- Keep It Simple, Stupid - mantener soluciones simples
+
+**Explicación actual:**
+Keep It Simple, Stupid - mantener soluciones simples es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es el antipatrón God Object?
+
+**Respuesta(s) correcta(s):**
+- Objeto que sabe o hace demasiado
+
+**Explicación actual:**
+Objeto que sabe o hace demasiado es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Qué es el antipatrón Spaghetti Code?
+
+**Respuesta(s) correcta(s):**
+- Código enredado sin estructura clara
+
+**Explicación actual:**
+Código enredado sin estructura clara es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué es Code Smell?
+
+**Respuesta(s) correcta(s):**
+- Indicador de posibles problemas en el código
+
+**Explicación actual:**
+Indicador de posibles problemas en el código es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Cuáles son ejemplos de Code Smells? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Clases muy grandes
+- Código duplicado
+
+**Explicación actual:**
+Las respuestas correctas son: "Clases muy grandes" y "Código duplicado". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es refactoring?
+
+**Respuesta(s) correcta(s):**
+- Reestructurar código sin cambiar comportamiento externo
+
+**Explicación actual:**
+Reestructurar código sin cambiar comportamiento externo es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Cuándo hacer refactoring? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Antes de añadir nuevas features
+- Durante code review
+
+**Explicación actual:**
+Las respuestas correctas son: "Antes de añadir nuevas features" y "Durante code review". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Qué es Test-Driven Development (TDD)?
+
+**Respuesta(s) correcta(s):**
+- Escribir tests antes que el código
+
+**Explicación actual:**
+Escribir tests antes que el código es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Cuál es el ciclo de TDD? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Green - hacer que pase
+- Refactor - mejorar código
+
+**Explicación actual:**
+Las respuestas correctas son: "Green - hacer que pase" y "Refactor - mejorar código". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Qué es Behavior-Driven Development (BDD)?
+
+**Respuesta(s) correcta(s):**
+- Enfoque que describe comportamiento en lenguaje natural
+
+**Explicación actual:**
+Enfoque que describe comportamiento en lenguaje natural es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Qué es un mock en testing?
+
+**Respuesta(s) correcta(s):**
+- Objeto simulado para reemplazar dependencias en tests
+
+**Explicación actual:**
+Objeto simulado para reemplazar dependencias en tests es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué es un stub en testing?
+
+**Respuesta(s) correcta(s):**
+- Implementación simple que retorna valores predefinidos
+
+**Explicación actual:**
+Implementación simple que retorna valores predefinidos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Qué es un spy en testing?
+
+**Respuesta(s) correcta(s):**
+- Registra información sobre llamadas a métodos
+
+**Explicación actual:**
+Registra información sobre llamadas a métodos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Diferencia entre mock y stub?
+
+**Respuesta(s) correcta(s):**
+- Mock verifica comportamiento, stub solo provee datos
+
+**Explicación actual:**
+Mock verifica comportamiento, stub solo provee datos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Qué es cobertura de código?
+
+**Respuesta(s) correcta(s):**
+- Porcentaje de código ejecutado por los tests
+
+**Explicación actual:**
+Porcentaje de código ejecutado por los tests es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Es 100% de cobertura suficiente?
+
+**Respuesta(s) correcta(s):**
+- No, cobertura no garantiza calidad de tests
+
+**Explicación actual:**
+No, cobertura no garantiza calidad de tests es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 84
+
+**Pregunta:** ¿Qué es integration testing?
+
+**Respuesta(s) correcta(s):**
+- Tests que verifican interacción entre componentes
+
+**Explicación actual:**
+Tests que verifican interacción entre componentes es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 85
+
+**Pregunta:** ¿Qué es end-to-end testing?
+
+**Respuesta(s) correcta(s):**
+- Tests que verifican flujos completos desde perspectiva del usuario
+
+**Explicación actual:**
+Tests que verifican flujos completos desde perspectiva del usuario es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 86
+
+**Pregunta:** ¿Qué es continuous integration (CI)?
+
+**Respuesta(s) correcta(s):**
+- Práctica de integrar código frecuentemente con tests automáticos
+
+**Explicación actual:**
+Práctica de integrar código frecuentemente con tests automáticos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 87
+
+**Pregunta:** ¿Qué es continuous deployment (CD)?
+
+**Respuesta(s) correcta(s):**
+- Desplegar automáticamente código que pasa los tests
+
+**Explicación actual:**
+Desplegar automáticamente código que pasa los tests es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 88
+
+**Pregunta:** ¿Cuáles son herramientas de CI/CD? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- GitHub Actions
+- GitLab CI
+
+**Explicación actual:**
+Las respuestas correctas son: "GitHub Actions" y "GitLab CI". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 89
+
+**Pregunta:** ¿Qué es pair programming?
+
+**Respuesta(s) correcta(s):**
+- Dos programadores trabajan juntos en el mismo código
+
+**Explicación actual:**
+Dos programadores trabajan juntos en el mismo código es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 90
+
+**Pregunta:** ¿Qué es code review?
+
+**Respuesta(s) correcta(s):**
+- Proceso donde otros revisan cambios antes de fusionarlos
+
+**Explicación actual:**
+Proceso donde otros revisan cambios antes de fusionarlos es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 91
+
+**Pregunta:** ¿Qué es clean code?
+
+**Respuesta(s) correcta(s):**
+- Código legible, simple y fácil de mantener
+
+**Explicación actual:**
+Código legible, simple y fácil de mantener es correcto en Programación Orientada a Objetos. POO organiza el código en objetos que combinan datos y comportamiento, facilitando el diseño de sistemas complejos.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 92
+
+**Pregunta:** ¿Cuáles son características de clean code? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Funciones pequeñas
+- Sin duplicación
+
+**Explicación actual:**
+Las respuestas correctas son: "Funciones pequeñas" y "Sin duplicación". La Programación Orientada a Objetos organiza el código en objetos que combinan datos y comportamiento.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,1335 @@
+# Explicaciones para DOCKER
+
+Total de preguntas: 88
+
+Instrucciones: Edita las explicaciones directamente en este archivo.
+Después ejecuta el script import-explanations.js para aplicar los cambios.
+
+═══════════════════════════════════════════════════════════════
+
+## Pregunta 1
+
+**Pregunta:** ¿Qué es Docker?
+
+**Respuesta(s) correcta(s):**
+- Una plataforma para crear, ejecutar y gestionar contenedores
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Una plataforma para crear, ejecutar y gestionar contenedores explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 2
+
+**Pregunta:** ¿Qué es un contenedor en Docker?
+
+**Respuesta(s) correcta(s):**
+- Una instancia ejecutable de una imagen con su propio sistema de archivos
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 3
+
+**Pregunta:** ¿Qué es una imagen Docker?
+
+**Respuesta(s) correcta(s):**
+- Una plantilla de solo lectura para crear contenedores
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables que contienen el código de la aplicación, runtime, bibliotecas y dependencias. Se construyen por capas, permitiendo reutilización eficiente y versionado mediante tags.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 4
+
+**Pregunta:** ¿Diferencia entre contenedor y máquina virtual?
+
+**Respuesta(s) correcta(s):**
+- Contenedores comparten el kernel del host, VMs tienen SO completo
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 5
+
+**Pregunta:** ¿Qué comando crea un contenedor desde una imagen?
+
+**Respuesta(s) correcta(s):**
+- docker run
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 6
+
+**Pregunta:** ¿Qué es un Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Script con instrucciones para construir una imagen Docker
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 7
+
+**Pregunta:** ¿Qué instrucción define la imagen base en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- FROM
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables que contienen el código de la aplicación, runtime, bibliotecas y dependencias. Se construyen por capas, permitiendo reutilización eficiente y versionado mediante tags.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 8
+
+**Pregunta:** ¿Qué hace RUN en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Ejecuta comandos durante la construcción de la imagen
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 9
+
+**Pregunta:** ¿Qué hace CMD en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Define el comando por defecto al iniciar el contenedor
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 10
+
+**Pregunta:** ¿Diferencia entre CMD y ENTRYPOINT?
+
+**Respuesta(s) correcta(s):**
+- ENTRYPOINT no se puede sobrescribir fácilmente, CMD sí
+
+**Explicación actual:**
+ENTRYPOINT no se puede sobrescribir fácilmente, CMD sí es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 11
+
+**Pregunta:** ¿Qué hace COPY en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Copia archivos del host a la imagen
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 12
+
+**Pregunta:** ¿Qué hace ADD en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Como COPY pero también extrae archivos comprimidos y soporta URLs
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 13
+
+**Pregunta:** ¿Qué hace WORKDIR en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Define el directorio de trabajo para instrucciones siguientes
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 14
+
+**Pregunta:** ¿Qué hace EXPOSE en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Documenta qué puertos usa el contenedor
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 15
+
+**Pregunta:** ¿Qué hace ENV en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- Define variables de entorno
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 16
+
+**Pregunta:** ¿Cuáles son capas en Docker? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Las capas son inmutables
+- Las capas se cachean
+
+**Explicación actual:**
+Las respuestas correctas son: "Las capas son inmutables" y "Las capas se cachean". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 17
+
+**Pregunta:** ¿Qué comando lista las imágenes Docker?
+
+**Respuesta(s) correcta(s):**
+- docker list images
+
+**Explicación actual:**
+docker list images es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 18
+
+**Pregunta:** ¿Qué comando lista contenedores en ejecución?
+
+**Respuesta(s) correcta(s):**
+- docker ps
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 19
+
+**Pregunta:** ¿Cómo ver todos los contenedores (incluso detenidos)?
+
+**Respuesta(s) correcta(s):**
+- docker list all
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 20
+
+**Pregunta:** ¿Qué comando detiene un contenedor?
+
+**Respuesta(s) correcta(s):**
+- docker stop <container_id>
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 21
+
+**Pregunta:** ¿Qué comando elimina un contenedor?
+
+**Respuesta(s) correcta(s):**
+- docker rm <container_id>
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 22
+
+**Pregunta:** ¿Qué comando elimina una imagen?
+
+**Respuesta(s) correcta(s):**
+- docker rmi <image_id> o docker image rm
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables que contienen el código de la aplicación, runtime, bibliotecas y dependencias. Se construyen por capas, permitiendo reutilización eficiente y versionado mediante tags.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 23
+
+**Pregunta:** ¿Qué es Docker Hub?
+
+**Respuesta(s) correcta(s):**
+- Registro público de imágenes Docker
+
+**Explicación actual:**
+Registro público de imágenes Docker es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 24
+
+**Pregunta:** ¿Cómo descargar una imagen de Docker Hub?
+
+**Respuesta(s) correcta(s):**
+- docker pull <image_name>
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables que contienen el código de la aplicación, runtime, bibliotecas y dependencias. Se construyen por capas, permitiendo reutilización eficiente y versionado mediante tags.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 25
+
+**Pregunta:** ¿Cómo subir una imagen a Docker Hub?
+
+**Respuesta(s) correcta(s):**
+- docker push <image_name>
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables que contienen el código de la aplicación, runtime, bibliotecas y dependencias. Se construyen por capas, permitiendo reutilización eficiente y versionado mediante tags.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 26
+
+**Pregunta:** ¿Qué es un Docker volume?
+
+**Respuesta(s) correcta(s):**
+- Mecanismo para persistir datos fuera del contenedor
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Mecanismo para persistir datos fuera del contenedor explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 27
+
+**Pregunta:** ¿Cuáles son tipos de volumes en Docker? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Bind mounts
+- tmpfs mounts
+
+**Explicación actual:**
+Las respuestas correctas son: "Bind mounts" y "tmpfs mounts". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 28
+
+**Pregunta:** ¿Qué es un bind mount?
+
+**Respuesta(s) correcta(s):**
+- Monta un directorio del host en el contenedor
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Monta un directorio del host en el contenedor explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 29
+
+**Pregunta:** ¿Diferencia entre volume y bind mount?
+
+**Respuesta(s) correcta(s):**
+- Volumes son gestionados por Docker, bind mounts apuntan a rutas del host
+
+**Explicación actual:**
+Volumes son gestionados por Docker, bind mounts apuntan a rutas del host es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 30
+
+**Pregunta:** ¿Qué es Docker Compose?
+
+**Respuesta(s) correcta(s):**
+- Herramienta para definir y ejecutar aplicaciones multi-contenedor
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Herramienta para definir y ejecutar aplicaciones multi-contenedor explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 31
+
+**Pregunta:** ¿Qué archivo usa Docker Compose?
+
+**Respuesta(s) correcta(s):**
+- docker-compose.yml o compose.yaml
+
+**Explicación actual:**
+docker-compose.yml o compose.yaml es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 32
+
+**Pregunta:** ¿Qué comando inicia servicios con Docker Compose?
+
+**Respuesta(s) correcta(s):**
+- docker-compose up
+
+**Explicación actual:**
+docker-compose up es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 33
+
+**Pregunta:** ¿Qué comando detiene servicios de Docker Compose?
+
+**Respuesta(s) correcta(s):**
+- docker-compose down
+
+**Explicación actual:**
+docker-compose down es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 34
+
+**Pregunta:** ¿Qué es un servicio en Docker Compose?
+
+**Respuesta(s) correcta(s):**
+- Definición de un contenedor y su configuración
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Definición de un contenedor y su configuración explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 35
+
+**Pregunta:** ¿Qué es depends_on en Docker Compose?
+
+**Respuesta(s) correcta(s):**
+- Define orden de inicio de servicios
+
+**Explicación actual:**
+Define orden de inicio de servicios es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 36
+
+**Pregunta:** ¿Qué es una red Docker?
+
+**Respuesta(s) correcta(s):**
+- Permite comunicación entre contenedores
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Permite comunicación entre contenedores explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 37
+
+**Pregunta:** ¿Cuáles son tipos de redes en Docker? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- host
+- none
+
+**Explicación actual:**
+Las respuestas correctas son: "host" y "none". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 38
+
+**Pregunta:** ¿Qué es bridge network?
+
+**Respuesta(s) correcta(s):**
+- Red privada donde contenedores pueden comunicarse
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Red privada donde contenedores pueden comunicarse explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 39
+
+**Pregunta:** ¿Qué es host network?
+
+**Respuesta(s) correcta(s):**
+- El contenedor usa directamente la red del host
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. El contenedor usa directamente la red del host explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 40
+
+**Pregunta:** ¿Qué comando crea una red Docker?
+
+**Respuesta(s) correcta(s):**
+- docker network create <name>
+
+**Explicación actual:**
+docker network create <name> es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 41
+
+**Pregunta:** ¿Qué comando lista redes Docker?
+
+**Respuesta(s) correcta(s):**
+- docker network ls
+
+**Explicación actual:**
+docker network ls es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 42
+
+**Pregunta:** ¿Qué es un multi-stage build?
+
+**Respuesta(s) correcta(s):**
+- Dockerfile con múltiples FROM para optimizar tamaño final
+
+**Explicación actual:**
+Dockerfile con múltiples FROM para optimizar tamaño final es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 43
+
+**Pregunta:** ¿Por qué usar multi-stage builds?
+
+**Respuesta(s) correcta(s):**
+- Para reducir el tamaño eliminando dependencias de construcción
+
+**Explicación actual:**
+Para reducir el tamaño eliminando dependencias de construcción es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 44
+
+**Pregunta:** ¿Qué es .dockerignore?
+
+**Respuesta(s) correcta(s):**
+- Define archivos que Docker ignora al construir la imagen
+
+**Explicación actual:**
+Define archivos que Docker ignora al construir la imagen es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 45
+
+**Pregunta:** ¿Qué hace docker exec?
+
+**Respuesta(s) correcta(s):**
+- Ejecuta un comando en un contenedor en ejecución
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Ejecuta un comando en un contenedor en ejecución explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 46
+
+**Pregunta:** ¿Cómo entrar a un contenedor en ejecución?
+
+**Respuesta(s) correcta(s):**
+- docker exec -it <container> /bin/bash
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 47
+
+**Pregunta:** ¿Qué hace docker logs?
+
+**Respuesta(s) correcta(s):**
+- Muestra los logs de un contenedor
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Muestra los logs de un contenedor explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 48
+
+**Pregunta:** ¿Qué es --rm en docker run?
+
+**Respuesta(s) correcta(s):**
+- Elimina el contenedor automáticamente cuando se detiene
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Elimina el contenedor automáticamente cuando se detiene explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 49
+
+**Pregunta:** ¿Qué hace -d en docker run?
+
+**Respuesta(s) correcta(s):**
+- Ejecuta el contenedor en modo detached (background)
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Ejecuta el contenedor en modo detached (background) explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 50
+
+**Pregunta:** ¿Qué hace -p en docker run?
+
+**Respuesta(s) correcta(s):**
+- Mapea puertos del host al contenedor (host:container)
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Mapea puertos del host al contenedor (host:container) explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 51
+
+**Pregunta:** ¿Qué hace -v en docker run?
+
+**Respuesta(s) correcta(s):**
+- Monta un volumen (host:container)
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Monta un volumen (host:container) explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 52
+
+**Pregunta:** ¿Qué hace --name en docker run?
+
+**Respuesta(s) correcta(s):**
+- Asigna un nombre personalizado al contenedor
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Asigna un nombre personalizado al contenedor explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 53
+
+**Pregunta:** ¿Qué hace -e en docker run?
+
+**Respuesta(s) correcta(s):**
+- Define variables de entorno
+
+**Explicación actual:**
+Define variables de entorno es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 54
+
+**Pregunta:** ¿Qué es Docker Swarm?
+
+**Respuesta(s) correcta(s):**
+- Orquestador nativo de Docker para clusters
+
+**Explicación actual:**
+Orquestador nativo de Docker para clusters es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 55
+
+**Pregunta:** ¿Diferencia entre Docker Swarm y Kubernetes?
+
+**Respuesta(s) correcta(s):**
+- Swarm es más simple, Kubernetes más complejo y potente
+
+**Explicación actual:**
+Swarm es más simple, Kubernetes más complejo y potente es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 56
+
+**Pregunta:** ¿Qué es un registry privado de Docker?
+
+**Respuesta(s) correcta(s):**
+- Servidor propio para almacenar imágenes Docker
+
+**Explicación actual:**
+Servidor propio para almacenar imágenes Docker es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 57
+
+**Pregunta:** ¿Cuáles son registries populares? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Amazon ECR
+- Google Container Registry
+
+**Explicación actual:**
+Las respuestas correctas son: "Amazon ECR" y "Google Container Registry". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 58
+
+**Pregunta:** ¿Qué es Docker Desktop?
+
+**Respuesta(s) correcta(s):**
+- Aplicación para usar Docker en Windows/Mac
+
+**Explicación actual:**
+Aplicación para usar Docker en Windows/Mac es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 59
+
+**Pregunta:** ¿Qué es containerd?
+
+**Respuesta(s) correcta(s):**
+- Runtime de contenedores usado por Docker
+
+**Explicación actual:**
+Runtime de contenedores usado por Docker es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 60
+
+**Pregunta:** ¿Qué es OCI?
+
+**Respuesta(s) correcta(s):**
+- Open Container Initiative - estándar para contenedores
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Open Container Initiative - estándar para contenedores explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 61
+
+**Pregunta:** ¿Qué comando inspecciona un contenedor?
+
+**Respuesta(s) correcta(s):**
+- docker inspect <container>
+
+**Explicación actual:**
+Los contenedores Docker son instancias en ejecución de imágenes. Encapsulan aplicaciones con sus dependencias, garantizando consistencia entre diferentes entornos. Son livianos porque comparten el kernel del sistema operativo host.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 62
+
+**Pregunta:** ¿Qué comando muestra uso de recursos?
+
+**Respuesta(s) correcta(s):**
+- docker stats
+
+**Explicación actual:**
+docker stats es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 63
+
+**Pregunta:** ¿Qué es health check en Docker?
+
+**Respuesta(s) correcta(s):**
+- Verifica el estado de salud de un contenedor
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Verifica el estado de salud de un contenedor explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 64
+
+**Pregunta:** ¿Cómo definir health check en Dockerfile?
+
+**Respuesta(s) correcta(s):**
+- HEALTHCHECK CMD <command>
+
+**Explicación actual:**
+Un Dockerfile es un script con instrucciones para construir una imagen Docker. Define el sistema operativo base, copia archivos, instala dependencias y configura el entorno de ejecución de la aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 65
+
+**Pregunta:** ¿Qué es docker system prune?
+
+**Respuesta(s) correcta(s):**
+- Limpia recursos no usados (contenedores, imágenes, redes)
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Limpia recursos no usados (contenedores, imágenes, redes) explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 66
+
+**Pregunta:** ¿Qué hace --no-cache en docker build?
+
+**Respuesta(s) correcta(s):**
+- Construye la imagen sin usar caché de capas
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Construye la imagen sin usar caché de capas describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 67
+
+**Pregunta:** ¿Qué es una tagged image?
+
+**Respuesta(s) correcta(s):**
+- Una imagen con etiqueta de versión (e.g., nginx:1.21)
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Una imagen con etiqueta de versión (e.g., nginx:1.21) describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 68
+
+**Pregunta:** ¿Cómo tagear una imagen?
+
+**Respuesta(s) correcta(s):**
+- docker label
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables que contienen el código de la aplicación, runtime, bibliotecas y dependencias. Se construyen por capas, permitiendo reutilización eficiente y versionado mediante tags.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 69
+
+**Pregunta:** ¿Qué es :latest en Docker?
+
+**Respuesta(s) correcta(s):**
+- Tag por defecto que apunta a la última versión
+
+**Explicación actual:**
+Tag por defecto que apunta a la última versión es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 70
+
+**Pregunta:** ¿Es recomendable usar :latest en producción?
+
+**Respuesta(s) correcta(s):**
+- No, mejor usar tags específicos para reproducibilidad
+
+**Explicación actual:**
+No, mejor usar tags específicos para reproducibilidad es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 71
+
+**Pregunta:** ¿Qué es un distroless image?
+
+**Respuesta(s) correcta(s):**
+- Imagen mínima sin distribución de Linux, solo runtime
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Imagen mínima sin distribución de Linux, solo runtime describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 72
+
+**Pregunta:** ¿Por qué usar imágenes pequeñas? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Despliegues más rápidos
+- Menos vulnerabilidades
+
+**Explicación actual:**
+Las respuestas correctas son: "Despliegues más rápidos" y "Menos vulnerabilidades". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 73
+
+**Pregunta:** ¿Qué es Alpine Linux en Docker?
+
+**Respuesta(s) correcta(s):**
+- Distribución Linux muy ligera popular para imágenes Docker
+
+**Explicación actual:**
+Distribución Linux muy ligera popular para imágenes Docker es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 74
+
+**Pregunta:** ¿Qué es un dangling image?
+
+**Respuesta(s) correcta(s):**
+- Imagen sin tag ni referencia de contenedor
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Imagen sin tag ni referencia de contenedor describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 75
+
+**Pregunta:** ¿Cómo eliminar dangling images?
+
+**Respuesta(s) correcta(s):**
+- docker clean
+
+**Explicación actual:**
+docker clean es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 76
+
+**Pregunta:** ¿Qué es docker commit?
+
+**Respuesta(s) correcta(s):**
+- Crea una nueva imagen desde cambios en un contenedor
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Crea una nueva imagen desde cambios en un contenedor describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 77
+
+**Pregunta:** ¿Es recomendable usar docker commit?
+
+**Respuesta(s) correcta(s):**
+- No, mejor usar Dockerfile para reproducibilidad
+
+**Explicación actual:**
+No, mejor usar Dockerfile para reproducibilidad es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 78
+
+**Pregunta:** ¿Qué hace docker save?
+
+**Respuesta(s) correcta(s):**
+- Exporta imagen(es) a un archivo tar
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Exporta imagen(es) a un archivo tar describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 79
+
+**Pregunta:** ¿Qué hace docker load?
+
+**Respuesta(s) correcta(s):**
+- Importa imagen desde un archivo tar
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Importa imagen desde un archivo tar describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 80
+
+**Pregunta:** ¿Qué hace docker export?
+
+**Respuesta(s) correcta(s):**
+- Exporta el filesystem de un contenedor a tar
+
+**Explicación actual:**
+Los contenedores son instancias ejecutables de imágenes. Exporta el filesystem de un contenedor a tar explica su funcionamiento. Los contenedores comparten el kernel del sistema pero están aislados entre sí.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 81
+
+**Pregunta:** ¿Qué hace docker import?
+
+**Respuesta(s) correcta(s):**
+- Crea imagen desde un tarball exportado
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Crea imagen desde un tarball exportado describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 82
+
+**Pregunta:** ¿Diferencia entre save/load y export/import?
+
+**Respuesta(s) correcta(s):**
+- save/load preservan capas e historial, export/import no
+
+**Explicación actual:**
+save/load preservan capas e historial, export/import no es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 83
+
+**Pregunta:** ¿Qué son build arguments (ARG)?
+
+**Respuesta(s) correcta(s):**
+- Variables disponibles solo durante la construcción de la imagen
+
+**Explicación actual:**
+Las imágenes Docker son plantillas inmutables. Variables disponibles solo durante la construcción de la imagen describe correctamente cómo funcionan. Las imágenes se construyen por capas y contienen todo lo necesario para ejecutar una aplicación.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 84
+
+**Pregunta:** ¿Diferencia entre ARG y ENV?
+
+**Respuesta(s) correcta(s):**
+- ARG solo en build time, ENV disponible en runtime
+
+**Explicación actual:**
+ARG solo en build time, ENV disponible en runtime es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 85
+
+**Pregunta:** ¿Qué es docker context?
+
+**Respuesta(s) correcta(s):**
+- Configuración para conectarse a diferentes demonios Docker
+
+**Explicación actual:**
+Configuración para conectarse a diferentes demonios Docker es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 86
+
+**Pregunta:** ¿Qué es BuildKit?
+
+**Respuesta(s) correcta(s):**
+- Motor mejorado de construcción de Docker con mejor cache y paralelización
+
+**Explicación actual:**
+Motor mejorado de construcción de Docker con mejor cache y paralelización es un comando de Docker. Docker permite empaquetar aplicaciones en contenedores ligeros y portables, garantizando que funcionen consistentemente en cualquier entorno.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 87
+
+**Pregunta:** ¿Cómo habilitar BuildKit?
+
+**Respuesta(s) correcta(s):**
+- --buildkit
+
+**Explicación actual:**
+--buildkit es correcto en el contexto de Docker. Docker revolucionó el desarrollo y despliegue de aplicaciones mediante la containerización.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
+## Pregunta 88
+
+**Pregunta:** ¿Cuáles son beneficios de BuildKit? (selección múltiple)
+
+**Respuesta(s) correcta(s):**
+- Mejor caché
+- Build secrets
+
+**Explicación actual:**
+Las respuestas correctas son: "Mejor caché" y "Build secrets". Docker es una plataforma que permite empaquetar aplicaciones en contenedores ligeros y portables.
+
+**NUEVA EXPLICACIÓN:** (edita aquí)
+
+
+───────────────────────────────────────────────────────────────
+
